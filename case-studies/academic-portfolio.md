@@ -4,7 +4,7 @@
 
 ## Context
 
-The portfolio brings academic background, selected engineering projects, technical articles and educational book material into one website.
+The portfolio brings my academic background, engineering projects, technical articles and educational book material into one website. It explains the problem behind each work, my role and what readers can explore.
 
 Arabic pages use right-to-left layout; English and Turkish pages use left-to-right layout.
 
@@ -16,6 +16,8 @@ Astro and TypeScript provide the website structure. Firebase supports server-sid
 
 The content model distinguishes private drafts, saved revisions and published material. Editing, previewing and publishing are separate actions, with revision history supporting content review and restoration.
 
-The website includes project case studies, technical articles, academic records and a reader for structured educational material.
+The book reader organises units, topics, code examples, tables, equations, questions and their linked solutions. It presents the material that has been made available without turning every saved draft into a public page.
+
+[Read the portfolio case study](https://yahyaalali.com/en/content-library/project/academic-portfolio/)
 
 [English](https://yahyaalali.com/en/) · [العربية](https://yahyaalali.com/) · [Türkçe](https://yahyaalali.com/tr/) · [Back to selected work](../README.md)
