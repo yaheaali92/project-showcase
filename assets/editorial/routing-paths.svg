@@ -1,0 +1,18 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual routing: alternate paths, selected path and separate control signals</title>
+  <defs>
+    <linearGradient id="field" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#193c4d"/><stop offset="1" stop-color="#081f30"/></linearGradient>
+    <linearGradient id="selected" x1="0" y1="0" x2="1" y2="0"><stop stop-color="#aae9de"/><stop offset="1" stop-color="#48cabb"/></linearGradient>
+  </defs>
+  <rect width="1200" height="630" rx="24" fill="url(#field)"/>
+  <g stroke="#355c6a" stroke-width="2" fill="none"><path d="M60 140h1080M60 250h1080M60 360h1080M60 470h1080"/><path d="M170 72v486M350 72v486M530 72v486M710 72v486M890 72v486M1070 72v486"/></g>
+  <g fill="none" stroke="#7e9da7" stroke-width="3"><path d="m119 391 228-169 239 126 241-143 251 185M119 391l229 112 238-155 241 145 251-103M347 222l1 281m479-298v288M347 222l480-17M348 503l479-10"/></g>
+  <path d="m119 391 228-169 239 126 492 42" fill="none" stroke="#bdd8d8" stroke-width="9" stroke-opacity=".14"/>
+  <path d="m119 391 228-169 239 126 492 42" fill="none" stroke="url(#selected)" stroke-width="5"/>
+  <g fill="#eaf2eb" stroke="#4c8998" stroke-width="4"><circle cx="119" cy="391" r="22"/><circle cx="347" cy="222" r="22"/><circle cx="348" cy="503" r="22"/><circle cx="586" cy="348" r="28"/><circle cx="827" cy="205" r="22"/><circle cx="827" cy="493" r="22"/><circle cx="1078" cy="390" r="22"/></g>
+  <g fill="#78dace"><circle cx="203" cy="329" r="7"/><circle cx="455" cy="279" r="7"/><circle cx="761" cy="363" r="7"/><circle cx="928" cy="377" r="7"/></g>
+  <g stroke="#d6bd86" stroke-width="2" fill="none" stroke-dasharray="6 7"><path d="M586 136v170M555 136 363 196M617 136l193 47"/></g>
+  <path d="M547 60h78l26 38-26 38h-78l-26-38z" fill="#253f4f" stroke="#d6bd86" stroke-width="2"/>
+  <path d="m567 98 14 14 25-28" stroke="#e4c996" stroke-width="3" fill="none"/>
+  <path d="M74 572h1052" stroke="#82b6b9" stroke-opacity=".38"/>
+</svg>

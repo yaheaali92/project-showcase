@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual learning assignment, learner progress and teacher follow-up</title>
+  <rect width="1200" height="630" rx="24" fill="#f2eee5"/>
+  <path d="M178 423c150-324 331 153 499-165s216 11 336 26" fill="none" stroke="#a6bcb1" stroke-width="4"/>
+  <path d="M178 423c150-324 331 153 499-165" fill="none" stroke="#358b81" stroke-width="7"/>
+  <g fill="#15453f" stroke="#83b9a7" stroke-width="3"><circle cx="178" cy="423" r="55"/><circle cx="420" cy="324" r="55"/><circle cx="677" cy="258" r="55"/><circle cx="1013" cy="284" r="55"/></g>
+  <g stroke="#f3eedf" fill="none" stroke-width="3"><path d="M148 405c16-9 22-9 30 0 8-9 14-9 30 0v34c-16-9-22-9-30 0-8-9-14-9-30 0zm30 0v34M401 303h37v45h-37m7-35h22m-22 10h22m-22 10h14M654 259l15 16 29-36M994 274v-16h38v32h-15l-17 12v-12h-6z"/></g>
+  <path d="M80 77h1040" stroke="#c5ae86" stroke-width="2"/>
+  <path d="M95 554h1010" stroke="#a6bcb1"/>
+</svg>

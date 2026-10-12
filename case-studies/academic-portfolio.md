@@ -8,6 +8,8 @@ The portfolio brings my academic background, engineering projects, technical art
 
 Arabic pages use right-to-left layout; English and Turkish pages use left-to-right layout.
 
+![Conceptual writing, revision review and multilingual reading workflow; not an application screenshot](../assets/editorial/portfolio-editorial.svg)
+
 ## Technical structure
 
 Astro and TypeScript provide the website structure. Firebase supports server-side services, administrator access and Firestore-backed editorial records.

@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual national, provincial and municipal hierarchy; no geographic or operating counts</title>
+  <rect width="1200" height="630" rx="24" fill="#102d40"/>
+  <path d="M600 154v90m-324 0h648M276 244v49m324-49v49m324-49v49" fill="none" stroke="#85cabe" stroke-width="3"/>
+  <g fill="none" stroke="#85cabe" stroke-width="3"><path d="M276 364v67H194v48m82-48h82v48M600 364v67H518v48m82-48h82v48M924 364v67H842v48m82-48h82v48"/></g>
+  <g fill="#e9f1e9" stroke="#79c5b9" stroke-width="2"><rect x="513" y="67" width="174" height="87" rx="16"/><rect x="213" y="293" width="126" height="71" rx="12"/><rect x="537" y="293" width="126" height="71" rx="12"/><rect x="861" y="293" width="126" height="71" rx="12"/></g>
+  <g fill="#28485b" stroke="#8db1b9" stroke-width="2"><rect x="148" y="479" width="92" height="63" rx="10"/><rect x="312" y="479" width="92" height="63" rx="10"/><rect x="472" y="479" width="92" height="63" rx="10"/><rect x="636" y="479" width="92" height="63" rx="10"/><rect x="796" y="479" width="92" height="63" rx="10"/><rect x="960" y="479" width="92" height="63" rx="10"/></g>
+  <g stroke="#173c4b" stroke-width="3" fill="none"><path d="M571 121V94h58v27m-47 0v-14h12v14m11 0v-14h12v14M254 344v-30h44v30m-31 0v-15h17v15M578 344v-30h44v30m-31 0v-15h17v15M902 344v-30h44v30m-31 0v-15h17v15"/></g>
+  <path d="M82 590h1036" stroke="#cfbb89" stroke-width="2"/>
+</svg>

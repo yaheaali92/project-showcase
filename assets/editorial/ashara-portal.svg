@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual city portal and expansion towards its province; not a geographic map</title>
+  <rect width="1200" height="630" rx="24" fill="#f3f0e7"/>
+  <path d="M66 514h1068" stroke="#a2b9b5" stroke-width="2"/>
+  <path d="M114 458V182h220v276" fill="#153b4b"/>
+  <path d="M159 458V327c0-94 130-94 130 0v131" fill="#65cbbc"/>
+  <path d="M148 181v-34h154v34" fill="#cabb9e"/>
+  <g fill="#e5ece5"><path d="M153 211h26v36h-26zm49 0h26v36h-26zm49 0h26v36h-26z"/></g>
+  <path d="M225 411h162c88 0 88-156 196-156h70m-70 0c108 0 108 156 196 156h162" fill="none" stroke="#3b8992" stroke-width="5"/>
+  <path d="M649 255h238" stroke="#3b8992" stroke-width="5" stroke-dasharray="9 8"/>
+  <g fill="#fffdf6" stroke="#7bbcb3" stroke-width="3"><circle cx="588" cy="255" r="44"/><circle cx="767" cy="411" r="34"/><circle cx="988" cy="255" r="44"/></g>
+  <g fill="none" stroke="#1f5562" stroke-width="3"><path d="M567 263v-23h41v23m-30 0v-13h18v13M746 418v-21h42v21m-28 0v-12h14v12M967 263v-23h41v23m-30 0v-13h18v13"/></g>
+  <path d="M66 76h1068" stroke="#c5b38b" stroke-width="2"/>
+  <path d="M389 106h308" stroke="#adc6c3" stroke-width="1"/>
+</svg>

@@ -1,0 +1,14 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual buyer, seller and order journey with a separate return path</title>
+  <rect width="1200" height="630" rx="24" fill="#f2ecdf"/>
+  <circle cx="245" cy="284" r="139" fill="#d6c7ad"/>
+  <circle cx="955" cy="284" r="139" fill="#c7e2da"/>
+  <g fill="none" stroke="#537d82" stroke-width="4"><path d="M356 294h121m246 0h121"/><path d="m463 281 15 13-15 13m368-26 15 13-15 13"/><path d="M950 440c-61 138-644 138-705 0" stroke-dasharray="8 8"/></g>
+  <path d="M173 323V222h145v101m-156-100 22-57h125l22 57m-164 0v25c0 28 35 28 35 0 0 28 35 28 35 0 0 28 35 28 35 0 0 28 35 28 35 0v-25" fill="#fbf7ed" stroke="#806c54" stroke-width="3"/>
+  <path d="M197 323v-61h95v61" fill="#b59772"/>
+  <rect x="486" y="211" width="228" height="174" rx="18" fill="#153e4d"/>
+  <path d="m559 246 42-24 42 24v60l-42 24-42-24zm0 0 42 24 42-24m-42 24v60" stroke="#97d8cb" stroke-width="3" fill="none"/>
+  <path d="M556 356h89" stroke="#cfbb94" stroke-width="2"/>
+  <g fill="none" stroke="#285965" stroke-width="4"><circle cx="955" cy="216" r="32"/><path d="M892 338v-29c0-70 126-70 126 0v29"/></g>
+  <path d="M92 74h1016" stroke="#bfae8b" stroke-width="2"/>
+</svg>

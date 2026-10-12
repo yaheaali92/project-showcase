@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" width="1200" height="630">
+  <title>Conceptual clinic workspace and team organisation, with separate clinic boundaries</title>
+  <rect width="1200" height="630" rx="24" fill="#e9f0ec"/>
+  <rect x="78" y="99" width="477" height="432" rx="28" fill="#153c4e"/>
+  <rect x="645" y="99" width="477" height="432" rx="28" fill="#173f4c"/>
+  <path d="M600 96v438" stroke="#a9bab5" stroke-width="2" stroke-dasharray="7 9"/>
+  <g fill="#eef5ee" stroke="#78cabc" stroke-width="3"><circle cx="317" cy="248" r="76"/><circle cx="883" cy="248" r="76"/></g>
+  <g fill="none" stroke="#335f68" stroke-width="3"><path d="M282 217c14-23 26-3 35-3s22-20 35 3c13 23-4 76-14 76-9 0-4-36-21-36s-12 36-21 36c-10 0-27-53-14-76M848 217c14-23 26-3 35-3s22-20 35 3c13 23-4 76-14 76-9 0-4-36-21-36s-12 36-21 36c-10 0-27-53-14-76"/></g>
+  <g stroke="#b4d9d2" stroke-width="3" fill="none"><path d="M206 424v-29c0-49 82-49 82 0v29m58 0v-29c0-49 82-49 82 0v29M772 424v-29c0-49 82-49 82 0v29m58 0v-29c0-49 82-49 82 0v29"/><circle cx="247" cy="343" r="22"/><circle cx="387" cy="343" r="22"/><circle cx="813" cy="343" r="22"/><circle cx="953" cy="343" r="22"/></g>
+  <path d="M161 481h312m254 0h312" stroke="#c7b389" stroke-width="2"/>
+</svg>
