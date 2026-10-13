@@ -2,7 +2,7 @@
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-An Arabic-language Dart book in progress, combining explanations, code examples, exercises and solutions, with its first unit available to read.
+An Arabic-language Dart book in progress, combining explanations, code examples, exercises and solutions, with its first two units available to read.
 
 **Stage: Manuscript in progress**
 
@@ -16,13 +16,13 @@ I am writing The Dart Programming Language to introduce Dart concepts through Ar
 
 ## Reading on the website
 
-The first unit is available in the [Arabic book reader](https://yahyaalali.com/books/dart/). The reader provides a unit and topic index, copyable code examples, tables and equations, and linked questions and solutions.
+The first two units are available in the [Arabic book reader](https://yahyaalali.com/books/dart/), with a [direct link to Unit 2](https://yahyaalali.com/books/dart/dart-unit-2/). The reader provides a unit and topic index, copyable code examples, tables and equations, and linked questions and solutions.
 
 My work covers the writing and organisation of the teaching material, keeping the relationship between a topic, its example and its exercise clear during reading and editing.
 
 ## A book developed in stages
 
-The manuscript is still in progress. Units two and three are marked as under preparation, and the material will expand gradually. The reader presents the website's structured text; the original source PDFs remain separate and are not offered as public downloads.
+The manuscript is still in progress. Unit three is marked as under preparation, and the material will expand gradually. The reader presents the website's structured text; the original source PDFs remain separate and are not offered as public downloads.
 
 ## At a glance
 
@@ -30,6 +30,6 @@ The manuscript is still in progress. Units two and three are marked as under pre
 - **Audience:** Readers who want to learn Dart through organised Arabic material.
 - **My role:** Authoring and organising topics, examples, questions and solutions.
 - **Technologies and method:** Dart
-- **Available to review:** A first unit available in the Arabic structured reader, with two further units under preparation.
+- **Available to review:** Two units available in the Arabic structured reader, with a third unit under preparation.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/dart-book/) · [Read the first unit in Arabic](https://yahyaalali.com/books/dart/) · [Back to selected work](../../README.md)
+[Continue reading on the website](https://yahyaalali.com/en/content-library/project/dart-book/) · [Read the two units in Arabic](https://yahyaalali.com/books/dart/) · [Back to selected work](../../README.md)

@@ -2,7 +2,7 @@
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-Açıklamaları, kod örneklerini, alıştırmaları ve çözümleri birleştiren, yazımı süren Arapça Dart kitabı; ilk ünite okumaya açıktır.
+Açıklamaları, kod örneklerini, alıştırmaları ve çözümleri birleştiren, yazımı süren Arapça Dart kitabı; ilk iki ünite okumaya açıktır.
 
 **Aşama: Yazım aşamasında**
 
@@ -16,13 +16,13 @@ Dart Programlama Dili kitabını, Dart kavramlarını Arapça açıklamalar, ör
 
 ## Sitede okuma deneyimi
 
-İlk ünite [Arapça kitap okuyucusunda](https://yahyaalali.com/books/dart/) erişilebilirdir. Okuyucu; ünite ve konu dizinini, kopyalanabilir kod örneklerini, tabloları ve denklemleri, birbirine bağlı sorular ve çözümlerle birlikte sunar.
+İlk iki ünite [Arapça kitap okuyucusunda](https://yahyaalali.com/books/dart/) erişilebilirdir; [ikinci ünite doğrudan açılabilir](https://yahyaalali.com/books/dart/dart-unit-2/). Okuyucu; ünite ve konu dizinini, kopyalanabilir kod örneklerini, tabloları ve denklemleri, birbirine bağlı sorular ve çözümlerle birlikte sunar.
 
 Öğretim içeriğini yazıyor ve düzenliyorum. Bir konu, örneği ve alıştırması arasındaki ilişkinin hem okumada hem düzenlemede açık kalmasına önem veriyorum.
 
 ## Aşamalı hazırlanan bir kitap
 
-Kitabın yazımı sürüyor. İkinci ve üçüncü üniteler hazırlık aşamasında gösteriliyor; içerik aşamalı olarak genişleyecek. Okuyucuda sitedeki yapılandırılmış metin sunulur. Özgün kaynak PDF’leri bu sürümden ayrı tutulur ve herkese açık indirme olarak sunulmaz.
+Kitabın yazımı sürüyor. Üçüncü ünite hazırlık aşamasında gösteriliyor; içerik aşamalı olarak genişleyecek. Okuyucuda sitedeki yapılandırılmış metin sunulur. Özgün kaynak PDF’leri bu sürümden ayrı tutulur ve herkese açık indirme olarak sunulmaz.
 
 ## Kısa bakış
 
@@ -30,6 +30,6 @@ Kitabın yazımı sürüyor. İkinci ve üçüncü üniteler hazırlık aşamas�
 - **Hedef kitle:** Dart’ı düzenlenmiş Arapça içerikle öğrenmek isteyen okurlar.
 - **Katkım:** Konuları, örnekleri, soruları ve çözümleri yazmak ve düzenlemek.
 - **Teknolojiler ve yöntem:** Dart
-- **İncelenebilenler:** Arapça yapılandırılmış okuyucuda erişilebilir ilk ünite ve hazırlık aşamasındaki iki ünite.
+- **İncelenebilenler:** Arapça yapılandırılmış okuyucuda erişilebilir iki ünite ve hazırlık aşamasındaki üçüncü ünite.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/dart-book/) · [İlk üniteyi Arapça oku](https://yahyaalali.com/books/dart/) · [Çalışma listesine dön](../../README.tr.md)
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/dart-book/) · [İlk iki üniteyi Arapça oku](https://yahyaalali.com/books/dart/) · [Çalışma listesine dön](../../README.tr.md)
