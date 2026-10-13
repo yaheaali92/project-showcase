@@ -6,6 +6,10 @@ Belirli bir diş kliniği için geliştirilen web sitesi ve Android uygulaması;
 
 **Aşama: Yayımlandı**
 
+![Klinik web ve mobil — sunum kapağı](../../assets/editorial/omar-clinic-r3.webp)
+
+Web giriş ekranı izinli gerçek bir görüntüdür; telefon kavramsal bir temsildir, uygulama ekran görüntüsü değildir. Kapak hasta verisi veya Sinad görseli içermez.
+
 ![Dr. Omar Ali Al-Najras Kliniği — web sitesi ve uygulama](https://yahyaalali.com/images/work/omar-clinic-public.webp)
 
 Gerçek genel arayüz ekran görüntüsü; giriş arkasındaki kayıtların veya işlemlerin gösterimi değildir.

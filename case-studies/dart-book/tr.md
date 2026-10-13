@@ -30,6 +30,6 @@ Kitabın yazımı sürüyor. Üçüncü ünite hazırlık aşamasında gösteril
 - **Hedef kitle:** Dart’ı düzenlenmiş Arapça içerikle öğrenmek isteyen okurlar.
 - **Katkım:** Konuları, örnekleri, soruları ve çözümleri yazmak ve düzenlemek.
 - **Teknolojiler ve yöntem:** Dart
-- **İncelenebilenler:** Arapça yapılandırılmış okuyucuda erişilebilir iki ünite ve hazırlık aşamasındaki üçüncü ünite.
+- **Okunabilenler:** Arapça yapılandırılmış okuyucuda erişilebilir iki ünite ve hazırlık aşamasındaki üçüncü ünite.
 
 [Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/dart-book/) · [İlk iki üniteyi Arapça oku](https://yahyaalali.com/books/dart/) · [Çalışma listesine dön](../../README.tr.md)

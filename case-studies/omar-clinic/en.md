@@ -6,6 +6,10 @@ A website and Android app for a specific dental clinic, connecting doctor and se
 
 **Stage: Published**
 
+![Clinic web and mobile — presentation cover](../../assets/editorial/omar-clinic-r3.webp)
+
+The web sign-in is an authorised real screenshot; the phone is a conceptual representation, not an app screenshot. The cover contains no patient data or Sinad assets.
+
 ![Dr Omar Ali Al-Najras Clinic — website and app](https://yahyaalali.com/images/work/omar-clinic-public.webp)
 
 Actual public-interface screenshot, not a demonstration of records or operations behind sign-in.

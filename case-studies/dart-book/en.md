@@ -30,6 +30,6 @@ The manuscript is still in progress. Unit three is marked as under preparation, 
 - **Audience:** Readers who want to learn Dart through organised Arabic material.
 - **My role:** Authoring and organising topics, examples, questions and solutions.
 - **Technologies and method:** Dart
-- **Available to review:** Two units available in the Arabic structured reader, with a third unit under preparation.
+- **Available to read:** Two units available in the Arabic structured reader, with a third unit under preparation.
 
 [Continue reading on the website](https://yahyaalali.com/en/content-library/project/dart-book/) · [Read the two units in Arabic](https://yahyaalali.com/books/dart/) · [Back to selected work](../../README.md)
