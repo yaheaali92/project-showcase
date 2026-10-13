@@ -1,13 +1,7 @@
-# THIQAH — Organisation Identity and Business Relationships
+# THIQAH — documenting business-to-business relationships
 
-**Stage: In development**
+The current case study is available in three languages. This original documentation URL is retained as a navigation page; the former text remains in this repository’s Git history.
 
-THIQAH is a network for organising and documenting relationships and dealings between businesses. It is distinct from Rawaj's seller-and-buyer marketplace.
+[العربية](thiqah/ar.md) · [English](thiqah/en.md) · [Türkçe](thiqah/tr.md)
 
-The current implementation includes a multilingual interface, identity and session foundations, and minimum organisation creation, reading and profile updates with server-side permissions. I develop these foundations before the business workflows that depend on them.
-
-![Conceptual organisations and documented relationships, distinct from a marketplace or a credit guarantee](../assets/editorial/thiqah-network.svg)
-
-Invitations, memberships, branches, invoices, receivables, payments and disputes remain later work. They are not presented as completed services or as a guarantee against fraud.
-
-[Read the project case study](https://yahyaalali.com/en/content-library/project/thiqah/) · [Back to selected work](../README.md)
+[Continue on the portfolio](https://yahyaalali.com/en/content-library/project/thiqah/) · [Back to selected work](../README.md)

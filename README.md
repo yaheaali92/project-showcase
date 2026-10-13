@@ -1,28 +1,35 @@
-# Selected Engineering Work
+# Selected Research, Engineering and Educational Work
 
-Selected software projects by Yahya Ali Alali, covering their context, technical structure and current stage.
+[العربية](README.ar.md) · [English](README.md) · [Türkçe](README.tr.md)
 
-| Project                                                      | Focus                                                       | Stage                               |
-| ------------------------------------------------------------ | ----------------------------------------------------------- | ----------------------------------- |
-| [Rawaj](case-studies/rawaj.md)                               | Multi-role marketplace and connected business workflows     | In development                      |
-| [Athar Al-Wird](case-studies/athar-al-wird.md)               | Quran teaching and practice follow-up                       | Online; development continues       |
-| [Ashara city portal](case-studies/ashara-city-portal.md)     | City services and public information                        | Live; governorate expansion planned |
-| [Municipal operations](case-studies/municipal-operations.md) | Activities, projects, tasks and administrative reporting    | In development                      |
-| [Sinad](case-studies/sinad.md)                               | Connected dental appointment and clinic workflows           | Test environment                    |
-| [THIQAH](case-studies/thiqah.md)                             | Organisation identity and documented business relationships | In development                      |
-| [Dr Omar Ali Al-Najras clinic](case-studies/omar-clinic.md)  | A multilingual clinic website and Android app               | Website and app listing available   |
-| [Academic portfolio](case-studies/academic-portfolio.md)     | Multilingual publishing and editorial workflows             | Live                                |
+Case studies for the projects presented on my portfolio: their problem, my role, structure and current stage. Choose a study language, then continue on the website or visit the available destination according to the project stage.
 
-The portfolio is the detailed reference; this repository is a concise technical introduction. The links identify whether a destination is a visitor-facing website, a sign-in screen or a test environment. Application source code and private repository history are not included.
+| Work | Focus | Stage |
+| --- | --- | --- |
+| [Academic Portfolio — from content to a reading experience](case-studies/academic-portfolio/en.md) | A trilingual platform I developed to present my academic and engineering work and manage articles, case studies and a Dart book in an editorial workspace that separates drafts from publication. | Published |
+| [Ashara — city information and services](case-studies/ashara/en.md) | A digital portal bringing Ashara information and service entry points together, with development aimed at extending the experience across Deir Ezzor governorate. | Published |
+| [Athar Al-Wird — organising Quran learning](case-studies/athar-wird/en.md) | An online platform connecting Quran learning circles, groups, plans, sessions and assessment across teacher, student, guardian and administrator roles. | Published |
+| [The Dart Programming Language — an Arabic teaching book](case-studies/dart-book/en.md) | An Arabic-language Dart book in progress, combining explanations, code examples, exercises and solutions, with its first unit available to read. | Manuscript in progress |
+| [Municipal administration — connected levels of work](case-studies/deir-ezzor-municipalities/en.md) | A platform for municipal activities, projects, tasks, tickets and reports, being extended from Deir Ezzor to a Syria–governorate–municipality structure. | In development |
+| [Sinad — organising a doctor's practice and patient appointments](case-studies/dental/en.md) | A role-based application connecting the doctor's workspace and patient appointment journeys, built with Flutter and Firebase and offered through a separate test preview. | Test preview |
+| [Location Analysis — spatial and temporal patterns](case-studies/location-analysis/en.md) | Research tools for locally analysing authorised data exports, connecting location clusters, diversity and temporal distribution with interpretable comparisons. | In development |
+| [Dr Omar Ali Al-Najras Clinic — website and app](case-studies/omar-clinic/en.md) | A website and Android app for a specific dental clinic, connecting doctor and service information with appointment and contact entry points in Arabic, English and Turkish. | Published |
+| [Intelligent routing and quality of service in SDN–MPLS networks](case-studies/phd-routing/en.md) | Doctoral research into routing decisions that respond to changing network load and failed links, evaluating their effect on quality of service in SDN–MPLS networks. | Ongoing research |
+| [Rawaj — engineering a digital marketplace](case-studies/rawaj/en.md) | A multi-role marketplace project connecting sellers, buyers and platform administration, with separate interface, business-service and data responsibilities. | In development |
+| [THIQAH — documenting business-to-business relationships](case-studies/thiqah/en.md) | A B2B trade-network project with identity, organisation and authorisation foundations, working towards documented invoices, receivables, payments and disputes. | In development |
 
-## Research and Arabic learning
+## The Dart Programming Language — current illustrated cover
 
-[Intelligent routing in SDN–MPLS networks](case-studies/intelligent-routing.md) examines decisions under changing load and link availability. The doctoral research is ongoing.
+![The Dart Programming Language — current illustrated cover](assets/editorial/dart-book-cover-r3.webp)
 
-My Arabic educational book, **اللغة البرمجية دارت**, is in progress. Its [website overview](https://yahyaalali.com/content-library/project/dart-book/) leads to the material currently available; an illustrated cover does not indicate a printed edition or a completed book.
+An Arabic teaching book in progress: the first unit is available to read, while units two and three are under preparation. Its display cover does not announce a printed edition.
 
-![Original digital display cover for the Arabic Dart book by يحيى علي النجرس](assets/editorial/dart-book-cover.svg)
+Generated conceptual illustration, not an actual interface or research result.
 
-The artwork in these pages consists of original display covers and conceptual diagrams. It explains the work; it is not an application screenshot, operational dataset or experimental result.
+[Case study](case-studies/dart-book/en.md) · [Continue reading on the website](https://yahyaalali.com/en/content-library/project/dart-book/)
 
-[Portfolio](https://yahyaalali.com/en/) · [GitHub profile](https://github.com/yaheaali92) · [Contact and reuse enquiries](https://yahyaalali.com/en/contact/)
+## Contact and reuse enquiries
+
+This repository contains public documentation and presentation material only. Application source code, private development history, owner data and original book files are not included. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.
+
+[Portfolio](https://yahyaalali.com/en/) · [GitHub](https://github.com/yaheaali92) · [Contact and reuse enquiries](https://yahyaalali.com/en/contact/)
