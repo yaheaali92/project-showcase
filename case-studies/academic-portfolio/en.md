@@ -2,7 +2,7 @@
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-A trilingual platform I developed to present my academic and engineering work and manage articles, case studies and a Dart book in an editorial workspace that separates drafts from publication.
+A trilingual platform I developed to present my academic and engineering work and manage articles, case studies and a Dart book in a private, owner-only editorial workspace that separates drafts from publication.
 
 **Stage: Published**
 
@@ -16,7 +16,7 @@ I built this platform to present academic work, software projects and technical 
 
 ## Editing and publication
 
-The administration workspace supports personal information, case studies and articles, with translations linked to their source. Each edit is saved as an independent draft with revision history and a preview before publication. Saving does not make content public; an earlier revision can be restored as a draft without silently replacing the published version.
+The administration workspace is private to the site owner; visitors cannot enter it. It supports personal information, case studies and articles, with translations linked to their source. Each edit is saved as an independent draft with revision history and a preview before publication. Saving does not make content public; an earlier revision can be restored as a draft without silently replacing the published version.
 
 ## A book designed for reading
 
@@ -35,6 +35,6 @@ The platform continues to evolve through coherent releases reviewed on its domai
 - **My role:** Platform design, interface and backend development, and content management
 - **Technologies and method:** Astro, TypeScript, Firebase Hosting, Cloud Functions, Firestore
 - **Engineering decision:** Separate draft saving from publication through structured content and retained revisions, with shared language routing and text-direction rules.
-- **Available to review:** The live site, Arabic/English/Turkish navigation, the content editor and the book reader with topics, questions and linked solutions.
+- **Available to visitors:** The live site, Arabic/English/Turkish navigation and the reader for published book material, with its topics, questions and available solutions. The content editor and draft previews are owner-only.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/academic-portfolio/) · [Visit the website](https://yahyaalali.com/) · [Back to selected work](../../README.md)
+[Continue reading on the website](https://yahyaalali.com/en/content-library/project/academic-portfolio/) · [Visit the website](https://yahyaalali.com/en/) · [Back to selected work](../../README.md)

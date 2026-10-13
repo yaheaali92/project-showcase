@@ -2,7 +2,7 @@
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-Araştırmalarımı, yazılım projelerimi ve teknik yazılarımı üç dilde bir araya getiren; içerik düzenleme, taslak inceleme ve yapılandırılmış kitap okuma akışlarını destekleyen kişisel platform.
+Araştırmalarımı, yazılım projelerimi ve teknik yazılarımı üç dilde bir araya getiren; yalnızca site sahibine açık içerik düzenleme ve taslak inceleme alanıyla yapılandırılmış kitap okuma akışlarını destekleyen kişisel platform.
 
 **Aşama: Yayımlandı**
 
@@ -16,7 +16,7 @@ Bu platformu akademik çalışmalarımı, yazılım projelerimi ve teknik yazıl
 
 ## Düzenleme ve yayımlama
 
-Yönetim alanı kişisel bilgileri, vaka çalışmalarını ve yazıları düzenlemeye, ayrıca kaynak metne bağlı bir çeviri oluşturmaya olanak tanır. Değişiklikler sürüm geçmişiyle birlikte taslak olarak kaydedilir ve yayımlanmadan önce önizlenebilir. Kaydetmek tek başına içeriği herkese açmaz; önceki bir sürüm, yayımlanmış içeriği otomatik olarak değiştirmeden taslağa geri alınabilir.
+Yönetim alanı yalnızca site sahibine açıktır; ziyaretçiler bu alana giremez. Kişisel bilgileri, vaka çalışmalarını ve yazıları düzenlemeye, ayrıca kaynak metne bağlı bir çeviri oluşturmaya olanak tanır. Değişiklikler sürüm geçmişiyle birlikte taslak olarak kaydedilir ve yayımlanmadan önce önizlenebilir. Kaydetmek tek başına içeriği herkese açmaz; önceki bir sürüm, yayımlanmış içeriği otomatik olarak değiştirmeden taslağa geri alınabilir.
 
 ## Okunabilir öğretici içerik
 
@@ -35,6 +35,6 @@ Platform, tüm öğretici materyalin tamamlanmasını veya özel proje kodların
 - **Katkım:** Platformun tasarımı, geliştirilmesi ve içerik yönetimi.
 - **Teknolojiler ve yöntem:** Astro, TypeScript, Firebase Hosting, Cloud Functions, Firestore
 - **Mühendislik kararı:** Özel taslakları yayımlanmış içerikten ayırmak ve düzenleme, önizleme ile yayımlama adımlarını bağımsız tutmak.
-- **İncelenebilenler:** Yayımlanmış web sitesi, içerik düzenleyicisi ve yapılandırılmış kitap okuyucusu.
+- **Ziyaretçilere açık olanlar:** Yayımlanmış web sitesi ve kitabın yayımlanmış materyalini sunan yapılandırılmış okuyucu. İçerik düzenleyicisi ve taslak önizlemeleri yalnızca site sahibine açıktır.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/academic-portfolio/) · [Siteyi ziyaret et](https://yahyaalali.com/) · [Çalışma listesine dön](../../README.tr.md)
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/academic-portfolio/) · [Siteyi ziyaret et](https://yahyaalali.com/tr/) · [Çalışma listesine dön](../../README.tr.md)
