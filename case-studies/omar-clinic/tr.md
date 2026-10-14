@@ -6,9 +6,9 @@ Belirli bir diş kliniği için geliştirilen web sitesi ve Android uygulaması;
 
 **Aşama: Yayımlandı**
 
-![Klinik web ve mobil — sunum kapağı](../../assets/editorial/omar-clinic-r3.webp)
+![Bakım, randevu ve iletişim — kliniğin kavramsal kapağı](../../assets/editorial/omar-clinic-r4.webp)
 
-Web giriş ekranı izinli gerçek bir görüntüdür; telefon kavramsal bir temsildir, uygulama ekran görüntüsü değildir. Kapak hasta verisi veya Sinad görseli içermez.
+Bakım, randevu düzeni ve dijital iletişimi birleştiren üretilmiş kavramsal kapak. Uygulama ekranı veya tıbbi sonuç değildir; hasta verisi ya da Sinad görseli içermez. Gerçek uygulama görüntüsü aşağıda ayrı olarak korunmuştur.
 
 ![Dr. Omar Ali Al-Najras Kliniği — web sitesi ve uygulama](https://yahyaalali.com/images/work/omar-clinic-public.webp)
 

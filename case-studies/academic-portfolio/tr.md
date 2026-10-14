@@ -12,6 +12,10 @@ Araştırmalarımı, yazılım projelerimi ve teknik yazılarımı üç dilde bi
 
 ## Araştırma, mühendislik ve bilgiyi bir araya getiren platform
 
+![Platform kimliği: araştırma, mühendislik ve bilgi](../../assets/editorial/platform-identity-r4.webp)
+
+Üretilmiş kavramsal açılış görseli bütün platformu temsil eder; tek bir ürünün ekran görüntüsü veya araştırma sonucu değildir. Başlıklar ve işlemler seçilen dilde canlı metin olarak kalır.
+
 Bu platformu akademik çalışmalarımı, yazılım projelerimi ve teknik yazılarımı açık bir bağlamda sunmak için geliştirdim: çalışma hangi sorunu ele alıyor, çözümü nasıl geliştiriyorum ve okur hangi bölümleri gerçekten inceleyebiliyor? Arayüz Arapça, İngilizce ve Türkçeyi destekler; dillerin farklı okuma yönlerini gözetir.
 
 ## Düzenleme ve yayımlama

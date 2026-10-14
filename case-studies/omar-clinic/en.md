@@ -6,9 +6,9 @@ A website and Android app for a specific dental clinic, connecting doctor and se
 
 **Stage: Published**
 
-![Clinic web and mobile — presentation cover](../../assets/editorial/omar-clinic-r3.webp)
+![Care, appointments and communication — conceptual clinic cover](../../assets/editorial/omar-clinic-r4.webp)
 
-The web sign-in is an authorised real screenshot; the phone is a conceptual representation, not an app screenshot. The cover contains no patient data or Sinad assets.
+Generated conceptual cover connecting care, appointment organisation and digital communication. It is not an app screen or a medical result and contains no patient data or Sinad assets. The real implementation capture remains separate below.
 
 ![Dr Omar Ali Al-Najras Clinic — website and app](https://yahyaalali.com/images/work/omar-clinic-public.webp)
 

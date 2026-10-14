@@ -12,6 +12,10 @@ Generated conceptual illustration, not an actual interface or research result.
 
 ## Research, engineering and knowledge in one platform
 
+![Platform identity: research, engineering and knowledge](../../assets/editorial/platform-identity-r4.webp)
+
+The generated conceptual opening represents the whole platform, not a single product screenshot or evidence of research results. Titles and actions remain live text in the selected language.
+
 I built this platform to present academic work, software projects and technical writing with a clear account of the problem, my contribution and the material readers can actually explore. The interface supports Arabic, English and Turkish and handles their different reading directions.
 
 ## Editing and publication
