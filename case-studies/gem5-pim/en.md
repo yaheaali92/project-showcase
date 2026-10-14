@@ -12,6 +12,6 @@ The old report describes different memory profiles, but the inspected materials 
 
 ## Audit result
 
-A new independent auditor read 14 statistics files and passed nine focused tests. No pair qualified for a performance ratio because equal work, matching outputs and successful exits were not established. The simulation was not rerun in 2026, and system energy was not measured through a documented model. This is a course study and provenance audit, not a peer-reviewed paper or architectural superiority claim.
+A new standalone audit tool, separate from the missing historical extractor, parsed 14 statistics files and passed nine focused tests. No pair qualified for a performance ratio because equal work, matching outputs and successful exits were not established. The simulation was not rerun in 2026, and system energy was not measured through a documented model. This is a course study and provenance audit, not a peer-reviewed paper or architectural superiority claim.
 
 A new experiment requires a pinned gem5 version, configurations and commands for both sides, program/input fingerprints and matching functional outputs before comparing metrics.

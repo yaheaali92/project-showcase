@@ -12,6 +12,6 @@ Eski rapor farklı bellek profilleri tarif eder, fakat incelenen materyal bellek
 
 ## Denetim sonucu
 
-Yeni bağımsız denetleyici 14 istatistik dosyasını okudu ve dokuz odaklı testi geçti. Aynı iş, eşleşen çıktılar ve başarılı çıkışlar kanıtlanmadığı için hiçbir çift performans oranına uygun değildir. Simülasyon 2026'da yeniden çalıştırılmadı; sistem enerjisi belgelenmiş bir modelle ölçülmedi. Bu çalışma hakemli makale veya mimari üstünlük iddiası değil, ders çalışması ve kaynak zinciri denetimidir.
+Tarihsel çıkarıcıdan ayrı geliştirilen yeni bir denetim aracı 14 istatistik dosyasını ayrıştırdı ve dokuz odaklı testi geçti. Aynı iş, eşleşen çıktılar ve başarılı çıkışlar kanıtlanmadığı için hiçbir çift performans oranına uygun değildir. Simülasyon 2026'da yeniden çalıştırılmadı; sistem enerjisi belgelenmiş bir modelle ölçülmedi. Bu çalışma hakemli makale veya mimari üstünlük iddiası değil, ders çalışması ve kaynak zinciri denetimidir.
 
 Yeni deney için gem5 sürümü, iki tarafın yapılandırma ve komutları, program/girdi özetleri ve karşılaştırma öncesinde eşleşen işlevsel çıktılar gerekir.
