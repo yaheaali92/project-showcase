@@ -8,7 +8,7 @@ Gözlem ve veri kalitesi için kavramsal kapak; çalışan ürün değildir.
 
 ## Fikir ve bağlam
 
-Çalışma 2024 ders projesi olarak sensör girdilerini tek kartta topluyor, Serial ve Arduino IoT Cloud üzerinden gösteriyordu. Güncel incelemesi güncel ölçümün, sensör hatasından doğan sıfırdan veya bağlantı sonrasında kalan eski değerden nasıl ayrılacağını ele alır.
+Çalışma 2024 ders projesi olarak sensör girdilerini tek kartta topluyor, Serial ve Arduino IoT Cloud üzerinden gösteriyordu. Güncel incelemesi güncel ölçümün, sensör hatasından doğan sıfırdan veya bağlantı kesildikten sonra bellekte kalan eski değerden nasıl ayrılacağını ele alır.
 
 ## Bileşenler ve yorum sınırları
 
