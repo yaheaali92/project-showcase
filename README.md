@@ -31,6 +31,13 @@ Generated conceptual illustration, not an actual interface or research result.
 
 [Case study](case-studies/dart-book/en.md) · [Continue reading on the website](https://yahyaalali.com/en/content-library/project/dart-book/)
 
+## Bounded public hardware source
+
+- [Smart-bin firmware, host tests, diagrams and wiring guide](hardware/smart-bin/README.md) — original course prototype and later revision are distinguished.
+- [Baby-environment monitor candidate, host tests and diagrams](hardware/baby-monitor/README.md) — no cloud credentials or clinical claim.
+
+The conceptual covers are distinct from historical circuit and interface evidence. Neither package carries private repository history or a general reuse licence.
+
 ## Contact and reuse enquiries
 
 This repository contains public documentation and presentation material only. Application source code, private development history, owner data and original book files are not included. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.

@@ -1,8 +1,8 @@
-# Baby monitoring prototype — data quality before interpretation
+# Sensor-based baby environment monitor — connected academic prototype
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md) · [Return to the site](https://yahyaalali.com/en/content-library/project/baby-monitor/)
 
-![Conceptual composition of four sensing inputs and a controller, not hardware or a child trial](../../assets/editorial/baby-monitor-r4.webp)
+![Generated conceptual baby-environment monitor cover, not a device or child trial](../../hardware/baby-monitor/assets/baby-monitor-concept-r5.webp)
 
 Conceptual cover for observation and data quality; not a running product.
 
@@ -33,7 +33,7 @@ State transitions use a bounded cooldown and a pending transition instead of sil
 
 34 local C++ logic cases passed, plus 8 adapter-interaction scenarios repeated in Arabic, English and Turkish with fake sensors, Serial and algorithm output. They cover faults, non-finite/stale data, sample order, clock rollover, scheduling, notifications and simulated connection state. These are not child/device measurements or validation of the pulse algorithm itself.
 
-A real ESP8266 SDK/library build, wiring, calibration, driver timing and power tests remain unperformed. No accuracy or clinical approval is claimed. The generated cover and data-flow diagram are conceptual, not a device photograph or wiring plan. Source, history and detailed tests remain private; public documentation presents the work and safe results.
+The candidate compiled for NodeMCU/ESP8266 with Arduino CLI 1.5.1, core 3.1.2 and the pinned libraries in the [build contract](../../hardware/baby-monitor/build-target.json); the external MAX3010x library emitted a macro-redefinition warning. Wiring, calibration, driver timing and power were not tested on hardware. No accuracy or clinical approval is claimed. The generated cover is conceptual. A sanitized source candidate and host tests are now public; the original report, credentials and development history remain private.
 
 ## Technical references
 
@@ -55,3 +55,13 @@ flowchart TD
   VALID --> STATE["Fresh, missing, invalid or stale"]
   STATE --> OUT["State display; live cloud transmission disabled"]
 ```
+
+## Historical evidence versus conditional reference
+
+![Historical signal assignment from the course source](../../hardware/baby-monitor/assets/baby-monitor-signal-map.svg)
+
+The historical D3/D4/D2/D1/A0 map reflects the sketch and report, not safe power wiring. The cropped [Fritzing figure](../../hardware/baby-monitor/assets/baby-monitor-historical-fritzing.webp) and [Arduino IoT Cloud dashboard](../../hardware/baby-monitor/assets/baby-monitor-historical-cloud.webp) are course-report illustrations. Dashboard values are not reproducible child measurements without raw logs, timing and calibration.
+
+![Conditional baby-monitor rebuild circuit](../../hardware/baby-monitor/assets/baby-monitor-reference-wiring.svg)
+
+The proposed candidate moves DHT11 to D6 and PIR to D7 to avoid boot-strapping pins. Its MAX30102 breakout power/level shifting and NodeMCU A0 input range remain conditional. The [sanitized public package](../../hardware/baby-monitor/README.md) contains code, synthetic tests and the [trilingual wiring guide](../../hardware/baby-monitor/WIRING.md); it does not establish a physical or clinical result.

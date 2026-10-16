@@ -1,0 +1,13 @@
+{
+  "board": "esp32:esp32:esp32",
+  "boardStatus": "generic compile target; physical board not identified",
+  "esp32Core": "3.3.12",
+  "libraries": {
+    "Adafruit SSD1306": "2.5.17",
+    "Adafruit GFX Library": "1.12.6",
+    "Adafruit BusIO": "1.17.4"
+  },
+  "languages": { "ar": 0, "en": 1, "tr": 2 },
+  "boardCompile": "passed 2026-10-16 with Arduino CLI 1.5.1, esp32:esp32@3.3.12 and the listed libraries on generic esp32:esp32:esp32; no device was connected",
+  "physicalTest": "not performed"
+}

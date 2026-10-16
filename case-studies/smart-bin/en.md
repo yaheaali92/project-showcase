@@ -6,7 +6,7 @@ An ESP32 and BLE academic prototype, refined to separate measurement from decisi
 
 Software refinement tested; hardware not tested
 
-![Functional illustration of distance sensing, OLED and indicators connected to ESP32 and BLE in a Smart Bin prototype](../../assets/editorial/smart-bin-r3.webp)
+![Generated conceptual smart-bin cover, not the built prototype](../../hardware/smart-bin/assets/smart-bin-concept-r5.webp)
 
 Code-authored functional concept, not an assembled-device photograph or experimental result.
 
@@ -41,14 +41,24 @@ WRITE adds no control commands: empty or oversized input is rejected, and unknow
 
 ## Verification and remaining limits
 
-44 native C++ cases passed for boundaries, invalid readings, filtering, scheduling, alerts, BLE connection changes, display failure and inputs. Three language variants passed adapter syntax checks using local declaration stubs; these are not actual ESP32 builds.
+44 native C++ cases passed for boundaries, invalid readings, filtering, scheduling, alerts, BLE connection changes, display failure and inputs. Three language variants passed adapter syntax checks using local declaration stubs. Separately, the refined sketch compiled for a generic ESP32 target on 2026-10-16 with Arduino CLI 1.5.1, core 3.3.12 and pinned libraries.
 
-An existing ESP32 toolchain was unavailable; no system-wide tools were installed. Firmware compilation, board and sensor identification, wiring checks and physical tests remain pending. No measured accuracy, energy, latency or field-readiness claim is made. Illustrations are neither assembled-device photographs nor wiring plans.
+A portable isolated toolchain was used without system-wide installation. Compilation does not establish exact-board compatibility or safe sensor wiring; physical tests remain pending. No measured accuracy, energy, latency or field-readiness claim is made. The functional illustration is distinct from the historical reconstruction and conditional reference wiring below; the reference has not been bench-tested.
 
-Source, history and detailed tests remain private. The public link presents the case study and selected safe results only.
+A bounded refined source and host tests are now public; private development history and course originals remain outside the package.
 
 ## Data and state flow — functional illustration
 
 ![Data and state flow — functional illustration](../../assets/editorial/smart-bin-flow-en.svg)
+
+## Historical pins and conditional rebuild
+
+![Historical smart-bin pin reconstruction](../../hardware/smart-bin/assets/smart-bin-historical-wiring.svg)
+
+The original material assigns TRIG to GPIO5, Echo to GPIO18, OLED to 21/22, buzzer to 27, fill LEDs to 32/33/26/25 and the fifth power indicator to GPIO14. A 5 V sensor Echo directly reaching GPIO18 is a documented hazard, not a wiring recommendation.
+
+![Conditional reference circuit with Echo protection](../../hardware/smart-bin/assets/smart-bin-reference-wiring.svg)
+
+The reference adds an Echo voltage divider, individual LED resistors and common ground; buzzer driver and OLED requirements depend on the exact modules. It has not been built or bench validated. The [public sanitized source package](../../hardware/smart-bin/README.md) includes code, host tests and a [trilingual wiring guide](../../hardware/smart-bin/WIRING.md), but no private history. [The course video](https://youtu.be/GwyfZ4DQr9k) remains evidence of the historical demonstration only.
 
 [Continue reading on the website](https://yahyaalali.com/en/content-library/project/smart-bin/) · [Back to selected work](../../README.md)

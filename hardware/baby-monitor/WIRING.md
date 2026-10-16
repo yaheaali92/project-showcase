@@ -1,0 +1,19 @@
+# Wiring and components · المكونات والتوصيل · Bileşenler ve bağlantı
+
+## English
+
+Historical report/code signals: NodeMCU ESP8266; DHT11 DATA D3/GPIO0, HC-SR501 OUT D4/GPIO2, MAX30102 I²C SDA D2/GPIO4 and SCL D1/GPIO5, MAX9814 output A0. This documents a course design only. D3 and D4 are boot-strapping pins; a connected module can change the startup level. The raw ESP8266 ADC accepts 0–1 V; some NodeMCU boards include a divider, so the exact board input range must be measured or verified from its schematic. The bare MAX30102 requires separate 1.8 V and LED supply domains; a breakout's regulator and level shifting cannot be inferred from the sensor name. MAX9814 output bias/swing must be conditioned to the verified A0 range. A bare DHT11 needs a data pull-up. Verify shared ground and each module's supply and output levels before any physical build. The candidate reference uses D6/GPIO12 for DHT11 and D7/GPIO13 for PIR but is not physically validated.
+
+Primary documentation: [ESP8266 Arduino ADC and pins](https://github.com/esp8266/Arduino/blob/master/doc/reference.rst), [boot-mode pins](https://docs.espressif.com/projects/esptool/en/latest/esp8266/advanced-topics/boot-mode-selection.html), [MAX30102](https://www.analog.com/en/products/MAX30102.html), [MAX9814 datasheet](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9814.pdf). The historical cloud screenshot is an example view, not raw clinical data.
+
+## العربية
+
+إشارات التقرير والشيفرة التاريخية: NodeMCU ESP8266؛ خرج DHT11 على D3/GPIO0؛ الحركة على D4/GPIO2؛ ناقل MAX30102 عبر SDA D2/GPIO4 وSCL D1/GPIO5؛ خرج MAX9814 إلى A0. هذا توثيق لتصميم مقرر فقط. D3 وD4 طرفا إقلاع قد يغيّر الحساس المتصل مستواهما. تقبل شريحة ESP8266 الخام 0–1 فولت على ADC، بينما تحتوي بعض لوحات NodeMCU مقسمًا؛ يجب تحديد مدى اللوحة الفعلية من مخططها أو قياسه. يحتاج MAX30102 العاري نطاقات تغذية منفصلة، ولا يمكن استنتاج منظم ومحولات I²C من اسم الحساس. يجب تكييف خرج MAX9814 مع مدى A0 المتحقق، واستخدام مقاومة سحب مع DHT11 العاري، والتحقق من الأرضي المشترك وجهود كل وحدة. يستخدم الرسم المرجعي المقترح D6/GPIO12 وD7/GPIO13 بعيدًا عن أطراف الإقلاع، لكنه غير مجرّب على جهاز.
+
+المراجع الأصلية: [ESP8266 Arduino](https://github.com/esp8266/Arduino/blob/master/doc/reference.rst)، [أطراف الإقلاع](https://docs.espressif.com/projects/esptool/en/latest/esp8266/advanced-topics/boot-mode-selection.html)، [MAX30102](https://www.analog.com/en/products/MAX30102.html)، [MAX9814](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9814.pdf). لقطة السحابة التاريخية مثال عرض، لا بيانات سريرية خام.
+
+## Türkçe
+
+Tarihsel rapor ve kod sinyalleri: NodeMCU ESP8266; DHT11 DATA D3/GPIO0, HC-SR501 OUT D4/GPIO2, MAX30102 I²C SDA D2/GPIO4 ve SCL D1/GPIO5, MAX9814 çıkışı A0. Bu yalnız ders tasarımının kaydıdır. D3 ve D4 açılış yapılandırma uçlarıdır; bağlı modül başlangıç düzeyini değiştirebilir. Ham ESP8266 ADC 0–1 V kabul eder; bazı NodeMCU kartlarında bölücü vardır, bu yüzden gerçek kartın giriş aralığı şema veya ölçümle doğrulanmalıdır. Çıplak MAX30102 ayrı besleme bölgeleri ister; modül adından regülatör ve I²C seviye dönüştürücü varlığı çıkarılamaz. MAX9814 çıkışı doğrulanmış A0 aralığına uyarlanmalıdır. Çıplak DHT11 için veri çekme direnci, bütün modüller için ortak toprak ve uygun besleme/çıkış seviyeleri gerekir. Aday şema DHT11 için D6/GPIO12, PIR için D7/GPIO13 kullanır; fiziksel olarak doğrulanmadı.
+
+Özgün kaynaklar: [ESP8266 Arduino](https://github.com/esp8266/Arduino/blob/master/doc/reference.rst), [açılış uçları](https://docs.espressif.com/projects/esptool/en/latest/esp8266/advanced-topics/boot-mode-selection.html), [MAX30102](https://www.analog.com/en/products/MAX30102.html), [MAX9814](https://www.analog.com/media/en/technical-documentation/data-sheets/MAX9814.pdf). Tarihsel bulut görüntüsü ham klinik veri değildir.

@@ -1,0 +1,16 @@
+{
+  "board": "esp8266:esp8266:nodemcuv2",
+  "boardStatus": "generic NodeMCU compile target; exact historical board and breakout revisions not verified",
+  "arduinoCli": "1.5.1",
+  "esp8266Core": "3.1.2",
+  "libraries": {
+    "DHT sensor library": "1.4.7",
+    "Adafruit Unified Sensor": "1.1.15",
+    "SparkFun MAX3010x Pulse and Proximity Sensor Library": "1.1.2"
+  },
+  "compileCommand": "arduino-cli compile --fqbn esp8266:esp8266:nodemcuv2 --library hardware/baby-monitor hardware/baby-monitor/firmware/monitor",
+  "binarySha256": "23313984cc2ad39de25b25e33d89132dba1917949cd74d08e3fba81d5c509180",
+  "boardCompile": "passed 2026-10-16; external MAX3010x library emitted an I2C_BUFFER_LENGTH macro-redefinition warning",
+  "physicalTest": "not performed",
+  "clinicalValidation": "not performed"
+}

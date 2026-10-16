@@ -31,6 +31,13 @@ Yazımı süren Arapça öğretim kitabı: ilk iki ünite okunabilir, üçüncü
 
 [Vaka çalışması](case-studies/dart-book/tr.md) · [Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/dart-book/)
 
+## Sınırlı genel donanım kaynak paketleri
+
+- [Akıllı kutu yazılımı, testleri ve bağlantı şemaları](hardware/smart-bin/README.tr.md) — ders modeli ile sonraki yazılım incelemesi ayrıdır.
+- [Bebek ortamı izleme adayı, testleri ve şemaları](hardware/baby-monitor/README.tr.md) — bulut kimlik bilgisi veya klinik iddia yoktur.
+
+Kavramsal kapaklar tarihsel devre ve arayüz kanıtlarından ayrılır. Paketler özel depo geçmişi veya genel yeniden kullanım lisansı içermez.
+
 ## İletişim ve yeniden kullanım soruları
 
 Bu depo yalnızca herkese açık dokümantasyon ve sunum materyali içerir. Uygulama kaynak kodları, özel geliştirme geçmişi, kişisel veriler ve kitabın özgün dosyaları dahil değildir. Kavramsal görseller işletime hazır olmayı veya araştırma sonuçlarını kanıtlamaz; burada genel bir yeniden kullanım lisansı verilmez.

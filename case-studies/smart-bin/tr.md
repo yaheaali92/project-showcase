@@ -6,7 +6,7 @@
 
 Yazılım iyileştirmesi test edildi; donanım test edilmedi
 
-![Akıllı çöp kutusu prototipinde mesafe algılama, OLED ve göstergelerle ESP32 ve BLE bağlantısının işlevsel çizimi](../../assets/editorial/smart-bin-r3.webp)
+![Üretilmiş kavramsal akıllı kutu kapağı, gerçek prototip değil](../../hardware/smart-bin/assets/smart-bin-concept-r5.webp)
 
 Kodla hazırlanmış işlevsel tasvir; monte edilmiş cihaz fotoğrafı veya deney sonucu değildir.
 
@@ -41,14 +41,24 @@ WRITE yeni kontrol komutu eklemez. Boş veya fazla uzun girdi reddedilir; özgü
 
 ## Doğrulama ve kalan sınırlar
 
-Sınırlar, geçersiz okumalar, süzgeç, zamanlama, bildirimler, BLE bağlantı değişiklikleri, ekran hatası ve girdiler için 44 yerel C++ senaryosu geçti. Yerel bildirim tanımlarıyla üç dilde bağdaştırıcı sözdizimi kontrolü geçti; bunlar gerçek ESP32 derlemeleri değildir.
+Sınırlar, geçersiz okumalar, süzgeç, zamanlama, bildirimler, BLE bağlantı değişiklikleri, ekran hatası ve girdiler için 44 yerel C++ senaryosu geçti. Yerel bildirim tanımlarıyla üç dilde bağdaştırıcı sözdizimi kontrolü geçti. Ayrı bir denetimde iyileştirilmiş sketch, 16 Ekim 2026'da Arduino CLI 1.5.1, çekirdek 3.3.12 ve sabitlenmiş kütüphanelerle genel ESP32 hedefi için derlendi.
 
-Mevcut ESP32 araç zinciri bulunmadı ve genel sistem araçları kurulmadı. Firmware derlemesi, kart ve sensörün belirlenmesi, bağlantı kontrolü ve fiziksel testler bekliyor. Ölçülmüş doğruluk, enerji, gecikme veya saha kabulü iddiası yoktur. Görseller monte edilmiş cihaz fotoğrafı veya bağlantı planı değildir.
+Genel sisteme kurulum yapmadan taşınabilir ve yalıtılmış araç zinciri kullanıldı. Derleme kesin kart uyumluluğunu veya güvenli sensör bağlantısını kanıtlamaz; fiziksel testler bekliyor. Ölçülmüş doğruluk, enerji, gecikme veya saha kabulü iddiası yoktur. İşlevsel görsel, aşağıdaki tarihsel yeniden kurulum ve koşullu bağlantı şemasından ayrıdır; başvuru şeması tezgahta denenmedi.
 
-Kaynak, geçmiş ve ayrıntılı testler özeldir. Genel bağlantı yalnız vaka çalışmasını ve seçilmiş güvenli sonuçları sunar.
+Sınırlı, temizlenmiş kaynak ve bilgisayar testleri artık açıktır; özel geliştirme geçmişi ve ders özgünleri paket dışındadır.
 
 ## Veri ve durum akışı — işlevsel şema
 
 ![Veri ve durum akışı — işlevsel şema](../../assets/editorial/smart-bin-flow-tr.svg)
+
+## Tarihsel uçlar ve koşullu yeniden kurulum
+
+![Tarihsel akıllı kutu uçlarının yeniden kurulumu](../../hardware/smart-bin/assets/smart-bin-historical-wiring.svg)
+
+Özgün kaynak TRIG için GPIO5, Echo için GPIO18, OLED için 21/22, sesli uyarı için 27, doluluk LED'leri için 32/33/26/25 ve beşinci güç göstergesi için GPIO14 kullanır. 5 V sensör Echo çıkışının GPIO18'e doğrudan ulaşması belgelenmiş tehlikedir, bağlantı önerisi değildir.
+
+![Echo korumalı koşullu başvuru devresi](../../hardware/smart-bin/assets/smart-bin-reference-wiring.svg)
+
+Başvuru şeması Echo gerilim bölücüsü, ayrı LED dirençleri ve ortak toprak ekler; sesli uyarı sürücüsü ve OLED gereksinimleri kesin modüle bağlıdır. Kurulup tezgahta doğrulanmadı. [Temizlenmiş genel kaynak paketi](../../hardware/smart-bin/README.tr.md) kod, bilgisayar testleri ve [üç dilli bağlantı kılavuzu](../../hardware/smart-bin/WIRING.md) içerir; özel geçmişi içermez. [Ders videosu](https://youtu.be/GwyfZ4DQr9k) yalnız tarihsel gösterimin kanıtıdır.
 
 [Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/smart-bin/) · [Çalışmalara dön](../../README.tr.md)
