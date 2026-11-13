@@ -28,11 +28,17 @@ Uygulama tasarımını, arayüzünü, arka uç hizmetlerini ve veri modelini gel
 | Önbellek | Redis |
 | Gerçek zamanlı iletişim | Socket.IO |
 
-Bu yapı; kullanım deneyimini, iş mantığını, verileri ve gerçek zamanlı iletişimi ayırır. Mevcut temel, hesap profili yönetimini, erişim denetimini ve yönetici işlem kaydını kapsar. Sipariş, iade, uyuşmazlık ve hesaplaşma akışları aşamalı olarak geliştiriliyor.
+Bu mimari, kullanım deneyimini, iş mantığını, verileri ve gerçek zamanlı iletişimi birbirinden ayırır. Kod tabanında hesap ve yetki yönetimi, yönetici işlem kaydı, ürün ilanlarının yayımlanması ve incelenmesi, sepet ve sipariş akışları ile iade, uyuşmazlık ve satıcıya ödenecek tutarların muhasebeleştirilmesine yönelik bileşenler bulunur. Bu akışların entegrasyon ve doğrulama düzeyleri farklıdır; kaynak kodda yer almaları, ticari sürecin uçtan uca kabul edildiği anlamına gelmez.
+
+Flutter arayüzü, hesap yetkileri ile sipariş, ödeme ve iade durumlarına göre işlemleri gösterirken arka uç hizmetleri yetkilendirme kontrollerini yapar ve durum geçişlerini doğrular. Bu projede hesaplaşma, satıcıya ödenecek tutarların muhasebe kayıtlarına alınması, siparişlerle ve muhasebe hareketleriyle ilişkilendirilmesi anlamına gelir; bu tutarların fiilen ödenmesi ise ayrı bir aşamadır.
 
 ## Güncel aşama
 
-Rawaj geliştirme aşamasındadır ve ticari işletime açılmamıştır. Sonraki çalışmalar, pazar yeri akışlarını tamamlayıp tutarlı bir arayüze bağlamaya; satıcı, alıcı ve yönetici sorumluluklarını anlaşılır tutmaya odaklanıyor.
+Rawaj geliştirme aşamasındadır ve ticari işletime açılmamıştır. Daha önceki ayrı yerel test turlarında, arka uca ve veritabanına bağlı arayüzler üzerinden sentetik veriler kullanılarak ürün ilanlarının yayımlanması ve incelenmesi ile sepet akışları belgelendi.
+
+26 Ekim 2026’da belgelenen kontroller, arka uca ve veritabanına bağlı Flutter arayüzleri üzerinden web ve Android emülatöründe, sentetik verilerle oturum açmayı, alıcı siparişlerini ve finansal verileri görüntülemeyi kapsadı. Bu turda kabul edilen finansal işlemler yalnızca okumayla sınırlıydı.
+
+Sipariş ve satış sonrası sürecin taraflar arasındaki iade ve uyuşmazlık akışlarını da kapsayan uçtan uca kabulü, onaylı bir sağlayıcı üzerinden tahsilat, para iadesi ve satıcıya ödeme işlemlerinin doğrulanması ve ticari işletime geçiş henüz tamamlanmadı.
 
 ## Kısa bakış
 
@@ -40,6 +46,6 @@ Rawaj geliştirme aşamasındadır ve ticari işletime açılmamıştır. Sonrak
 - **Hedef kitle:** Satıcılar, alıcılar ve pazar yeri yöneticileri.
 - **Katkım:** Uygulama tasarımı, arayüz, arka uç hizmetleri ve veri modeli.
 - **Teknolojiler ve yöntem:** Flutter, Dart, TypeScript, Node.js, Express, PostgreSQL, Redis, Socket.IO
-- **İncelenebilenler:** Hesap profili, erişim denetimi ve yönetici işlem kaydı temelleri; sipariş, iade, uyuşmazlık ve hesaplaşma akışları geliştirme aşamasındadır.
+- **İncelenebilenler:** Mimarinin, gerçekleştirilen işlevlerin ve belgelenmiş yerel doğrulama turlarının sınırlarıyla birlikte özeti. Kamuya açık olmayan kaynak kodu ve iç kabul kayıtları bu vaka çalışmasına eklenmemiştir.
 
 [Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/rawaj/) · [Çalışma listesine dön](../../README.tr.md)

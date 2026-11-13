@@ -28,11 +28,17 @@ Product presentation connects the seller and buyer; an order then opens a sequen
 | Caching | Redis |
 | Real-time communication | Socket.IO |
 
-This structure separates the user experience, business logic, data and real-time communication. The current foundation covers account-profile management, access control and administrative audit, while order, return, dispute and settlement flows are being developed incrementally.
+This architecture separates the user experience, business logic, data, and real-time communication. The codebase includes account and permission management, administrative action logging, listing publication and moderation, cart and order workflows, and components for returns, disputes, and accounting for amounts owed to sellers. The extent of integration and verification varies across these workflows; their presence in the code does not establish acceptance of an end-to-end commercial journey.
+
+The Flutter interface presents actions according to account permissions and order, payment, and return states, while backend services check authorization and validate state transitions. In this project, settlements refer to recording amounts owed to sellers and linking them to orders and ledger entries; actual payouts are a separate stage.
 
 ## Current stage
 
-Rawaj remains in development and is not operating commercially. The next work focuses on completing the marketplace flows and connecting them to a coherent interface, with clear seller, buyer and administrator responsibilities.
+Rawaj remains in development and has not entered commercial operation. Earlier, separate local test rounds documented listing publication, moderation, and cart workflows through interfaces connected to the backend and database, using synthetic data.
+
+Recorded checks on 26 October 2026 covered logging in and viewing buyer orders and financial data through Flutter interfaces connected to the backend and database, on the web and an Android emulator, using synthetic data. The financial operations accepted in that round were read-only.
+
+The complete order and after-sales journey, including returns and disputes between the parties, still requires end-to-end acceptance. Payment collection, refunds, and seller payouts through an approved provider remain to be verified, and commercial operation has not begun.
 
 ## At a glance
 
@@ -40,6 +46,6 @@ Rawaj remains in development and is not operating commercially. The next work fo
 - **Audience:** Sellers, buyers and marketplace administrators.
 - **My role:** Application design, interface, backend services and data model.
 - **Technologies and method:** Flutter, Dart, TypeScript, Node.js, Express, PostgreSQL, Redis, Socket.IO
-- **Available to review:** Account-profile, access-control and administrative-audit foundations; order, return, dispute and settlement flows remain in development.
+- **Available to review:** A summary of the architecture, implementation scope, and documented local verification rounds and their limits. The project's private source code and internal acceptance records are not included in this case study.
 
 [Continue reading on the website](https://yahyaalali.com/en/content-library/project/rawaj/) · [Back to selected work](../../README.md)
