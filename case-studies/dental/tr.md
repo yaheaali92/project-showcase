@@ -50,9 +50,9 @@ Saat değişikliği onaylanırken atomik işlem özgün randevunun durumunu dene
 
 ### Çalışma alanına bağlı abonelik
 
-Diş hekimi, hesap ve davet koşullarına göre katılır; çalışma alanını oluşturur, çalışma yerlerini, hizmetlerini ve saatlerini düzenler. Hekimin çalışma alanına bağlı abonelik modeli, uygun olduğu durumlarda plan veya deneme erişimi ile abonelik yönetimi süreçlerini kapsar. Birden fazla çalışma yeri, kendiliğinden ayrı abonelikler anlamına gelmez. Hasta hesabı ve ziyaret faturalandırması ayrı süreçlerdir.
+Diş hekimi hesabını ve çalışma alanını oluşturur, ardından çalışma yerlerini, hizmetlerini ve saatlerini düzenler. Abonelik, hekimin tüm çalışma yerlerindeki çalışma alanını kapsar. Modelde deneme süresi, ücretli paket ve aboneliği yönetme, yenileme veya iptal etme seçenekleri bulunur. Hasta hesabı ve ziyaret faturalandırması hekim aboneliğinden ayrıdır.
 
-Yapılandırmaya bağlı olarak plan yönetimi ve iptal talebi akışları bulunur. Buradaki Paddle kanıtı Sandbox ortamına aittir.
+Güncel fiyat, deneme süresi, dosya kotası ve abonelik koşulları resmî paket sayfasında yer alır. Bu incelemedeki Paddle kanıtı Sandbox ortamına aittir. [Paket ve abonelik](https://sinaddental.com/pricing.html?lang=tr)
 
 ## Randevunun ötesi
 
@@ -149,9 +149,9 @@ Kurallar doğrudan erişim yetkisini belirler. Sunucu işlevi Admin SDK ile okum
 
 ### Mevcut kanıtlar
 
-- **Ürün deneyimini inceleyin.** Güncel önizleme adresi. Korumalı işlevlere erişim hesap, izinler ve ortam yapılandırmasına bağlıdır. [Önizleme adresini aç](https://test.sinaddental.com/)
+- **Sinad’ın resmî web sitesi.** Ürünü inceleyin, hekim ve hasta giriş noktalarına ulaşın ve paket ayrıntılarını görün. Korumalı işlevlere erişim hesap izinlerine bağlıdır. [Sinad’ın resmî web sitesini ziyaret edin](https://sinaddental.com/?lang=tr)
 - **Uygulama kanıtları.** Ayrı sentetik veri turları çalışma alanı ve takvim kurulumunu, talepleri, saat değişikliklerini ve iptal geçmişini belgeledi. 26 Ekim 2026’daki Chrome çalışması diş şeması güncellemesini, denetim izini ve atama geri alındığında erişimin kapanmasını belgeledi. Üye olmayan hesap için üretimdeki sunucu işlevi ayrı bir doğrulama konusudur.
 
-**Erişim durumu.** Sinad deneyimine erişim hesap ve izinlere bağlıdır. Ticari ve klinik kabul ayrı süreçlerdir. Gerçek hasta verileri ve ödeme tahsilatı bu sunumun kapsamı dışındadır.
+**Erişim ve doğrulama kapsamı.** Resmî site herkese açıktır. Korumalı işlevlere erişim hesaba ve izinlere bağlıdır. Ticari ve klinik kabul ayrı süreçlerdir. Bu vaka incelemesi üretimde gerçek hasta verisi kullanımını veya ödeme tahsilatını doğrulamaz.
 
 [Web sitesinde okumaya devam edin](https://yahyaalali.com/tr/works/dental/) · [Seçili çalışmalara dön](../../README.md)

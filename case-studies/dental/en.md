@@ -50,9 +50,9 @@ Accepting a reschedule uses an atomic transaction that checks the original booki
 
 ### A practice-level subscription
 
-A dentist joins according to account and invitation eligibility, sets up a practice workspace and configures workplaces, services and hours. The practice-level subscription model supports plan or trial access where available and subscription-management workflows; multiple workplaces do not automatically require separate practice subscriptions. The patient account journey and visit billing are distinct.
+A dentist creates an account and sets up a practice workspace, then configures workplaces, services and hours. A subscription covers the dentist’s practice across workplaces. The model includes a trial, a paid plan and options to manage, renew or cancel the subscription. Patient accounts and visit billing are separate from the dentist’s subscription.
 
-Depending on configuration, the workflows include managing a plan or requesting cancellation. The Paddle evidence cited here comes from Sandbox.
+The official plan page lists current pricing, trial duration, file allowance and subscription terms. The Paddle evidence in this case study comes from Sandbox. [Plan and subscription](https://sinaddental.com/pricing.html?lang=en)
 
 ## Beyond booking
 
@@ -149,9 +149,9 @@ Rules authorize direct access. The callable checks permissions before reading or
 
 ### Available evidence
 
-- **Explore the product experience.** The current preview domain. Access to protected features depends on the account, permissions and environment configuration. [Open the preview domain](https://test.sinaddental.com/)
+- **Official Sinad website.** Explore the product, find separate entry points for dentists and patients, and review the plan. Access to protected features depends on account permissions. [Visit the official Sinad website](https://sinaddental.com/?lang=en)
 - **Implementation evidence.** Separate synthetic-data rounds covered practice and schedule setup, requests, rescheduling and cancellation history. On 26 October 2026, a Chrome run documented an odontogram update, its audit entry and the denial after assignment was revoked. The production callable path for non-members remains a separate check.
 
-**Availability.** Access to Sinad depends on the account and permissions. Commercial and clinical acceptance are separate. Real patient data and payment collection are outside the scope of this presentation.
+**Availability and verification.** The official site is publicly accessible. Access to protected features depends on the account and its permissions. Commercial and clinical acceptance are separate. This case study does not verify the use of real patient data or payment collection in production.
 
 [Continue reading on the website](https://yahyaalali.com/en/works/dental/) · [Back to selected work](../../README.md)
