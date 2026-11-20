@@ -8,11 +8,7 @@ Belirli bir diş kliniği için geliştirilen web sitesi ve Android uygulaması;
 
 ![Bakım, randevu ve iletişim — kliniğin kavramsal kapağı](../../assets/editorial/omar-clinic-r4.webp)
 
-Bakım, randevu düzeni ve dijital iletişimi birleştiren üretilmiş kavramsal kapak. Uygulama ekranı veya tıbbi sonuç değildir; hasta verisi ya da Sinad görseli içermez. Gerçek uygulama görüntüsü aşağıda ayrı olarak korunmuştur.
-
-![Dr. Omar Ali Al-Najras Kliniği — web sitesi ve uygulama](https://yahyaalali.com/images/work/omar-clinic-public.webp)
-
-Gerçek genel arayüz ekran görüntüsü; giriş arkasındaki kayıtların veya işlemlerin gösterimi değildir.
+Bakım, randevu düzeni ve dijital iletişimi birleştiren üretilmiş kavramsal kapak. Uygulama ekranı veya tıbbi sonuç değildir; hasta verisi ya da Sinad görseli içermez.
 
 ## Kliniğe özel deneyim
 
@@ -24,7 +20,7 @@ Uygulamanın mağaza açıklamasında hekim ve hizmet bilgileri, haberler, rande
 
 Bu müşteri için web sitesini ve uygulamayı geliştirdim. [Kliniğin sitesini](https://alnajrasclinic.com/) ziyaret edebilir veya [Dr. Omar’ın klinik uygulamasını Google Play’de](https://play.google.com/store/apps/details?id=com.yahyaalali.dental_clinic_app) inceleyebilirsiniz. Mağaza kaydı, projeye ait paketle eşleşiyor ve geliştirici olarak YAHYA ALALI’yi gösteriyor.
 
-Bu çalışma, hekimin bağımsız çalışma alanını ve iş yerlerini düzenleyen [SINAD’dan](https://yahyaalali.com/tr/content-library/project/dental/) ayrıdır. Mevcut ekran görüntüsü sitenin gerçek girişini gösterir; hasta kayıtları veya giriş sonrasındaki randevu sürecinin test edilmiş bir gösterimi değildir.
+Bu çalışma, hekimin bağımsız çalışma alanını ve iş yerlerini düzenleyen [SINAD’dan](https://yahyaalali.com/tr/content-library/project/dental/) ayrıdır.
 
 ## Kısa bakış
 
