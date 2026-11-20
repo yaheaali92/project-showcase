@@ -8,11 +8,7 @@ A website and Android app for a specific dental clinic, connecting doctor and se
 
 ![Care, appointments and communication — conceptual clinic cover](../../assets/editorial/omar-clinic-r4.webp)
 
-Generated conceptual cover connecting care, appointment organisation and digital communication. It is not an app screen or a medical result and contains no patient data or Sinad assets. The real implementation capture remains separate below.
-
-![Dr Omar Ali Al-Najras Clinic — website and app](https://yahyaalali.com/images/work/omar-clinic-public.webp)
-
-Actual public-interface screenshot, not a demonstration of records or operations behind sign-in.
+Generated conceptual cover connecting care, appointment organisation and digital communication. It is not an app screen or a medical result and contains no patient data or Sinad assets.
 
 ## A clinic-specific experience
 
@@ -24,7 +20,7 @@ The app listing describes doctor and service information, news, appointment acce
 
 My contribution covers the website and application for this specific client. Visit the [clinic website](https://alnajrasclinic.com/) or view [Dr Omar's clinic app on Google Play](https://play.google.com/store/apps/details?id=com.yahyaalali.dental_clinic_app). The exact listing matches this project's package and identifies YAHYA ALALI as its developer.
 
-This project is separate from [SINAD](https://yahyaalali.com/en/content-library/project/dental/), the product for organising a doctor's practice and work locations. The current screenshot shows the actual website entrance, not patient records or a tested signed-in booking journey.
+This project is separate from [SINAD](https://yahyaalali.com/en/content-library/project/dental/), the product for organising a doctor's practice and work locations.
 
 ## At a glance
 
