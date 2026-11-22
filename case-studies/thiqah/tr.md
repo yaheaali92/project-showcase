@@ -20,7 +20,7 @@ THIQAH, işletmeler arasındaki ilişkileri belgelemek için geliştirdiğim bir
 
 Fatura, alacak, ödeme ve uyuşmazlık alanları henüz tamamlanmış ticari işlevler değil, geliştirme planının parçalarıdır. Proje müşteri fonlarını tutmaz; gelecekteki ödeme entegrasyonu uygun ve ayrı bir düzenleme gerektirir.
 
-Mevcut uygulama; çok dilli arayüzü, kimlik ve oturum temellerini, sunucu yetkileriyle korunan asgari organizasyon oluşturma, okuma ve profil güncelleme API’sini içeriyor. Davet, üyelik, şube, fatura, alacak, ödeme ve uyuşmazlık işlevleri sonraki çalışmalardır. Böylece kimlik ve organizasyon temeli, ona bağlı ticari işlemlerden açıkça ayrılıyor.
+Mevcut çekirdek kimlik, oturum, kuruluş, üyelik, şube ve kapsam bazlı yetkilendirmeyi içerir. Davet akışının uygulanması doğrulanmamıştır. Fatura, alacak, mutabakat, itiraz ve ticari senkronizasyon tasarım aşamasındadır veya eksiktir; uçtan uca işleyişleri doğrulanmamıştır. İdari denetim kayıtları seçili yönetim işlemlerini izler; ticari muhasebe ayrı bir alandır.
 
 ## Mühendislik öncelikleri
 
@@ -34,4 +34,8 @@ Tutarlı kullanım deneyimiyle finansal işlem mantığını ayrı sorumluluklar
 - **Teknolojiler ve yöntem:** Flutter, Dart, PostgreSQL, Prisma
 - **İncelenebilenler:** Çok dilli arayüz temeli ile kimlik, organizasyon ve işlem kaydı hizmetleri; ticari alanlar sonraki geliştirme planındadır.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/thiqah/) · [Çalışma listesine dön](../../README.tr.md)
+## Uygulanan temel ve ticari tasarım
+
+Ortak ticari kayıt modelini tasarladım ve mevcut temeli geliştirdim: çok dilli Flutter arayüzü ile PostgreSQL ve Prisma kullanan modüler NestJS arka ucu. Belgelenen çekirdek kimliği, oturumları, kuruluşları, üyelikleri, şubeleri ve kapsamlı yetki kontrollerini kapsar. Bazı idari işlemler denetim kaydı ve sınırlı tekrar koruması içerir. Fatura, alacak, mutabakat, itiraz ve çevrimdışı ticari eşitleme tasarım aşamasında veya eksiktir; uçtan uca işleyişleri doğrulanmamıştır. Cihazda bekleyen işlem, sunucu onayı veya karşı taraf kabulü anlamına gelmez.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/thiqah/) · [Çalışma listesine dön](../../README.tr.md)

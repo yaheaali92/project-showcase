@@ -38,4 +38,4 @@ Kontrol ile veri iletimi arasındaki fark için [yazılım tanımlı ağlara gir
 - **Teknolojiler ve yöntem:** SDN, MPLS
 - **İncelenebilenler:** Devam eden doktora konusu ve hizmet kalitesi değerlendirme soruları; yayımlanmış nicel sonuç sunulmaz.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/phd-routing/) · [Çalışma listesine dön](../../README.tr.md)
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/research/phd-routing/) · [Çalışma listesine dön](../../README.tr.md)

@@ -34,4 +34,8 @@ Site, 6 Ekim 2026’dan beri [Athar Al-Wird](https://atharwird.com/) adresinde �
 - **Teknolojiler ve yöntem:** Flutter, Dart, Firebase
 - **İncelenebilenler:** Role özel çalışma alanlarına giriş sunan çevrimiçi site.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/athar-wird/) · [Athar Al-Wird girişini aç](https://atharwird.com/) · [Çalışma listesine dön](../../README.tr.md)
+## Öğrenme akışları ve erişim
+
+Arapça deneyimi tasarladım; rollere göre öğrenme akışlarını Flutter/Dart ekranları ve Firebase hizmetleriyle bağladım. Yayımlanan web platformu yöneticiler, öğretmenler, öğrenciler ve veliler için halkaları, grupları, sürümlü müfredatı, planları, oturumları, devam ve değerlendirmeyi destekler. Seçili işlemler Firestore transaction'ları ve işlem makbuzlarını kullanır. Web girişi açıktır; belgelenen kontroller belirli akışlarla sınırlıdır ve mağaza yayını veya kapsamlı üretim kabulünü göstermez.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/athar-wird/) · [Athar Al-Wird girişini aç](https://atharwird.com/) · [Çalışma listesine dön](../../README.tr.md)

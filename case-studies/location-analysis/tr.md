@@ -12,7 +12,15 @@ Ana çalışma, 2024'te tamamlanan yüksek lisans tezidir. 2026'da başlayan yer
 
 ## Kanıt zinciri ve yayın bilgileri
 
-2021–2022 öğretim dönemindeki Bilgisayar Mühendisliği bitirme çalışması Yahya ALALI ve Muhammed Ayham Galavinci tarafından ortak hazırlandı; kaynak bireysel görevleri ayırmıyor. Bireysel “Sosyal Medya Lokasyon Analizi” yüksek lisans tezi [Sakarya Üniversitesinde 5 Temmuz 2024'te kabul edildi](https://acikerisim.sakarya.edu.tr/xmlui/handle/20.500.12619/102984). Yerel PDF'deki 24 Haziran tarihli eksik jüri şablonu, resmî son kayıt yerine kullanılmıyor.
+### Ortak lisans bitirme projesi (2021–2022)
+
+2021–2022 öğretim dönemindeki Bilgisayar Mühendisliği bitirme çalışması Yahya ALALI ve Muhammed Ayham Galavinci tarafından ortak hazırlandı; kaynak bireysel görevleri ayırmıyor.
+
+### Bireysel yüksek lisans tezi (2024)
+
+Bireysel “Sosyal Medya Lokasyon Analizi” yüksek lisans tezi [Sakarya Üniversitesinde 5 Temmuz 2024'te kabul edildi](https://acikerisim.sakarya.edu.tr/xmlui/handle/20.500.12619/102984). Yerel PDF'deki 24 Haziran tarihli eksik jüri şablonu, resmî son kayıt yerine kullanılmıyor.
+
+### Türev IMASCON bildirisi (2024)
 
 Yahya ALALI ve Nilüfer YURTAY imzalı türev tam metin, [IMASCON 2024 Spring bildiri kitabında](https://www.imascon.com/kayit/kayittr/dosyalar/imascon_2024_spring/imascon_2024_spring_fen_tammetin_bildiriler.pdf) 43–50. sayfalarda yer alır; ISBN 978-605-72746-5-6. Dergi makalesi değildir ve DOI doğrulanmadı. 2026 yenilemesi tez baskısı veya bildirinin deney sonucu değildir.
 
@@ -32,7 +40,7 @@ Yapay bir örnek, iki konum çevresinde toplanan noktaları ve iki dönem arası
 
 ## Katkım ve test sınırı
 
-Analiz araçlarını ve çıktıların yorumlanmasını sağlayan arayüzleri geliştiriyorum. 2026 yazılım yenilemesi [2024 yüksek lisans tezinden](https://yahyaalali.com/tr/content-library/publication/masters-thesis/) ayrıdır. Yalıtılmış kopyada 402 Python testi geçti ve dört isteğe bağlı bağımlılık testi atlandı; masaüstü pencere testleri takıldığından tam kapı kapanmadı. Paket olduğu gibi yayımlanmadı: tarihsel `legacy` ve oturum açma yolları, desteklenmeyen iddialar, teknik belgeler ve isteğe bağlı rapor bağımlılığı tanımı düzenleme gerektiriyor. Kişisel dışa aktarımlar, oturumlar ve benzerlik raporu özeldir; yerel işleme tek başına bütün hukuki yükümlülükleri kaldırmaz.
+Analiz araçlarını ve çıktıların yorumlanmasını sağlayan arayüzleri geliştiriyorum. 2026 yazılım yenilemesi [2024 yüksek lisans tezinden](https://yahyaalali.com/tr/research/theses/location-analysis/) ayrıdır. Yalıtılmış kopyada 402 Python testi geçti ve dört isteğe bağlı bağımlılık testi atlandı; masaüstü pencere testleri takıldığından tam kapı kapanmadı. Paket olduğu gibi yayımlanmadı: tarihsel `legacy` ve oturum açma yolları, desteklenmeyen iddialar, teknik belgeler ve isteğe bağlı rapor bağımlılığı tanımı düzenleme gerektiriyor. Kişisel dışa aktarımlar, oturumlar ve benzerlik raporu özeldir; yerel işleme tek başına bütün hukuki yükümlülükleri kaldırmaz.
 
 ## Kısa bakış
 
@@ -43,4 +51,4 @@ Analiz araçlarını ve çıktıların yorumlanmasını sağlayan arayüzleri ge
 - **Mühendislik kararı:** Yetkili veri dışa aktarımlarıyla mahremiyeti gözeten, yerel işlemeyi önceleyen bir yön.
 - **İncelenebilenler:** Resmî tez kaydı, bildiri kitabı ve 2026 yenilemesinin sınırlı teknik açıklaması; henüz genel çalıştırılabilir paket veya kişi konumu verisi yok.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/location-analysis/) · [Çalışma listesine dön](../../README.tr.md)
+[Sitedeki tez sayfası](https://yahyaalali.com/tr/research/theses/location-analysis/) · [Konferans bildirisi kaydı](https://yahyaalali.com/tr/research/publications/sosyal-medya-lokasyon-analizi-imascon-2024/) · [Çalışma listesine dön](../../README.tr.md)

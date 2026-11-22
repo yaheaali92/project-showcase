@@ -20,7 +20,7 @@ I have developed the multilingual Flutter presentation foundation and responsive
 
 Invoices, receivables, payments and disputes remain on the development roadmap rather than complete commercial functions. The project does not hold customer funds; any future payment integration requires an appropriate separate arrangement.
 
-The current implementation includes a multilingual interface, identity and session foundations, and a minimum organisation create/read/profile-update API with server-side permissions. Invitations, memberships, branches, invoices, receivables, payments and disputes remain later work. This separates the identity and organisation groundwork from business transactions that depend on it.
+The current core covers identity, sessions, organizations, memberships, branches and scoped authorization. The invitation workflow is unconfirmed. Invoices, receivables, settlements, disputes and commercial synchronization remain designed or incomplete, with no end-to-end verification. Administrative audit records concern selected administrative operations; commercial accounting is a separate domain.
 
 ## Engineering priorities
 
@@ -34,4 +34,8 @@ The work separates a coherent user experience from the implementation of financi
 - **Technologies and method:** Flutter, Dart, PostgreSQL, Prisma
 - **Available to review:** A multilingual interface foundation and identity/organisation/audit services, with commercial-domain features on the subsequent roadmap.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/thiqah/) · [Back to selected work](../../README.md)
+## Implemented foundation and commercial design
+
+I designed the shared trade-record model and developed the current foundation: a multilingual Flutter shell and a NestJS modular monolith using PostgreSQL and Prisma. The documented core handles identity, sessions, organizations, memberships, branches and scoped authorization. Selected administrative operations have audit records and limited idempotency. Invoices, receivables, reconciliation, objections and commercial offline synchronization are designed or incomplete; their end-to-end operation is unconfirmed. A queued device action is distinct from a server-confirmed transaction or counterparty acceptance.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/thiqah/) · [Back to selected work](../../README.md)

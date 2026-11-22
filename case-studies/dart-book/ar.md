@@ -32,4 +32,4 @@
 - **التقنيات والمنهج:** Dart
 - **المتاح للقراءة:** وحدتان متاحتان داخل قارئ عربي منظم، مع وحدة ثالثة قيد الإعداد.
 
-[متابعة القراءة داخل الموقع](https://yahyaalali.com/content-library/project/dart-book/) · [قراءة الوحدتين بالعربية](https://yahyaalali.com/books/dart/) · [العودة إلى قائمة الأعمال](../../README.ar.md)
+[قراءة الوحدتين بالعربية](https://yahyaalali.com/books/dart/) · [العودة إلى قائمة الأعمال](../../README.ar.md)

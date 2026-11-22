@@ -154,4 +154,8 @@ Kurallar doğrudan erişim yetkisini belirler. Sunucu işlevi Admin SDK ile okum
 
 **Erişim ve doğrulama kapsamı.** Resmî site herkese açıktır. Korumalı işlevlere erişim hesaba ve izinlere bağlıdır. Ticari ve klinik kabul ayrı süreçlerdir. Bu vaka incelemesi üretimde gerçek hasta verisi kullanımını veya ödeme tahsilatını doğrulamaz.
 
-[Web sitesinde okumaya devam edin](https://yahyaalali.com/tr/works/dental/) · [Seçili çalışmalara dön](../../README.md)
+## Kanıtın kapsamı
+
+Tarihli Chrome doğrulaması sentetik verilerle yapıldı; odontogram değişikliği, denetim kaydı ve atama kaldırılınca erişimin reddi birlikte kontrol edildi. Üye olmayanlar için üretim ortamındaki sunucu çağrısı ayrı bir doğrulama konusudur. Ürün sitesinin ve abonelik planının yayımlanması, üretimde ödeme tahsilatını veya klinik kabulü göstermez.
+
+[Web sitesinde okumaya devam edin](https://yahyaalali.com/tr/works/dental/) · [Seçili çalışmalara dön](../../README.tr.md)

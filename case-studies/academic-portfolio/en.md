@@ -41,4 +41,8 @@ The platform continues to evolve through coherent releases reviewed on its domai
 - **Engineering decision:** Separate draft saving from publication through structured content and retained revisions, with shared language routing and text-direction rules.
 - **Available to visitors:** The live site, Arabic/English/Turkish navigation and the reader for published book material, with its topics, questions and available solutions. The content editor and draft previews are owner-only.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/academic-portfolio/) · [Visit the website](https://yahyaalali.com/en/) · [Back to selected work](../../README.md)
+## Published discovery and delivery
+
+I built the unified works index and the trilingual Astro/TypeScript content and reading experience, including language-scoped browser search. Drafts stay private through review and preview until an explicit publication step. Firebase Hosting serves fingerprinted assets; Astro renders dynamic HTML through Cloud Functions Gen2 on Cloud Run, with Firestore-backed public content. Published pages demonstrate the reading experience; architecture diagrams and conceptual covers explain the design.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/academic-portfolio/) · [Visit the website](https://yahyaalali.com/en/) · [Back to selected work](../../README.md)

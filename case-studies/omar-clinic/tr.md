@@ -29,4 +29,8 @@ Bu çalışma, hekimin bağımsız çalışma alanını ve iş yerlerini düzenl
 - **Katkım:** Web sitesi ve Android uygulamasının geliştirilmesi ve yayımlanması.
 - **İncelenebilenler:** 2026 yılında web sitesi ve uygulamanın geliştirilmesi ve yayımlanması; web sitesi kliniğin adını gösteriyor.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/omar-clinic/) · [Klinik sitesinin girişini aç](https://alnajrasclinic.com) · [Çalışma listesine dön](../../README.tr.md)
+## Kliniğe özel sunum ve randevular
+
+Üç dilli web ve Android deneyimini ortak Flutter kod tabanı üzerinde tasarlayıp geliştirdim. Hesap, randevu ve kayıt akışları yetki denetimleriyle Firebase Auth, Firestore ve Cloud Storage kullanır. Hasta randevu talep edip durumunu izler; yetkili ekip talebi inceler. Android'de yerel hatırlatma akışı bulunur. Genel web sitesi ve Google Play kaydı erişilebilir; korumalı akışlar uygulama ve temsili önizlemeler üzerinden belgelenmiştir. Çözüm bu kliniğe özeldir ve SINAD'dan ayrıdır.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/omar-clinic/) · [Klinik sitesinin girişini aç](https://alnajrasclinic.com) · [Çalışma listesine dön](../../README.tr.md)
