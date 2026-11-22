@@ -34,4 +34,8 @@ Bu portal, il ve belediye düzeyindeki idari çalışmaları, görevleri ve proj
 - **Teknolojiler ve yöntem:** Flutter, Dart, Django, Python
 - **İncelenebilenler:** Genel arayüzü ve hesap gerektiren hizmetler için giriş noktaları bulunan çevrimiçi site.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/ashara/) · [Siteyi ziyaret et](https://ashara-city.com/) · [Çalışma listesine dön](../../README.tr.md)
+## Canlı sürüm ve hizmet sınırları
+
+Canlı Ashara sürümü, arama, kategori filtreleri ve uydu görünümü içeren haritalı şehir rehberini ve kayıtlı hizmet durumlarını gösteren Şehrin Nabzı bölümünü sunar. Genel bilgiler açıktır; hesaba bağlı talep ve bildirimler oturum gerektirir. Personel ve yönetim ayrı yetkilere sahiptir. Arapça öncelikli deneyimi tasarladım; duyarlı Flutter arayüzünü ve Django REST hizmetlerini geliştirdim. Canlı kanıt Ashara portalı ve hizmet girişleriyle sınırlıdır. Deyrizor geneline yayılma geliştirme hedefidir; belediye yönetim platformu kurum içi iş akışlarına odaklanan ayrı bir projedir.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/ashara/) · [Siteyi ziyaret et](https://ashara-city.com/) · [Çalışma listesine dön](../../README.tr.md)

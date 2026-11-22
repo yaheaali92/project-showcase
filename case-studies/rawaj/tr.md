@@ -48,4 +48,8 @@ Sipariş ve satış sonrası sürecin taraflar arasındaki iade ve uyuşmazlık 
 - **Teknolojiler ve yöntem:** Flutter, Dart, TypeScript, Node.js, Express, PostgreSQL, Redis, Socket.IO
 - **İncelenebilenler:** Mimarinin, gerçekleştirilen işlevlerin ve belgelenmiş yerel doğrulama turlarının sınırlarıyla birlikte özeti. Kamuya açık olmayan kaynak kodu ve iç kabul kayıtları bu vaka çalışmasına eklenmemiştir.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/rawaj/) · [Çalışma listesine dön](../../README.tr.md)
+## Sipariş sınırları ve doğrulama
+
+Alıcı, satıcı ve moderasyon akışlarını tasarlayıp geliştirdim. Flutter/Dart arayüzü, Express/TypeScript erişim denetimli hizmetleri, PostgreSQL ise işlemsel kayıtları yürütür. Sipariş durumu işlem, lojistik, ödeme ve iade boyutlarına ayrılır. İade, bağlı bir uyuşmazlık açabilir; satıcıya ait muhasebe alacağı kayda alınır ve beklemeye alınabilir. Seçilmiş akışlar yerel web, Android emülatörü ve Windows üzerinde ayrı ayrı sentetik verilerle doğrulandı. Canlı tahsilat, geri ödeme, sağlayıcı mutabakatı ve para aktarımı doğrulanmış kapsamın dışındadır.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/rawaj/) · [Çalışma listesine dön](../../README.tr.md)

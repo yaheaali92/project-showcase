@@ -34,4 +34,8 @@ The website has been online since 6 October 2026 at [Athar Al-Wird](https://atha
 - **Technologies and method:** Flutter, Dart, Firebase
 - **Available to review:** An online website providing sign-in access to role-specific workspaces.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/athar-wird/) · [Open the Athar Al-Wird sign-in](https://atharwird.com/) · [Back to selected work](../../README.md)
+## Learning workflows and availability
+
+I shaped the Arabic experience and linked role-specific learning workflows to Flutter/Dart screens and Firebase services. The published web platform supports circles and groups, versioned curricula, study plans, sessions, attendance and assessment for administrators, teachers, learners and guardians. Selected operations use Firestore transactions and operation receipts. The public web entry is available; the documented checks cover selected workflows and do not establish an app-store release or comprehensive production acceptance.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/athar-wird/) · [Open the Athar Al-Wird sign-in](https://atharwird.com/) · [Back to selected work](../../README.md)

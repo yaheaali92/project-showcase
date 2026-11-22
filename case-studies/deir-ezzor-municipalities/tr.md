@@ -14,7 +14,7 @@ Faaliyetleri, projeleri, görevleri, destek taleplerini ve raporları düzenleye
 
 Platforma Deyrizor belediyelerinin faaliyetlerini, projelerini, görevlerini, destek taleplerini ve raporlarını düzenlemek amacıyla başladım. Her işlem ilgili belediyeyle ilişkilendirilir. Böylece çalışanlar, ayrı dosya ve işlemler arasında arama yapmak yerine sorumluluğu ve ilerlemeyi aynı bağlamda takip edebilir.
 
-Flutter arayüzünü, veri modelini ve PocketBase ile JavaScript tabanlı arka uç entegrasyonunu geliştirdim. Temel sürüm bu belediye süreçlerini içeriyor; platform genişledikçe yetki ve veri kapsamları da gözden geçiriliyor.
+İlk aşamada Flutter arayüzünü ve veri modelini geliştirdim; arka uç entegrasyonunda PocketBase ve JavaScript kullandım. O aşama yukarıda açıklanan belediye iş akışlarını kapsıyordu. Platform geliştikçe yetki ve veri kapsamları gözden geçiriliyor.
 
 ## Geliştirilen daha geniş yapı
 
@@ -31,7 +31,11 @@ Bu, güncel geliştirme yönüdür; ülke genelinde tamamlanmış bir işletim v
 - **Problem:** Belediye süreçlerini ilgili belediye ve yetki kapsamıyla ilişkilendirmek.
 - **Hedef kitle:** Belediye işlemlerini, projelerini ve görevlerini yöneten çalışanlar.
 - **Katkım:** Yönetim arayüzü, veri modeli ve arka uç entegrasyonu.
-- **Teknolojiler ve yöntem:** Flutter, Dart, PocketBase, JavaScript
+- **Teknolojiler ve yöntem:** Flutter / Dart, C# / .NET 10 ve PostgreSQL. PocketBase / JavaScript geçmiş uygulama ve aşamalı geçiş kapsamındadır.
 - **İncelenebilenler:** Çok illi bir hiyerarşiye doğru genişletilen mevcut belediye çalışma uygulaması.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/deir-ezzor-municipalities/) · [Çalışma listesine dön](../../README.tr.md)
+## İdari kapsam ve teknik geçiş
+
+Platformu; iller, belediyeler ve birimleri proje, faaliyet, görev, kanıt incelemesi ve raporlama sorumluluklarıyla bağlamak için geliştirdim. Doğrulanan uygulama arayüzü Arapçadır. Yalıtılmış Flutter bileşenleri ve kaynağa dayalı çizimler sentetik veri kullanır. Hizmetlerde C#/.NET 10 modüler monoliti ve PostgreSQL kullanılır; geçiş sırasında eski PocketBase yolu korunur. Gösterimler seçili akışları kapsar; geçişin tamamlandığı, kamu onayı ve belediyeler genelinde üretim kullanımı doğrulanmamıştır.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/deir-ezzor-municipalities/) · [Çalışma listesine dön](../../README.tr.md)

@@ -29,4 +29,8 @@ This project is separate from [SINAD](https://yahyaalali.com/en/content-library/
 - **My role:** Website and Android application development and publication.
 - **Available to review:** Website and application development and publication in 2026; the website displays the clinic's name.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/omar-clinic/) · [Open the clinic website entrance](https://alnajrasclinic.com) · [Back to selected work](../../README.md)
+## Clinic-specific delivery and appointments
+
+I designed and developed the trilingual web and Android experience on a shared Flutter codebase. Firebase Auth, Firestore and Cloud Storage support controlled account, scheduling and record flows. Patients can request appointments and follow their status; authorized staff review them. Android includes a local reminder pathway. The public website and Google Play listing are available; protected journeys are described from implementation and illustrative previews. This is a dedicated clinic solution, separate from SINAD.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/omar-clinic/) · [Open the clinic website entrance](https://alnajrasclinic.com) · [Back to selected work](../../README.md)

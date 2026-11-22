@@ -14,7 +14,7 @@ Generated conceptual illustration, not an actual interface or research result.
 
 The platform began as a way to organise Deir Ezzor municipal activities, projects, tasks, support requests and reports. Each operation is associated with its municipality so that staff can follow responsibilities and progress without searching through disconnected files and procedures.
 
-I developed the Flutter interface, data model and backend integration using PocketBase and JavaScript. The baseline contains these municipal-work journeys, while permission and data boundaries continue to be reviewed as the platform develops.
+In the early phase, I developed the Flutter interface and data model, integrating the backend with PocketBase and JavaScript. That phase covered the municipal workflows described above. Permission and data boundaries remain under review as the platform develops.
 
 ## A wider structure in development
 
@@ -31,7 +31,11 @@ The previous preview is temporarily paused during development and expansion. The
 - **Problem:** Connecting municipal procedures to the relevant municipality and permission scope.
 - **Audience:** People managing municipal operations, projects and tasks.
 - **My role:** Administration interface, data model and backend integration.
-- **Technologies and method:** Flutter, Dart, PocketBase, JavaScript
+- **Technologies and method:** Flutter / Dart; C# / .NET 10; PostgreSQL. PocketBase / JavaScript belong to the historical implementation and staged transition.
 - **Available to review:** An existing municipal-work application undergoing expansion to a multi-governorate hierarchy.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/deir-ezzor-municipalities/) · [Back to selected work](../../README.md)
+## Administrative scope and transition
+
+I developed the platform to connect governorates, municipalities and departments through scoped responsibilities for projects, activities, assignments, evidence review and reports. The verified interface is Arabic. Isolated Flutter components and source-based illustrations use synthetic data. The service design uses a C#/.NET 10 modular monolith and PostgreSQL while retaining a PocketBase legacy path during transition. The demonstrations cover selected workflows; a complete migration, government endorsement and municipality-wide production operation are unconfirmed.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/deir-ezzor-municipalities/) · [Back to selected work](../../README.md)

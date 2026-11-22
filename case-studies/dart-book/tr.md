@@ -32,4 +32,4 @@ Kitabın yazımı sürüyor. Üçüncü ünite hazırlık aşamasında gösteril
 - **Teknolojiler ve yöntem:** Dart
 - **Okunabilenler:** Arapça yapılandırılmış okuyucuda erişilebilir iki ünite ve hazırlık aşamasındaki üçüncü ünite.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/dart-book/) · [İlk iki üniteyi Arapça oku](https://yahyaalali.com/books/dart/) · [Çalışma listesine dön](../../README.tr.md)
+[İlk iki üniteyi Arapça oku](https://yahyaalali.com/books/dart/) · [Çalışma listesine dön](../../README.tr.md)

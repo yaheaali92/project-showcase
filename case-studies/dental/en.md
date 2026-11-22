@@ -154,4 +154,8 @@ Rules authorize direct access. The callable checks permissions before reading or
 
 **Availability and verification.** The official site is publicly accessible. Access to protected features depends on the account and its permissions. Commercial and clinical acceptance are separate. This case study does not verify the use of real patient data or payment collection in production.
 
+## Evidence boundary
+
+The dated Chrome evidence concerns synthetic data: the odontogram edit, its audit entry and denial after assignment removal were checked together. The production callable for non-members remains a separate verification item; the public product website and published subscription plan do not establish production payment collection or clinical acceptance.
+
 [Continue reading on the website](https://yahyaalali.com/en/works/dental/) · [Back to selected work](../../README.md)

@@ -34,4 +34,8 @@ The portal is separate from the [municipal administration platform](https://yahy
 - **Technologies and method:** Flutter, Dart, Django, Python
 - **Available to review:** An online website with a public interface and sign-in entry points for account-based services.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/ashara/) · [Visit the website](https://ashara-city.com/) · [Back to selected work](../../README.md)
+## Live scope and service boundaries
+
+The live Ashara release brings together a searchable map-based city guide, category filters and satellite view, and City Pulse updates on recorded service status. Public information is open; signing in is required for account-specific requests and reports, and staff and administrator views have distinct permissions. I designed the Arabic-first experience and developed the responsive Flutter front end and Django REST services. Live evidence covers the Ashara web experience and its service entry points. Expansion across Deir Ezzor remains a development direction; the separate municipal administration platform supports internal administrative work.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/ashara/) · [Visit the website](https://ashara-city.com/) · [Back to selected work](../../README.md)

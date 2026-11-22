@@ -38,4 +38,4 @@ The [introduction to software-defined networking](https://yahyaalali.com/en/cont
 - **Technologies and method:** SDN, MPLS
 - **Available to review:** An ongoing doctoral topic and public QoS evaluation questions, without published quantitative results.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/phd-routing/) · [Back to selected work](../../README.md)
+[Continue reading on the website](https://yahyaalali.com/en/research/phd-routing/) · [Back to selected work](../../README.md)

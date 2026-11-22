@@ -48,4 +48,8 @@ The complete order and after-sales journey, including returns and disputes betwe
 - **Technologies and method:** Flutter, Dart, TypeScript, Node.js, Express, PostgreSQL, Redis, Socket.IO
 - **Available to review:** A summary of the architecture, implementation scope, and documented local verification rounds and their limits. The project's private source code and internal acceptance records are not included in this case study.
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/rawaj/) · [Back to selected work](../../README.md)
+## Order boundaries and verification
+
+I designed and developed the buyer, seller and moderation workflows. Flutter/Dart handles the interface, Express/TypeScript the guarded services, and PostgreSQL the transactional records. Order state separates transaction, logistics, payment and return. A return can open a linked dispute; seller settlement in the ledger records an entitlement and can be put on hold. Selected flows were verified separately on local web, Android emulator and Windows with synthetic data. Live collection, refunds, provider reconciliation and payouts remain outside the verified scope.
+
+[Continue reading on the website](https://yahyaalali.com/en/works/rawaj/) · [Back to selected work](../../README.md)

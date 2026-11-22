@@ -41,4 +41,8 @@ Platform, tüm öğretici materyalin tamamlanmasını veya özel proje kodların
 - **Mühendislik kararı:** Özel taslakları yayımlanmış içerikten ayırmak ve düzenleme, önizleme ile yayımlama adımlarını bağımsız tutmak.
 - **Ziyaretçilere açık olanlar:** Yayımlanmış web sitesi ve kitabın yayımlanmış materyalini sunan yapılandırılmış okuyucu. İçerik düzenleyicisi ve taslak önizlemeleri yalnızca site sahibine açıktır.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/academic-portfolio/) · [Siteyi ziyaret et](https://yahyaalali.com/tr/) · [Çalışma listesine dön](../../README.tr.md)
+## Yayımlanan dizin ve sunum mimarisi
+
+Birleşik proje dizinini, Astro/TypeScript tabanlı üç dilli içerik ve okuma deneyimini ve dile göre çalışan tarayıcı aramasını geliştirdim. Taslaklar inceleme ve önizleme boyunca, açık yayımlama adımına kadar özel kalır. Firebase Hosting parmak izli varlıkları sunar; Astro dinamik HTML'yi Cloud Run üzerindeki Cloud Functions Gen2 aracılığıyla üretir. Genel içerik Firestore ile desteklenir. Yayımlanan sayfalar okuma deneyimini, mimari şemalar ve kavramsal kapaklar ise tasarımı gösterir.
+
+[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/academic-portfolio/) · [Siteyi ziyaret et](https://yahyaalali.com/tr/) · [Çalışma listesine dön](../../README.tr.md)
