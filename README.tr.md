@@ -51,6 +51,6 @@ Kavramsal kapaklar tarihsel devre ve arayüz kanıtlarından ayrılır. Paketler
 
 ## İletişim ve yeniden kullanım soruları
 
-Bu depo yalnızca herkese açık dokümantasyon ve sunum materyali içerir. Uygulama kaynak kodları, özel geliştirme geçmişi, kişisel veriler ve kitabın özgün dosyaları dahil değildir. Kavramsal görseller işletime hazır olmayı veya araştırma sonuçlarını kanıtlamaz; burada genel bir yeniden kullanım lisansı verilmez.
+Bu depo, herkese açık vaka çalışmaları ve sunum materyallerinin yanı sıra Smart Bin ve Baby Monitor prototipleri için sınırlı eğitim amaçlı firmware kaynak kodu ve bilgisayarda çalışan testler içerir. Özel uygulamaların kaynak kodları ve geliştirme geçmişleri, sahibine ait veriler ve kitabın özgün dosyaları burada yayımlanmaz. Kavramsal görseller işletime hazır olmayı veya araştırma sonuçlarını kanıtlamaz; burada genel bir yeniden kullanım lisansı verilmez.
 
 [Portfolyo](https://yahyaalali.com/tr/) · [GitHub](https://github.com/yaheaali92) · [İletişim ve yeniden kullanım soruları](https://yahyaalali.com/tr/contact/)
