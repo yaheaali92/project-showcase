@@ -12,7 +12,7 @@ Connected dental practice management, from the patient’s appointment to visit 
 - **Languages:** Arabic · English · Turkish
 - **Availability:** Web version available
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/)
+<img src="https://yahyaalali.com/images/work/sinad-v2/cover-1200.webp" alt="Conceptual dental workplaces connected within a coordinated practice" width="800">
 
 Conceptual architectural visual · actual interface captures below
 
@@ -24,35 +24,37 @@ A dentist may divide the week between a private clinic and another medical centr
 
 This model connects appointments, records and visits within an independent practice workspace and gives support staff defined responsibilities, without treating shared premises as permission to access another dentist’s records.
 
+<img src="https://yahyaalali.com/images/work/sinad-reader/identity-original.svg" alt="The name SINAD evokes support: a digital companion for the dentist’s working day and the patient’s journey. A tooth and the letter S connect the mark to its field and name, while navy, teal and gold create a composed professional appearance." width="220">
+
 ### Visual Identity
 
 The name SINAD evokes support: a digital companion for the dentist’s working day and the patient’s journey. A tooth and the letter S connect the mark to its field and name, while navy, teal and gold create a composed professional appearance.
-
-### Visual identity meaning
 
 ## Inside the SINAD experience
 
 Selected scenes illustrate the journey from discovering a dentist to managing a practice and following a visit. The demonstration images are based on original application components populated with synthetic data.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/discovery-detail-en-desktop.webp" alt="City and district search with synthetic dentists and workplaces" width="800">
 
 ### 01 — Discovering dentists and services
 
 Search by city and district, with text normalisation that accommodates variations in Arabic and Turkish spelling. Explore dentists and their workplaces, then proceed to the service and displayed times.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/patient-pending-en-desktop.webp" alt="Synthetic patient appointment request in pending state" width="800">
 
 ### 02 — From availability to appointment request
 
 Patients select a service, workplace and time, then follow the request or a proposed change. Pending requests remain distinct from confirmed appointments, with family-booking workflows subject to policy.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/doctor-en-phone.webp" alt="Dentist day components with appointments at two synthetic workplaces" width="300">
 
 ### 03 — A dentist’s day across workplaces
 
 Manage services and durations, working hours and exceptions at multiple workplaces within the practice, with scheduling logic that checks for conflicts.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/odontogram-en-desktop.webp" alt="Selected tooth, surfaces and synthetic clinical layers in the odontogram" width="800">
+
+<img src="https://yahyaalali.com/images/work/sinad-refined/odontogram-primary-en-desktop.webp" alt="Primary teeth — supporting capture" width="800">
 
 ### 04 — Patient records and the interactive odontogram
 
@@ -60,7 +62,7 @@ Connect visits, records and dental charts in a single care context. The odontogr
 
 **Primary teeth — supporting capture**
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/invoice-en-phone.webp" alt="Synthetic internal invoice and recorded payment, not bank collection" width="800">
 
 ### 05 — Billing and financial follow-up
 
@@ -96,7 +98,12 @@ The subscription model follows the dentist’s practice across workplaces, while
 
 ## The engineering behind appointments and records
 
+![The engineering behind appointments and records](../../assets/case-studies/dental/en-figure-06.png)
+
 ### Figure 01 — From discovery to visit
+
+<details>
+<summary>Diagram text and details</summary>
 
 1. City and district
 2. dentist, workplace and service
@@ -107,9 +114,16 @@ The subscription model follows the dentist’s practice across workplaces, while
 
 A conceptual workflow, not an end-to-end production acceptance record.
 
+</details>
+
+![The engineering behind appointments and records](../../assets/case-studies/dental/en-figure-07.png)
+
 ### Figure 02 — Shared premises, independent records
 
 Two dentists may work in the same centre while maintaining independent practice workspaces. Membership and care assignment govern record access; a shared address does not automatically confer access.
+
+<details>
+<summary>Diagram text and details</summary>
 
 Dentist A
 
@@ -125,9 +139,16 @@ Patient records B
 
 A shared workplace
 
+</details>
+
+![The engineering behind appointments and records](../../assets/case-studies/dental/en-figure-08.png)
+
 ### Figure 03 — Architecture and access boundaries
 
 Protection starts with user identity and application attestation. Requests follow either direct access rules or server operations that check authorization before execution. Both routes reach practice data within their respective boundaries; the interface alone grants no access.
+
+<details>
+<summary>Diagram text and details</summary>
 
 User identity
 
@@ -152,6 +173,8 @@ Check authorization before execution
 Practice data
 
 Patient records and practice attachments
+
+</details>
 
 **Selected engineering decisions**
 

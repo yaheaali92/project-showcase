@@ -10,7 +10,7 @@
 
 Şehir haberlerini, yerleri ve günlük bilgileri bir araya getiren dijital portal; bunları hizmet, sorun bildirimi ve takip alanlarıyla buluşturur. Aşara’dan başlayan ve Deyrizor iline uzanan vizyon; telefon, tablet ve bilgisayara uyum sağlayan düzenlerle sunulur.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/ashara/)
+<img src="https://yahyaalali.com/images/work/ashara-outer-v1/cover-1200.webp" alt="Şehrin kamusal alanları ve dijital hizmetlerle ilişkisini anlatan kavramsal görsel; gerçek bir Aşara fotoğrafı veya uygulama ekran görüntüsü değildir." width="800">
 
 Şehrin kamusal alanları ve dijital hizmetlerle ilişkisini anlatan kavramsal görsel; gerçek bir Aşara fotoğrafı veya uygulama ekran görüntüsü değildir.
 
@@ -23,6 +23,8 @@
 Şehrin günlük soruları tekrarlanır: bir yer, tesis veya acil durum numarası nerede, hava nasıl, sıradaki namaz ne zaman, bir hizmete ihtiyaç duyduğumda ya da sorunla karşılaştığımda nereden başlamalıyım? Fikir, bu başlangıçları tek bir portalda buluşturmaktır. Ziyaretçi genel bilgiye doğrudan ulaşırken vatandaş, hesabıyla ilişkili işlemlere açık bir yol bulur.
 
 Aşara, vizyonun sınırı değil başlangıç noktasıdır. Bilgileri, yerleri ve hizmetleri yerel bağlamlarıyla düzenlemek; her yerin kimliğini koruyarak Deyrizor ilinin şehir, kasaba ve bölgelerine yayılabilecek bağlantılı bir deneyime temel oluşturur.
+
+<img src="https://yahyaalali.com/images/projects/ashara-official.webp" alt="Aşara Portalı simgesi: Deyrizor için altın dâl, asma köprüyü anımsatan köprü ve Fırat’ı temsil eden turkuaz akış" width="220">
 
 ### Deyrizor: bir harf, bir köprü ve Fırat
 
@@ -43,7 +45,7 @@ Herkese açık arayüz ayrıntılarında bir tur: hizmet ve bildirim girişleri,
 
 Arayüz Arapçadır; bu çalışma için ekranlar Times New Roman ile görüntülenmiştir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/services-desktop.webp" alt="Hizmet talebi ve sorun bildirimi için ayrı girişler; bunların yanında şehir rehberi ve hizmet durumu. Her alan, kalabalık bir listeye dönüşmeden kendi amacıyla okunur." width="800">
 
 ### Ziyaretçinin başlangıç noktasındaki hizmetler
 
@@ -51,7 +53,7 @@ Hizmet talebi ve sorun bildirimi için ayrı girişler; bunların yanında şehi
 
 [Siteyi Ziyaret Et](https://ashara-city.com/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/daily.webp" alt="Namaz saatleri ve sıradaki vakte kalan süre günlük deneyimi destekler. Görünen saatler çekim tarihine aittir; bu sayfa canlı takvim veya bildirim değildir." width="800">
 
 ### Günün bilgileri ve namaz vakitleri
 
@@ -59,7 +61,7 @@ Namaz saatleri ve sıradaki vakte kalan süre günlük deneyimi destekler. Gör�
 
 [Siteyi Ziyaret Et](https://ashara-city.com/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/guide.webp" alt="Arama ve kategoriler, bir yeri yerel bağlamında bulmaya yardımcı olur. Bu ayrıntı rehber araçlarını gösterir; etkileşimli harita portalın kendisinde incelenir." width="800">
 
 ### Yerel mekân rehberi
 
@@ -67,7 +69,7 @@ Arama ve kategoriler, bir yeri yerel bağlamında bulmaya yardımcı olur. Bu ay
 
 [Siteyi Ziyaret Et](https://ashara-city.com/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/pulse.webp" alt="Kayıtlı hizmet durumunu, uyarıları ve bakım bilgilerini okumaya ayrılan alan. Görüntüdeki durum çekim anına aittir; kapsamlı saha takibi veya garantili anlık güncelleme kanıtı değildir." width="800">
 
 ### Şehrin Nabzı
 
@@ -87,6 +89,13 @@ Portal; bilgiyi, işlemi ve takibi birbirine bağlar. Ziyaretçi açık içeriğ
 
 İşlemleri karşılama, görev dağıtımı ve uygulamayı izleme; bölgeleri, birimleri, varlıkları, projeleri, stokları, sözleşmeleri ve raporları tanımlı rollerle düzenleme.
 
+![Bilgiden takibe](../../assets/case-studies/ashara/tr-figure-05.png)
+
+Talebi düzenleyen açıklayıcı akış; ayrıntılar hizmete ve kullanıcının yetkisine bağlıdır.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
+
 1. **İhtiyacı belirleme**
    Genel bilgi, hizmet talebi veya bildirilecek sorun.
 2. **Gerektiğinde oturum açma**
@@ -96,11 +105,18 @@ Portal; bilgiyi, işlemi ve takibi birbirine bağlar. Ziyaretçi açık içeriğ
 4. **İşleme ve takip**
    Yetkili taraflar işlemin durumunu ve ilgili kayıtları günceller ve inceler.
 
-Talebi düzenleyen açıklayıcı akış; ayrıntılar hizmete ve kullanıcının yetkisine bağlıdır.
+</details>
 
 ## Deneyim ile hizmeti bağlayan yapı
 
 Bilgi ve hizmet arayüzü, hesapları ve iş kurallarını yöneten sunucu, her işlemin bağlamını saklayan veriler. Bu ayrım; sakinlerin deneyimini hizmet ekipleri ve yönetimle birleştirirken hizmetlerin sorumlulukları açık biçimde büyümesini sağlar.
+
+![Deneyim ile hizmeti bağlayan yapı](../../assets/case-studies/ashara/tr-figure-06.png)
+
+Birbirine bağlı üç katman: kullanıcı deneyimi, hizmet işleme ve veri kayıtları.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 1. **Ekrana uyarlanan arayüz**
    Şehir bilgileri, rehber ve kullanıcı alanları; telefon veya bilgisayara göre düzenlenen Arapça deneyim.
@@ -109,7 +125,7 @@ Bilgi ve hizmet arayüzü, hesapları ve iş kurallarını yöneten sunucu, her 
 3. **Bağlamı koruyan veriler**
    Kayıtlarıyla ilişkilendirilen yerler, bölgeler, işlemler, ekler ve takip durumları.
 
-Birbirine bağlı üç katman: kullanıcı deneyimi, hizmet işleme ve veri kayıtları.
+</details>
 
 Flutter; web, Android, iOS, Windows, macOS ve Linux için ortak bir temel sağlar; düzenler telefon, tablet ve bilgisayara uyum gösterir. Şu anda ziyaret edilebilen adres web sürümüdür; cihaz sürümleri yayımlandığında indirme bağlantıları eklenir. Ürün vizyonu bir web sitesinden daha geniştir.
 

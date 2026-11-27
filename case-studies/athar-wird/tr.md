@@ -14,7 +14,9 @@ Günlük çalışmalardan izlenebilir eğitim kayıtlarına
 
 Kur’an eğitim halkalarını müfredat, çalışma planları, dersler, devam takibi ve değerlendirme süreçleriyle birleştiren, web üzerinde yayımlanmış bir platform. İş akışları yönetici, öğretmen, öğrenci ve veli rollerinin sorumluluklarına göre yapılandırılmıştır.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/dashboard-desktop.webp" alt="Başlangıç paneli ve iş düzeni — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
+
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/learner-phone.webp" alt="Öğrenci ve veli alanı — Gerçek uygulama bileşenleri · Sentetik veriler" width="300">
 
 Gerçek uygulama bileşenleri · Sentetik veriler · Uygulama arayüzü Arapçadır
 
@@ -24,17 +26,17 @@ Bir öğrencinin gelişimini takip etmek, yalnızca ders saati belirlemek veya y
 
 Bu unsurlar birbirinden bağımsız iş akışlarında yönetildiğinde eğitim sürecinin bütünlüğünü korumak zorlaşabilir. Athar Al-Wird, bu ilişkileri kullanıcıların görüntüleme ve işlem yetkilerini gözeten düzenli bir deneyimde bir araya getirir.
 
+<img src="https://yahyaalali.com/images/projects/athar-wird.svg" alt="Athar adındaki Arapça s̱ā (ث) harfinden esinlenen, özel çizilmiş fildişi gövde ve planlama, tilavet ve tekrarı temsil eden üç mercan nokta. Gece mavisi mürekkep ve fildişi kâğıt, simgeyi uygulamanın adına ve günlük öğrenme ritmine bağlar." width="220">
+
 ### Görsel Kimlik
 
 Athar adındaki Arapça s̱ā (ث) harfinden esinlenen, özel çizilmiş fildişi gövde ve planlama, tilavet ve tekrarı temsil eden üç mercan nokta. Gece mavisi mürekkep ve fildişi kâğıt, simgeyi uygulamanın adına ve günlük öğrenme ritmine bağlar.
-
-### Görsel kimliğin anlamı
 
 ## Uygulamanın İçinden
 
 Gerçek uygulama bileşenleri, sentetik verilerle yalıtılmış yerel bir ortamda görüntülenmiştir. Görseller gerçek kayıtları açığa çıkarmaz ve üretim hesaplarından alınmış ekran görüntüleri olarak sunulmaz. Uygulama Arapçadır; vaka çalışmasının açıklamaları üç dilde sunulur.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/dashboard-desktop.webp" alt="Başlangıç paneli ve iş düzeni — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -42,7 +44,7 @@ Gerçek uygulama bileşenleri · Sentetik veriler
 
 Takip göstergeleri ve çalışma alanlarına geçiş tek bir panelde toplanır. Görünen değerler sentetik gösterim verileridir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/curriculum-desktop.webp" alt="Müfredat ve öğrenme kaynakları — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -50,7 +52,7 @@ Gerçek uygulama bileşenleri · Sentetik veriler
 
 Eğitim içeriği kapsamında müfredatı ve sürümlerini düzenleyen arayüz.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/teacher-desktop.webp" alt="Öğretmen çalışma alanı — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -58,7 +60,7 @@ Gerçek uygulama bileşenleri · Sentetik veriler
 
 Planlara, derslere ve öğrenme takibine geçiş sağlayan öğretmen alanı.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/learner-desktop.webp" alt="Öğrenci ve veli alanı — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -66,7 +68,7 @@ Gerçek uygulama bileşenleri · Sentetik veriler
 
 Ailenin yetkili olduğu öğrenme yollarını ve eğitim kaydını gösteren arayüz.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/sessions-desktop.webp" alt="Dersler, katılım ve takip — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -78,7 +80,7 @@ Ders zamanlamasını katılım ve değerlendirme işlemleriyle ilişkilendiren �
 
 Uygulama, konum ve yerel saate göre namaz vakitlerini hesaplar; sıradaki namazı ve kalan süreyi gösterir. Kullanıcı izin vererek konumunu belirleyebilir veya şehri elle seçebilir; hesaplama yöntemi de ayarlanabilir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/prayer-desktop.webp" alt="Sıradaki namaz ve günlük vakitler — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -86,7 +88,7 @@ Gerçek uygulama bileşenleri · Sentetik veriler
 
 Özgün vakit paneli sıradaki namazı, geri sayımı ve günlük çizelgeyi gösterir. Görselde genel bir şehir ve sabit bir örnek tarih kullanılır; güncel namaz vakti rehberi değildir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/location-desktop.webp" alt="Şehir seçimi ve konum denetimi — Gerçek uygulama bileşenleri · Sentetik veriler" width="800">
 
 Gerçek uygulama bileşenleri · Sentetik veriler
 
@@ -118,9 +120,14 @@ Yetkili olduğu öğrencilerin eğitim kayıtlarını takip eder ve izin verilen
 
 ## Öğrenme Yolculuğunun Mühendisliği
 
+![Öğrenme Yolculuğunun Mühendisliği](../../assets/case-studies/athar-wird/tr-figure-08.png)
+
 ### Müfredattan Anlamlı İlerlemeye
 
 Halka ve müfredat kaynağı yayımlanmış bir planda birleşir. Ailenin takip kayıtları, öğretmenin inceleme ve onayından ayrı tutulur.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 Halka ve grup
 
@@ -136,9 +143,16 @@ Takip kaydı
 
 Raporlar ve ilerleme bağlamı
 
+</details>
+
+![Öğrenme Yolculuğunun Mühendisliği](../../assets/case-studies/athar-wird/tr-figure-09.png)
+
 ### Açık Bir Arayüz ve Korunan Sorumluluklar
 
 Temel hizmetlerin sorumlulukları. Kimlik ve yetki denetimi sunucu tarafında yapılır; arayüz tek başına erişim izni vermez.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 Arayüz ve uygulama durumu
 
@@ -165,6 +179,8 @@ Cloud Storage
 Bildirimler
 
 Firebase Cloud Messaging
+
+</details>
 
 **Mühendislik Kararları ve Sınırlar**
 

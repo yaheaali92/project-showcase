@@ -14,9 +14,9 @@
 
 مساحة واحدة لاستكشاف المشروعات والأبحاث والمنشورات، وقراءة الدروس والكتب، بالعربية والإنجليزية والتركية.
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-ar.webp" alt="الرئيسية وهوية القراءة" width="800">
 
-yahyaalali.com
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/hero-phone-network-lesson-1-ar.webp" alt="قارئ الدروس والكتب التعليمية" width="300">
 
 مشاهد عامة من المنصة الحية · 22 نوفمبر 2026
 
@@ -24,17 +24,17 @@ yahyaalali.com
 
 بدل أن ينتقل الزائر بين مستودعات وملفات متفرقة، يجد لكل مشروع أو بحث أو مادة تعليمية صفحة توضح فكرته وحالته وروابطه. تُحفظ هوية كل عمل، وتبقى القراءة والتنقل متسقين بين اللغات الثلاث.
 
-### دلالات الهوية البصرية
-
-يجسّد تشابك الأشرطة الثلاثة تكامل ركائز المنصة، ويعبّر المسار السماوي الواصل بين العقدتين عن الترابط بينها؛ ويُستخدم الرمز نفسه دون حروف لتوحيد الهوية عبر الواجهات العربية والإنجليزية والتركية.
+<img src="https://yahyaalali.com/brand/site-c084cb8e/emblem-transparent-256x256.webp" alt="شعار المنصة" width="220">
 
 ### الهوية البصرية — البحث · الهندسة · المعرفة
+
+يجسّد تشابك الأشرطة الثلاثة تكامل ركائز المنصة، ويعبّر المسار السماوي الواصل بين العقدتين عن الترابط بينها؛ ويُستخدم الرمز نفسه دون حروف لتوحيد الهوية عبر الواجهات العربية والإنجليزية والتركية.
 
 ## جولة داخل واجهات المنصة الحية
 
 يعرض هذا القسم خمس محطات عامة مستقلة من واجهة المنصة الحية، ملتقطةً من صفحات الزائر باللغة نفسها لتوثيق تجربة التصفح والقراءة الفعلية:
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-ar.webp" alt="الرئيسية وهوية القراءة" width="800">
 
 لقطة من الواجهة العامة الحية · 2026-11-22
 
@@ -44,7 +44,7 @@ yahyaalali.com
 
 [زيارة صفحة المصدر](https://yahyaalali.com/)
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/works-ar.webp" alt="فهرس الأعمال والمشروعات" width="800">
 
 لقطة من الواجهة العامة الحية · 2026-11-22
 
@@ -54,7 +54,7 @@ yahyaalali.com
 
 [زيارة صفحة المصدر](https://yahyaalali.com/works/)
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/network-lesson-1-ar.webp" alt="قارئ الدروس والكتب التعليمية" width="800">
 
 لقطة من الواجهة العامة الحية · 2026-11-22
 
@@ -64,7 +64,7 @@ yahyaalali.com
 
 [زيارة صفحة المصدر](https://yahyaalali.com/books/network-foundations/network-foundations-lesson-1/)
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/research-ar.webp" alt="مسار الأبحاث والمنشورات العلمية" width="800">
 
 لقطة من الواجهة العامة الحية · 2026-11-22
 
@@ -74,7 +74,7 @@ yahyaalali.com
 
 [زيارة صفحة المصدر](https://yahyaalali.com/research/)
 
-[عرض الواجهة والمخططات داخل دراسة الحالة](https://yahyaalali.com/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/search-ar.webp" alt="البحث النصي المحلي داخل اللغة" width="800">
 
 لقطة من الواجهة العامة الحية · 2026-11-22
 
@@ -103,6 +103,13 @@ yahyaalali.com
 ## من إعداد المحتوى إلى قراءة الصفحة
 
 يوضح المخطط الأول كيف يُنظَّم العمل ويُراجَع قبل النشر، ويوضح الثاني كيف تصل الصفحة إلى الزائر مع بقاء الإدارة في مساحة محمية.
+
+![من إعداد المحتوى إلى قراءة الصفحة](../../assets/case-studies/academic-portfolio/ar-figure-06.png)
+
+النشر قرار صريح بعد المراجعة؛ تُجمع المصادر المعتمدة وفق أولوية واضحة، وتبقى بيانات التحرير الداخلية خارج القراءة العامة.
+
+<details>
+<summary>نص المخطط وتفاصيله</summary>
 
 ### رحلة المحتوى من الإعداد إلى النشر
 
@@ -137,7 +144,14 @@ yahyaalali.com
 - البحث داخل اللغة
 - بيانات تساعد محركات البحث
 
-النشر قرار صريح بعد المراجعة؛ تُجمع المصادر المعتمدة وفق أولوية واضحة، وتبقى بيانات التحرير الداخلية خارج القراءة العامة.
+</details>
+
+![من إعداد المحتوى إلى قراءة الصفحة](../../assets/case-studies/academic-portfolio/ar-figure-07.png)
+
+تُقدَّم ملفات الواجهة مباشرة، ويُقرأ المحتوى المتجدد عند الطلب بضوابط للحداثة؛ مساحة التحرير لا تدخل المخبأ العام.
+
+<details>
+<summary>نص المخطط وتفاصيله</summary>
 
 ### كيف تصل الصفحة إلى الزائر؟
 
@@ -162,7 +176,7 @@ yahyaalali.com
 - فحص التطبيق المستدعي
 - صلاحيات خادمية وقواعد وصول
 
-تُقدَّم ملفات الواجهة مباشرة، ويُقرأ المحتوى المتجدد عند الطلب بضوابط للحداثة؛ مساحة التحرير لا تدخل المخبأ العام.
+</details>
 
 ## التقنيات والمساهمة والروابط
 

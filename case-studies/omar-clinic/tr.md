@@ -14,7 +14,9 @@ Klinik yönetimi ile hasta takibini web ve Android üzerinde birbirine bağlayan
 
 Dr. Omar Ali Al-Najras Kliniği için web ve mobil deneyimini üç dilde tek bir yapıda buluşturan dijital bir çözüm. Hastaların randevu ve ziyaretlerini takip edebileceği sade bir alan ile hekimin ve klinik yönetiminin çalışma takvimlerini, klinik kayıtları ve günlük işleri yönetebileceği bağlantılı arayüzleri bir araya getirir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/login-tr.webp" alt="Üç Dilli Giriş Ekranı — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="800">
+
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/patient-phone-tr.webp" alt="Hasta Alanı ve Randevu Talepleri — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="300">
 
 Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
@@ -24,17 +26,17 @@ Modern bir sağlık kliniği, durağan bir tanıtım sayfasından fazlasına iht
 
 Bu çözüm, söz konusu ihtiyaçları Dr. Omar Ali Al-Najras Kliniği'ne özel tek bir yapıda düzenlemek üzere geliştirildi. Web arayüzü ile Android uygulamasını ek platformlara geliştirilebilir ortak bir kod tabanında birleştirir ve ilk ekrandan itibaren Arapça, Türkçe ve İngilizce desteği sunar. Proje yalnızca Dr. Omar'ın kliniğine özeldir; çoklu klinik yönetimine yönelik bağımsız bir ürün olan SINAD platformundan kapsam ve yapı bakımından ayrıdır.
 
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/identity-original.png" alt="Diş figürü kliniğin diş hekimliği alanını belirtir; tıbbi haç ve onay işareti, bakım ve takibi çağrıştırır. Hekimin adı bu görsel öğeleri kliniğin kimliğiyle birleştirir; turkuaz renk arayüzlerde de sürdürülür." width="220">
+
 ### Görsel Kimlik
 
 Diş figürü kliniğin diş hekimliği alanını belirtir; tıbbi haç ve onay işareti, bakım ve takibi çağrıştırır. Hekimin adı bu görsel öğeleri kliniğin kimliğiyle birleştirir; turkuaz renk arayüzlerde de sürdürülür.
-
-### Görsel kimliğin anlamı
 
 ## Uygulama Arayüzlerinden Görünümler
 
 Bu bölüm, klinik deneyiminin beş önemli bölümünü gösterir. Her görsel, deneme verileriyle gerçek uygulama bileşenlerinden alınmış bir ekran görüntüsü ya da kaynak koda dayanarak hazırlanmış açıklayıcı bir önizleme olarak ayrı ayrı belirtilir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/login-tr.webp" alt="Üç Dilli Giriş Ekranı — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="800">
 
 Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
@@ -42,7 +44,7 @@ Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
 Arapça, Türkçe ve İngilizce dillerinde hızlı erişim sağlayan; oturum açma, yeni hesap oluşturma, şifre kurtarma ve doğrudan klinik iletişim bağlantılarını içeren giriş noktası.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/patient-tr.webp" alt="Hasta Alanı ve Randevu Talepleri — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="800">
 
 Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
@@ -50,7 +52,7 @@ Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
 Hastaların şube ve çalışma takvimine göre uygun zaman dilimlerini incelemesine, yeni randevu talebi oluşturmasına, iptal veya tarih değişikliği istemesine olanak tanıyan düzenli arayüz.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/doctor-tr.webp" alt="Hekim Paneli ve Günlük Takvim — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="800">
 
 Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
@@ -58,7 +60,7 @@ Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
 Gelen randevu taleplerini ve durumlarını tek yerde toplayarak hekimin gününü planlamasını ve hasta kayıtlarına hızla geçmesini kolaylaştıran çalışma alanı.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/dental-tr.webp" alt="Hasta Dosyası ve Etkileşimli Diş Şeması — Yalıtılmış ortamda deneme verileriyle gerçek diş bileşeni" width="800">
 
 Yalıtılmış ortamda deneme verileriyle gerçek diş bileşeni
 
@@ -66,7 +68,7 @@ Yalıtılmış ortamda deneme verileriyle gerçek diş bileşeni
 
 Ziyaret geçmişi ve klinik görselleri düzenli biçimde sunan, ziyaret bağlamında diş seçimini destekleyen etkileşimli diş şemasıyla bütünleşen dosya ekranı.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/management-tr.webp" alt="Klinik Yönetimi, Raporlar ve İçerik — Uygulama arayüzlerine dayalı açıklayıcı önizleme" width="800">
 
 Uygulama arayüzlerine dayalı açıklayıcı önizleme
 
@@ -100,9 +102,14 @@ Finansal raporları izleme, şube, çalışma saatleri ve hizmet kataloğunu yö
 
 Sistem, yalın bir kullanıcı deneyimini gereksiz ara katmanlar eklemeyen doğrudan bir teknik mimariyle birleştirir.
 
+![Randevu Akışı ve Sistem Mimarisi](../../assets/case-studies/omar-clinic/tr-figure-06.png)
+
 Talep yolculuğu
 
 ### Şekil 01 — Randevu Talebi Akışı
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 1. 01
    **Takvim:**
@@ -128,9 +135,16 @@ Talep gönderildikten sonra
 
 Android cihazında yerel hatırlatma
 
+</details>
+
+![Randevu Akışı ve Sistem Mimarisi](../../assets/case-studies/omar-clinic/tr-figure-07.png)
+
 Sistem haritası
 
 ### Şekil 02 — Dijital Sistem Mimarisi
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 1. **Arayüz Katmanı:**
    Web
@@ -159,6 +173,8 @@ Sistem haritası
 - Yerel platformlarda hata izleme
   Firebase Crashlytics
 - Android cihazında yerel hatırlatma
+
+</details>
 
 ## Teknoloji, Katkım ve Bağlantılar
 

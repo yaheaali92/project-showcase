@@ -14,7 +14,9 @@ A connected digital experience for clinic management and patient follow-up on th
 
 A digital solution designed to bring Dr. Omar Ali Al-Najras Clinic together across web and mobile in a smooth trilingual experience. It combines a dedicated patient space for appointments and visits with a connected workspace for the doctor and clinic administration to organize schedules, clinical records, and daily operations.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/login-en.webp" alt="Multilingual Sign-In Gateway — Illustrative preview based on the application interfaces" width="800">
+
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/patient-phone-en.webp" alt="Patient Workspace and Appointments — Illustrative preview based on the application interfaces" width="300">
 
 Illustrative preview based on the application interfaces
 
@@ -24,17 +26,17 @@ A modern medical clinic needs more than a static brochure page; it needs a clear
 
 This solution was built to organize those needs within a dedicated application for Dr. Omar Ali Al-Najras Clinic, uniting its web presence and Android app on a shared codebase structured for expansion to additional platforms, with native support for Arabic, Turkish, and English from the very first screen. The project is tailored specifically to Dr. Omar's clinic and remains independent in scope and architecture from SINAD, a separate platform for multi-practice clinic management.
 
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/identity-original.png" alt="The tooth identifies the clinic’s dental specialty; the medical cross and check motif suggest care and follow-up. The doctor’s name connects these visual cues to the clinic, using the turquoise seen in its interfaces." width="220">
+
 ### Visual Identity
 
 The tooth identifies the clinic’s dental specialty; the medical cross and check motif suggest care and follow-up. The doctor’s name connects these visual cues to the clinic, using the turquoise seen in its interfaces.
-
-### Visual identity meaning
 
 ## Inside the Application Interfaces
 
 This gallery presents five parts of the clinic experience. Each image is labelled either as a capture of actual app components using synthetic demo data or as an illustrative preview reconstructed from the source.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/login-en.webp" alt="Multilingual Sign-In Gateway — Illustrative preview based on the application interfaces" width="800">
 
 Illustrative preview based on the application interfaces
 
@@ -42,7 +44,7 @@ Illustrative preview based on the application interfaces
 
 A streamlined entry point in Arabic, Turkish, and English featuring sign-in, account registration, password recovery, and direct clinic contact links.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/patient-en.webp" alt="Patient Workspace and Appointments — Illustrative preview based on the application interfaces" width="800">
 
 Illustrative preview based on the application interfaces
 
@@ -50,7 +52,7 @@ Illustrative preview based on the application interfaces
 
 A clean interface allowing patients to browse available times based on clinic branches and schedules, and submit, cancel, or reschedule appointment requests.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/doctor-en.webp" alt="Doctor Dashboard and Daily Schedule — Illustrative preview based on the application interfaces" width="800">
 
 Illustrative preview based on the application interfaces
 
@@ -58,7 +60,7 @@ Illustrative preview based on the application interfaces
 
 A central workspace bringing incoming appointment requests and statuses together, making it easy to organize the clinic day and jump directly into patient records.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/dental-en.webp" alt="Patient Profile and Interactive Dental Chart — Actual dental component with demo data in an isolated harness" width="800">
 
 Actual dental component with demo data in an isolated harness
 
@@ -66,7 +68,7 @@ Actual dental component with demo data in an isolated harness
 
 A structured view of visits and clinical images paired with an interactive dental chart for selecting teeth in the context of a visit.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/omar-clinic/#omar-section-2)
+<img src="https://yahyaalali.com/images/work/omar-clinic-reader/management-en.webp" alt="Clinic Management, Reports, and Content — Illustrative preview based on the application interfaces" width="800">
 
 Illustrative preview based on the application interfaces
 
@@ -100,9 +102,14 @@ Capabilities are organized around both sides of the clinic experience so every u
 
 The workflow pairs a straightforward user experience with a direct technical structure, avoiding unnecessary intermediate layers.
 
+![Appointment Journey and System Architecture](../../assets/case-studies/omar-clinic/en-figure-06.png)
+
 Request journey
 
 ### Figure 01 — Appointment Request Journey
+
+<details>
+<summary>Diagram text and details</summary>
 
 1. 01
    **Schedule:**
@@ -128,9 +135,16 @@ After submitting the request
 
 On-device Android reminder
 
+</details>
+
+![Appointment Journey and System Architecture](../../assets/case-studies/omar-clinic/en-figure-07.png)
+
 System map
 
 ### Figure 02 — Digital System Architecture
+
+<details>
+<summary>Diagram text and details</summary>
 
 1. **Interface Layer:**
    Web
@@ -159,6 +173,8 @@ System map
 - Crash reporting on native platforms
   Firebase Crashlytics
 - On-device Android reminder
+
+</details>
 
 ## Technology, Contribution, and Links
 

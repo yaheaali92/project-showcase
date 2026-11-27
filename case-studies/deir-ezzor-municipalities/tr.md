@@ -14,7 +14,9 @@ Belediye çalışmalarını ve yerel yönetimi birbirine bağlı idari kademeler
 
 Günlük belediye işlemlerini dağınık süreçlerden çıkarıp tek bir bağlantılı yapıya taşımak üzere geliştirilen dijital bir platform. İdari kapsamı, görevlendirmeleri ve yetkileri; faaliyetler, projeler, görevler, bağımsız inceleme ve raporlama akışlarıyla tek bir çalışma deneyiminde buluşturur.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/deir-ezzor-municipalities/)
+<img src="https://yahyaalali.com/images/work/municipalities-v2/role-desktop.webp" alt="Rol ve görevlendirme kapsamı" width="800">
+
+<img src="https://yahyaalali.com/images/work/municipalities-v2/role-phone.webp" alt="Rol Paneli ve Görevlendirme Kapsamı" width="300">
 
 Sentetik veri gösterimi
 
@@ -26,23 +28,34 @@ Belediye yönetimi, yalnızca tekil bir faaliyeti veya görevi kaydetmekten ibar
 
 Bu proje, Deyrizor'daki belediye çalışmalarını düzenleme ihtiyacından doğdu; ardından Suriye, il, belediye ve belediye birimi kademelerini kapsayan çok katmanlı bir yönetim modeline genişledi. Bu ortak temel, her yeni birim için iş kurallarını sıfırdan kurmadan büyümeyi desteklerken her kademenin veri ve sorumluluk sınırlarını korur.
 
+<img src="https://yahyaalali.com/images/projects/syrian-state-emblem-vector.svg" alt="Suriye Arap Cumhuriyeti’nin arması olan altın kartal, devletin 1945 tarihli simgesinden esinlenir. Resmî açıklamaya göre halkını koruyan devleti temsil eder; üç yıldız halkın özgürleşmesini, kanatlardaki 14 tüy ise illeri ve ülkenin birliğini simgeler." width="220">
+
 ### Görsel Kimlik
 
 Suriye Arap Cumhuriyeti’nin arması olan altın kartal, devletin 1945 tarihli simgesinden esinlenir. Resmî açıklamaya göre halkını koruyan devleti temsil eder; üç yıldız halkın özgürleşmesini, kanatlardaki 14 tüy ise illeri ve ülkenin birliğini simgeler.
-
-### Görsel kimliğin anlamı
 
 ## Platform Arayüzlerinden Görünümler
 
 Beş durak çalışma deneyimini açıklar. Rol ve giriş görüntüleri, sentetik verilerle gerçek bileşenlerden alınmıştır. Ortadaki üç panel, çalışan uygulama ekranı değil, kaynak koda dayalı genel açıklamalardır. Görseller sabittir; içlerinde görünen kontroller çalışmaz.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/deir-ezzor-municipalities/#municipalities-section-2)
+<img src="https://yahyaalali.com/images/work/municipalities-v2/role-desktop.webp" alt="Rol ve görevlendirme kapsamı" width="800">
 
 Gerçek bileşen görüntüsü · sentetik veri · sabit görsel
 
 ### Rol ve görevlendirme kapsamı
 
 İdari rolün (örneğin Belediye Başkanı) aktif görevlendirme kapsam şeridini gösteren ve mevcut çalışma alanlarını Birimler ve Personel, Görevler, Projeler ve Sözleşmeler ile Belediye Verileri başlıkları altında düzenleyen ekran.
+
+![Platform Arayüzlerinden Görünümler](../../assets/case-studies/deir-ezzor-municipalities/tr-figure-02.png)
+
+Kaynak koda dayalı genel açıklama · çalışan ekran değil
+
+### Belediye faaliyetleri ve projeleri
+
+Faaliyet kayıtlarını durumları, güncelleme zamanları ve tutarlı veri anlık görüntüsü kimliğiyle listeleyen; açıklama, inceleme notları ve ek meta verileri için düzenli bir detay penceresi sunan, aynı çerçevede proje ve ilerleme takibini de destekleyen operasyon alanı.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 #### Belediye işleri için ortak bağlam
 
@@ -53,11 +66,18 @@ Gerçek bileşen görüntüsü · sentetik veri · sabit görsel
 3. Açıklama ve ekler
    Kayıt bağlamını, notları ve ek meta verilerini koruma.
 
+</details>
+
+![Platform Arayüzlerinden Görünümler](../../assets/case-studies/deir-ezzor-municipalities/tr-figure-03.png)
+
 Kaynak koda dayalı genel açıklama · çalışan ekran değil
 
-### Belediye faaliyetleri ve projeleri
+### Raporlar ve sonuçların okunması
 
-Faaliyet kayıtlarını durumları, güncelleme zamanları ve tutarlı veri anlık görüntüsü kimliğiyle listeleyen; açıklama, inceleme notları ve ek meta verileri için düzenli bir detay penceresi sunan, aynı çerçevede proje ve ilerleme takibini de destekleyen operasyon alanı.
+İzin verilen kapsamda rapor türünü seçme, özetleri ve kayıtları okuma.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 #### Rapor türünden okunabilir sonuçlara
 
@@ -68,11 +88,18 @@ Faaliyet kayıtlarını durumları, güncelleme zamanları ve tutarlı veri anl�
 3. Sonuçlar
    Tutarlı bir sunucu anlık görüntüsündeki özetler ve kayıtlar.
 
+</details>
+
+![Platform Arayüzlerinden Görünümler](../../assets/case-studies/deir-ezzor-municipalities/tr-figure-04.png)
+
 Kaynak koda dayalı genel açıklama · çalışan ekran değil
 
-### Raporlar ve sonuçların okunması
+### Görevler, yürütme ve inceleme
 
-İzin verilen kapsamda rapor türünü seçme, özetleri ve kayıtları okuma.
+Yürütme takibinin merkezi; taslak, atama ve yürütmeden inceleme bekleme ve onaya kadar sekiz aşamalı görev yaşam döngüsünü yönetir ve kanıt inceleme kararı için onay, düzeltmeye iade veya ret seçeneklerini içeren özel bir pencere sunar.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 #### Görev boyunca açık sorumluluklar
 
@@ -83,13 +110,9 @@ Kaynak koda dayalı genel açıklama · çalışan ekran değil
 3. Bağımsız inceleme
    Onaylama, düzeltmeye gönderme veya reddetme.
 
-Kaynak koda dayalı genel açıklama · çalışan ekran değil
+</details>
 
-### Görevler, yürütme ve inceleme
-
-Yürütme takibinin merkezi; taslak, atama ve yürütmeden inceleme bekleme ve onaya kadar sekiz aşamalı görev yaşam döngüsünü yönetir ve kanıt inceleme kararı için onay, düzeltmeye iade veya ret seçeneklerini içeren özel bir pencere sunar.
-
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/deir-ezzor-municipalities/#municipalities-section-2)
+<img src="https://yahyaalali.com/images/work/municipalities-v2/login-desktop.webp" alt="Yetkili personel girişi" width="800">
 
 Gerçek bileşen görüntüsü · sentetik veri · sabit görsel
 
@@ -123,6 +146,13 @@ Yetkili kullanıcılar için yalın ve duyarlı bir giriş ekranı; kimlik alanl
 
 İlk şema işi görevlendirme ve yetkiyle ilişkilendirir. İkincisi arayüzü, hizmetleri ve veriyi; tamamlanmamış geçiş ve entegrasyon sınırlarıyla birlikte ayırır.
 
+![Yönetişim Modeli ve Sistem Mimarisi](../../assets/case-studies/deir-ezzor-municipalities/tr-figure-06.png)
+
+Hiyerarşi kayıt kapsamını, görevlendirme ise işlem yetkisini belirler. İş alanları zorunlu ardışık adımlar değildir; görev kanıtının incelenmesi bağımsız kalır.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
+
 ### Sorumlu idareden izin verilen işe
 
 01İdari kapsam
@@ -154,7 +184,14 @@ Kaynak politikaları
 
 Kanıtlı akışlarda denetim · görev kanıtlarının bağımsız incelenmesi
 
-Hiyerarşi kayıt kapsamını, görevlendirme ise işlem yetkisini belirler. İş alanları zorunlu ardışık adımlar değildir; görev kanıtının incelenmesi bağımsız kalır.
+</details>
+
+![Yönetişim Modeli ve Sistem Mimarisi](../../assets/case-studies/deir-ezzor-municipalities/tr-figure-07.png)
+
+Çekirdek yerel adayda kanıtlanmıştır. Dış entegrasyon ve geçiş denkliği tamamlanmamıştır; önceki yol korunur. Şema devlet tarafından yayımlanmış bir hizmeti göstermez.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 ### Sınırları açık arayüz, hizmetler ve veri
 
@@ -194,7 +231,7 @@ Kademeli geçiş; denklik ve dış entegrasyonlar tamamlanmadı
 - Ekler ve giden kutusu
   Tamamlanmamış dış sınır
 
-Çekirdek yerel adayda kanıtlanmıştır. Dış entegrasyon ve geçiş denkliği tamamlanmamıştır; önceki yol korunur. Şema devlet tarafından yayımlanmış bir hizmeti göstermez.
+</details>
 
 ## Teknoloji, Katkım ve Bağlantılar
 

@@ -14,7 +14,7 @@ From a handshake to a shared record both parties understand
 
 A B2B network being developed to give suppliers and retailers a clearer shared context for their commercial relationships, bringing claims, confirmations, and settlements into one record.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/)
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-cover-v4-1200x630.webp" alt="Conceptual illustration" width="800">
 
 Conceptual illustration
 
@@ -42,6 +42,13 @@ An understandable review before confirmation, and a clear trail afterward.
 
 Figures become meaningful when the other party’s position is clear. The proposed journey takes a documented claim through review, preserves confirmation or objection, and connects the outcome to the relationship history.
 
+![From a claim to settlement](../../assets/case-studies/thiqah/en-figure-01.png)
+
+A conceptual view of the designed workflow, not a working transaction interface.
+
+<details>
+<summary>Diagram text and details</summary>
+
 1. **Record a claim**
    Link the amount and due date to the trading relationship.
 2. **Review by the other party**
@@ -51,13 +58,15 @@ Figures become meaningful when the other party’s position is clear. The propos
 4. **Document payment or settlement**
    Update the relationship history without losing earlier context.
 
-A conceptual view of the designed workflow, not a working transaction interface.
+</details>
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/#thiqah-section-2)
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-shared-record-1200.webp" alt="A generated symbolic scene of two independent businesses connected by a shared trade record" width="800">
 
 Conceptual illustration — not a screenshot of the actual application
 
 ## An identity built around connection
+
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-icon-dark-square.svg" alt="Dark edition" width="220">
 
 Two interlocking links represent independent parties connected by one shared record. The three dots recall the Arabic letter Tha in ثِقة. Deep petroleum and warm gold bring clarity and connection to the identity.
 
@@ -66,6 +75,8 @@ Two interlocking links represent independent parties connected by one shared rec
 - Quiet ivory
 
 ### Visual identity meaning
+
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-icon-light-square.svg" alt="Ivory edition" width="220">
 
 ## A window into the current preview
 
@@ -77,11 +88,22 @@ The current preview lets visitors explore language, appearance, navigation, and 
 
 A detail from a real public-preview capture taken on 22 November 2026. The frame shows the content area.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/#thiqah-section-4)
+<img src="https://yahyaalali.com/images/work/thiqah-v3/captures/en-light-390-onboarding.png" alt="Start in the right language and theme" width="300">
+
+<img src="https://yahyaalali.com/images/work/thiqah-v3/captures/en-dark-390-onboarding.png" alt="Start in the right language and theme" width="300">
 
 ## An architecture for the next step
 
 The idea rests on two separate foundations: the Flutter interface and a backend core for identity, organizations, and authorization. This diagram reflects source-backed foundations while keeping integration and commercial journeys in their designed scope.
+
+![An architecture for the next step](../../assets/case-studies/thiqah/en-figure-04.png)
+
+### Future commercial modules — design and plans
+
+Invoices, receivables, confirmations, objections, payments, and settlements form the designed commercial extension. The current preview does not establish full commercial integration with the server foundation or live execution of these journeys.
+
+<details>
+<summary>Diagram text and details</summary>
 
 Flutter / Dart
 
@@ -103,9 +125,7 @@ Full commercial integration is not established
 
 Data access through Prisma
 
-### Future commercial modules — design and plans
-
-Invoices, receivables, confirmations, objections, payments, and settlements form the designed commercial extension. The current preview does not establish full commercial integration with the server foundation or live execution of these journeys.
+</details>
 
 ### Tools and Technologies
 

@@ -12,7 +12,7 @@ Hastanın randevusundan muayene kayıtlarına ve hekimin çalışma gününe uza
 - **Diller:** Arapça · İngilizce · Türkçe
 - **Erişim:** Web sürümü erişilebilir
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/)
+<img src="https://yahyaalali.com/images/work/sinad-v2/cover-1200.webp" alt="Hekimin çalışma düzeninde bağlantılı diş hekimliği çalışma yerlerini anlatan kavramsal görsel" width="800">
 
 Kavramsal mimari görsel · gerçek arayüz görüntüleri aşağıda
 
@@ -24,35 +24,37 @@ Bir diş hekimi haftasını kendi kliniği ve başka bir tıp merkezi arasında 
 
 Bu model randevuları, kayıtları ve muayeneleri bağımsız bir çalışma alanında ilişkilendirir. Destek ekibine belirli görevler tanımlar; aynı yerde çalışmak, başka bir hekimin hasta kayıtlarına erişim izni anlamına gelmez.
 
+<img src="https://yahyaalali.com/images/work/sinad-reader/identity-original.svg" alt="SINAD adı destek fikrini çağrıştırır: hekimin çalışma gününe ve hastanın randevu yolculuğuna eşlik eden dijital bir yardımcı. Diş biçimi ve S harfi, simgeyi ürünün alanı ve adıyla ilişkilendirir; lacivert, turkuaz ve altın tonları sade, profesyonel bir görünüm oluşturur." width="220">
+
 ### Görsel Kimlik
 
 SINAD adı destek fikrini çağrıştırır: hekimin çalışma gününe ve hastanın randevu yolculuğuna eşlik eden dijital bir yardımcı. Diş biçimi ve S harfi, simgeyi ürünün alanı ve adıyla ilişkilendirir; lacivert, turkuaz ve altın tonları sade, profesyonel bir görünüm oluşturur.
-
-### Görsel kimliğin anlamı
 
 ## SINAD deneyimine yakından bakış
 
 Seçilen ekranlar, hekim aramadan çalışma alanını düzenlemeye ve muayene takibine kadar uzanan deneyimi gösterir. Görseller, yapay örnek verilerle görüntülenen özgün uygulama bileşenlerine dayanır.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/discovery-detail-tr-desktop.webp" alt="İl ve bölge araması ile örnek hekimler ve çalışma yerleri" width="800">
 
 ### 01 — Hekim ve hizmet arama
 
 Hasta il ve bölgeye göre hekimleri ve çalışma yerlerini inceleyebilir. Arama, Arapça ve Türkçe yazım farklılıklarını normalleştirir; hasta hizmete ve gösterilen saatlere geçebilir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/patient-pending-tr-desktop.webp" alt="Hasta açısından bekleyen örnek randevu talebi" width="800">
 
 ### 02 — Uygun saatten randevu talebine
 
 Hasta hizmeti, çalışma yerini ve saati seçerek talebini veya değişiklik isteğini takip eder. Bekleyen talepler onaylanan randevulardan ayrılır; aile randevuları ilgili kurallara tabidir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/doctor-tr-phone.webp" alt="İki örnek çalışma yerinde randevularla hekim günü bileşenleri" width="300">
 
 ### 03 — Farklı çalışma yerlerinde hekimin günü
 
 Hekim hizmetlerini, hizmet sürelerini, çalışma saatlerini ve istisnaları birden fazla çalışma yeri için düzenler. Takvim mantığı zaman çakışmalarını denetler.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/odontogram-tr-desktop.webp" alt="Diş şemasında seçilen diş, yüzeyler ve örnek klinik katmanlar" width="800">
+
+<img src="https://yahyaalali.com/images/work/sinad-refined/odontogram-primary-tr-desktop.webp" alt="Süt dişleri — tamamlayıcı görsel" width="800">
 
 ### 04 — Hasta kayıtları ve etkileşimli diş şeması
 
@@ -60,7 +62,7 @@ Muayene, hasta kaydı ve diş şeması aynı bakım bağlamında ilişkilendiril
 
 **Süt dişleri — tamamlayıcı görsel**
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
+<img src="https://yahyaalali.com/images/work/sinad-refined/invoice-tr-phone.webp" alt="Banka tahsilatı olmayan örnek kurum içi fatura ve kayıtlı ödeme" width="800">
 
 ### 05 — Faturalama ve mali takip
 
@@ -96,7 +98,12 @@ Abonelik, hekimin farklı çalışma yerlerindeki çalışma alanına bağlıdı
 
 ## Randevu ve kayıt süreçlerinin mühendisliği
 
+![Randevu ve kayıt süreçlerinin mühendisliği](../../assets/case-studies/dental/tr-figure-06.png)
+
 ### Şekil 01 — Hekim aramadan muayeneye
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 1. İl ve bölge
 2. hekim, çalışma yeri ve hizmet
@@ -107,9 +114,16 @@ Abonelik, hekimin farklı çalışma yerlerindeki çalışma alanına bağlıdı
 
 Bu kavramsal süreç şeması, üretimde uçtan uca kabul kanıtı değildir.
 
+</details>
+
+![Randevu ve kayıt süreçlerinin mühendisliği](../../assets/case-studies/dental/tr-figure-07.png)
+
 ### Şekil 02 — Ortak konum, bağımsız kayıtlar
 
 İki hekim aynı merkezde çalışabilir; çalışma alanları bağımsız kalır. Kayıtlara erişimi üyelik ve bakım görevlendirmesi belirler; ortak adres otomatik erişim sağlamaz.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 Hekim A
 
@@ -125,9 +139,16 @@ Hasta dosyaları B
 
 Ortak çalışma yeri
 
+</details>
+
+![Randevu ve kayıt süreçlerinin mühendisliği](../../assets/case-studies/dental/tr-figure-08.png)
+
 ### Şekil 03 — Mimari ve erişim sınırları
 
 Koruma, kullanıcı kimliği ve uygulamanın doğrulanmasıyla başlar. İstekler doğrudan erişim kurallarından veya yürütmeden önce yetkiyi denetleyen sunucu işlemlerinden geçer. Her iki yol kendi sınırları içinde pratik verilerine ulaşır; arayüz tek başına erişim yetkisi vermez.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 Kullanıcı kimliği
 
@@ -152,6 +173,8 @@ Sunucu işlemleri
 Pratik verileri
 
 Hasta kayıtları ve pratik ekleri
+
+</details>
 
 **Seçilmiş mühendislik kararları**
 

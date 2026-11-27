@@ -1,177 +1,226 @@
 {
-  "schemaVersion": 1,
-  "portfolioCommit": "94ab3d26768916ba517bc95497010481f50e66c8",
-  "verifiedAtUtc": "2026-11-27T13:32:31.987754+00:00",
-  "scope": "Eight published portfolio case studies, Arabic/English/Turkish. Source narrative, actual destinations, image classifications and identity explanations synchronized. Interface controls are represented as documentation navigation. No application source or private data is published.",
+  "schemaVersion": 2,
+  "portfolioCommit": "5332b9ba846ce42aa78cbb55853163e78d439456",
+  "verifiedAtUtc": "2026-11-27T14:22:02.147988+00:00",
+  "scope": "Current trilingual documentation for eight published portfolio case studies. Seven completed with current cover/interface/identity images and faithful case-study diagram exports; Rawaj Markdown and media unchanged.",
   "documents": [
     {
       "path": "case-studies/academic-portfolio/ar.md",
       "canonical": "https://yahyaalali.com/works/academic-portfolio/",
-      "documentSha256": "0d0d697487376b335d54ee66e2a21b86c10aa8a45dc10a169ad4f28a60214127",
+      "documentSha256": "148598965949fa1a33e716f1e14aa05eb25c8003f5cb67fcd0186552d9538a1c",
       "publishedSourceSha256": "e6ceddcc69d84f0159d8c39dece27b55a2ee989b08af312e848203a455084588",
-      "sourceTextBlocks": 66
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/academic-portfolio/en.md",
       "canonical": "https://yahyaalali.com/en/works/academic-portfolio/",
-      "documentSha256": "8fb22aeca3667385d2cacb38287472fab40aa1705d6af66b51bb343b76bc6129",
+      "documentSha256": "76f467107033a74b09da2339d27589dd89a677d9588a404a8c6b2fe3fa562e7d",
       "publishedSourceSha256": "c29a41c131f1fdeca8f6c3651c84f8b55932cddb8352c2ddd03537c1df596193",
-      "sourceTextBlocks": 66
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/academic-portfolio/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/academic-portfolio/",
-      "documentSha256": "859baa0452bb3df260e915a41517bf82f8ea578b628c1ec244137a584d9cbace",
+      "documentSha256": "e1f8d4d8019bc7f1d2e49dab1614b979e5b837c604d503e072fed284f0daa4b6",
       "publishedSourceSha256": "3d9118848ac85bc13b6727ae71df6d8027988c1c65395134f6f1dbfd5668c713",
-      "sourceTextBlocks": 66
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/thiqah/ar.md",
       "canonical": "https://yahyaalali.com/works/thiqah/",
-      "documentSha256": "c9b4fa5bd9ead9333cb2be7560a05031880f6926a41227aa5e3579602477e8a3",
-      "publishedSourceSha256": "4d0145124645be95083e3b45df7f9d940c0c6b2c68c414dea96ffbb40f6844a4",
-      "sourceTextBlocks": 57
+      "documentSha256": "8f7410b285cf013cf6679d3a408069f1e02ce9d857851eda6e4fe76693ea9e0c",
+      "publishedSourceSha256": "ae0c269940e60a64f3eb9abbc28c72164cc3f18437e7e20e423a36e2bd3eeeb9",
+      "sourceTextBlocks": 57,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/thiqah/en.md",
       "canonical": "https://yahyaalali.com/en/works/thiqah/",
-      "documentSha256": "0725e94eaaa4ab681d7193bf2fab82ee76da263c40daf7ff507d064c84b98b82",
-      "publishedSourceSha256": "b98ce999b31b5fceb31a99dbcf64a246efed9814c84b2e1416c55095f883c67f",
-      "sourceTextBlocks": 56
+      "documentSha256": "3753dfe34a1016f92df8081f516491eff8f6f534df3d42b74ef5d0eda415dda6",
+      "publishedSourceSha256": "f2ce4449d85ea6f1b08c9d23bde69fea6529f59798982d441e4cc2401d591818",
+      "sourceTextBlocks": 56,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/thiqah/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/thiqah/",
-      "documentSha256": "fa171ed974a76854ec8ae3d3632b89fb33f1f9b9a7fc3970df51fb88de528863",
-      "publishedSourceSha256": "c9fd9e0274c1225e0d350325a82d01f9c8d85c6d06e10cbbddcfff29ce5eff5e",
-      "sourceTextBlocks": 56
+      "documentSha256": "05666b9f643be05443a20479f7c1cb5b28765e3c0f0352f124919b9dc68d16a9",
+      "publishedSourceSha256": "2db241862227e9dec61b3a3b613972acb20ea32f637ed3459abae981172c3dfd",
+      "sourceTextBlocks": 56,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/deir-ezzor-municipalities/ar.md",
       "canonical": "https://yahyaalali.com/works/deir-ezzor-municipalities/",
-      "documentSha256": "a80c987cc50b8cba6c77892c0bdfb8e24e77382a4498aa6a01be3103f16eac2a",
+      "documentSha256": "2b323a489701e07c72104dd026d903bb5136236e57d55021ba6bc7c597377e58",
       "publishedSourceSha256": "abf33a9b2580ccec221013051da6db76b5bfbb39fdcf575ca049e0d54e5af85f",
-      "sourceTextBlocks": 74
+      "sourceTextBlocks": 74,
+      "siteHostedImagePlacements": 5,
+      "repositoryDiagramExports": 5
     },
     {
       "path": "case-studies/deir-ezzor-municipalities/en.md",
       "canonical": "https://yahyaalali.com/en/works/deir-ezzor-municipalities/",
-      "documentSha256": "0e0bb98b274d992a02f2eae9906d26ca4de9b2596a62ba8724a9ca1e9ee1df56",
+      "documentSha256": "d3b2461e0ba6dad789ae57673d90a1af035f4b48db28f0b0fe5f2bd6c912bab3",
       "publishedSourceSha256": "4f5d7b03b606942f227f919c840ab1264bb5e80f1afd3f71420d4e30a35d68b4",
-      "sourceTextBlocks": 74
+      "sourceTextBlocks": 74,
+      "siteHostedImagePlacements": 5,
+      "repositoryDiagramExports": 5
     },
     {
       "path": "case-studies/deir-ezzor-municipalities/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/deir-ezzor-municipalities/",
-      "documentSha256": "7d47c11438a646fe584241d062daa5064facd7f69b09477b604abbcc3748347b",
+      "documentSha256": "d48db78d77d493f641c8fdee6683d01d198880a75c28d80466e6be1d19fe4ab5",
       "publishedSourceSha256": "f97562478841962c3a651930493c5533001c819f4ca5490a7717309fb4ec55a9",
-      "sourceTextBlocks": 74
+      "sourceTextBlocks": 74,
+      "siteHostedImagePlacements": 5,
+      "repositoryDiagramExports": 5
     },
     {
       "path": "case-studies/omar-clinic/ar.md",
       "canonical": "https://yahyaalali.com/works/omar-clinic/",
-      "documentSha256": "153edca79a6716185e1647ffd240ddc8084bae9af3f0ab16b85e5201b80be8aa",
-      "publishedSourceSha256": "a7883987f57c3b4c268cc44ca3e883d2f8a1265a71b45036b2933fc016e1d3f9",
-      "sourceTextBlocks": 66
+      "documentSha256": "5b3384ede3d63c89223c0f7a8d80f7fdd75409db0696fda2bb5ea048b58582d3",
+      "publishedSourceSha256": "041e37c66e8f07d73fdbbca7f9b6cfb27a15af765943229f7e1a425561da0617",
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/omar-clinic/en.md",
       "canonical": "https://yahyaalali.com/en/works/omar-clinic/",
-      "documentSha256": "b31b0c8f7faa6d6cb6bc4f93899eee597acbf2f6d2f4e51d1d759d82ab44351c",
-      "publishedSourceSha256": "358a5429d345e5aaccfdc5cce627c24327cbaf767d11a1f94f848dcfdb7620d6",
-      "sourceTextBlocks": 66
+      "documentSha256": "d59aa0a514b85a6d663963f01c627580000bf71e1fc6c990ab3b762b8c108752",
+      "publishedSourceSha256": "1c36d7bc8b3633d11b09e6695bdce543e4ae2e44b6f0a83fa114df5bf784f7f1",
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/omar-clinic/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/omar-clinic/",
-      "documentSha256": "493ba929143198d6889a1c456d078b1d0574ae9d05cbb277d7adec0ecfbe2bac",
-      "publishedSourceSha256": "5f81f02d4b360e7ade07bd91ec389d882c0f257f10d250f25e722c1cc7399654",
-      "sourceTextBlocks": 66
+      "documentSha256": "8f15f3735905971e28b474821ba8dd271df35c4f9a88c46ca575db6c79a61193",
+      "publishedSourceSha256": "c87d1f79767e5a3b7cbf239f0a25104ac41b7d99b0b14787fa160ee5ef4ed3f9",
+      "sourceTextBlocks": 66,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/athar-wird/ar.md",
       "canonical": "https://yahyaalali.com/works/athar-wird/",
-      "documentSha256": "3292f7eab425f2ae0e78481ba32628464dbf079d3962c02b3c6ceffb253b9e6d",
+      "documentSha256": "85bda70337b52800b934baa65cdeda305ade1080a7da0e622022b05dd8a5f729",
       "publishedSourceSha256": "956762480a6d02a2f28593f0eb75c000af83a56a95a5fb391770688181de724b",
-      "sourceTextBlocks": 75
+      "sourceTextBlocks": 75,
+      "siteHostedImagePlacements": 10,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/athar-wird/en.md",
       "canonical": "https://yahyaalali.com/en/works/athar-wird/",
-      "documentSha256": "b83098644b9da3a19da3dd54bf48a5194e0de0f9fd986c6ca59f8e7ad08a8528",
+      "documentSha256": "ee8cfa7750e2d19846fe3990ca024a4cebc912682cd510c619a430aa309af115",
       "publishedSourceSha256": "3a1457666428fcc0dd4a46370b29962b599c1c84a382ab2d2a8d9dc902c121da",
-      "sourceTextBlocks": 74
+      "sourceTextBlocks": 74,
+      "siteHostedImagePlacements": 10,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/athar-wird/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/athar-wird/",
-      "documentSha256": "b63da02168bc90b1852d44cb5d906317c850ba8df450a45e06d5841361080084",
+      "documentSha256": "6391523cfe1356e5e553b08e731dad39fb051952f4f339e4e2a2786cca7ef454",
       "publishedSourceSha256": "71eb24048e4b0c9b17bc8c144a00cddf2e8bc4a0c7fbf17fad99bf4cbbff7417",
-      "sourceTextBlocks": 75
+      "sourceTextBlocks": 75,
+      "siteHostedImagePlacements": 10,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/dental/ar.md",
       "canonical": "https://yahyaalali.com/works/dental/",
-      "documentSha256": "7c229ee960d5b7f39473928b70bfe534629468302986728385d76f10f06b82ee",
+      "documentSha256": "8a576d9d281d46770e0d0403e7aa911dd156047f203524bbdf1af6bc7a605b7e",
       "publishedSourceSha256": "c256dcea1e90d645221c287f146187cc45ef87c7891c2db231e0edbe6812dea5",
-      "sourceTextBlocks": 69
+      "sourceTextBlocks": 69,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 3
     },
     {
       "path": "case-studies/dental/en.md",
       "canonical": "https://yahyaalali.com/en/works/dental/",
-      "documentSha256": "c8c841910824a3b6c610d7e2e341fc10db60be41f34f4976ff9c0e984868048f",
+      "documentSha256": "f42cc5fc0d26abfffb74bdb75787dbc3b9a4aab4dfd7a5e3d9867e9c27dc6265",
       "publishedSourceSha256": "a9b0e52c1b6e7455853df179cf1ca68b8d8b23f57e071e8682b9c7ee5aabbc22",
-      "sourceTextBlocks": 69
+      "sourceTextBlocks": 69,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 3
     },
     {
       "path": "case-studies/dental/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/dental/",
-      "documentSha256": "aa0b9445261652a79a54b15ed703172d7099567eef627530365172bc5b15788c",
+      "documentSha256": "e34b18bdf5b09e5a4d681dc435db7e85f3c4fed23daf3d853fec0f416d3df810",
       "publishedSourceSha256": "2ff27911bc5cb8839a7bf7b590f43364fcf5ba6a17b17a45ac39b939f5a70c49",
-      "sourceTextBlocks": 69
+      "sourceTextBlocks": 69,
+      "siteHostedImagePlacements": 8,
+      "repositoryDiagramExports": 3
     },
     {
       "path": "case-studies/rawaj/ar.md",
       "canonical": "https://yahyaalali.com/works/rawaj/",
-      "documentSha256": "ed7975541fa05917f126a7550e31ca394d080e81027863d95ad0d6d4e93d447a",
+      "documentSha256": "6cee915e5740d66da8b50c7e953b2f1c5a17e09abf84db6a91708b2589110cd8",
       "publishedSourceSha256": "e3daa78be90c1514bf4d49eb99364e0981e913fc1c0a6b05e2848cd04a677ee7",
-      "sourceTextBlocks": 77
+      "sourceTextBlocks": 77,
+      "siteHostedImagePlacements": 4,
+      "repositoryDiagramExports": 0
     },
     {
       "path": "case-studies/rawaj/en.md",
       "canonical": "https://yahyaalali.com/en/works/rawaj/",
-      "documentSha256": "42660f6d78480543d456be88203316bba2bde6a6e50e3dac1c6f52891defb046",
+      "documentSha256": "5756f60d36604641e473d6c253400858cf7e0093f2b0a52b306f16b3bb5597bd",
       "publishedSourceSha256": "ab08a817b539ff123620efd0035bca76efc66f75b112958f4ab9068deda965af",
-      "sourceTextBlocks": 77
+      "sourceTextBlocks": 77,
+      "siteHostedImagePlacements": 4,
+      "repositoryDiagramExports": 0
     },
     {
       "path": "case-studies/rawaj/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/rawaj/",
-      "documentSha256": "cb425c5f7f747963cb8e82c649adb3e883b4f3ff90049ed4b7cf44d9ed60fa9e",
+      "documentSha256": "2dd459acf4b63dc9b2f11786a69a7cb381c9f1ecf0df529d69991b58dca6c200",
       "publishedSourceSha256": "a60e8f5652b8523dcb2ef3c0e29a2b0e83a03db57e66450e5f73727e54106058",
-      "sourceTextBlocks": 78
+      "sourceTextBlocks": 78,
+      "siteHostedImagePlacements": 4,
+      "repositoryDiagramExports": 0
     },
     {
       "path": "case-studies/ashara/ar.md",
       "canonical": "https://yahyaalali.com/works/ashara/",
-      "documentSha256": "62b16366ae55498d6520bd993bb1273b64dd480fcff946933041188ab05fb1f0",
+      "documentSha256": "d452a7f53b1d12d6a3300e885965515fb4af7d7aadb56805f2bd54c1e2b50f73",
       "publishedSourceSha256": "72b3f2813a21e5176da05cca765bfcd5e557f55f58010683163cdcab6a058f5d",
-      "sourceTextBlocks": 70
+      "sourceTextBlocks": 70,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/ashara/en.md",
       "canonical": "https://yahyaalali.com/en/works/ashara/",
-      "documentSha256": "4928345c9f4d2721a1616b81387c28c6d1e9df482fa6ced0063e45b79afd1edc",
+      "documentSha256": "d210bbd943e8c7dc56b177e29cd3b3dbca69cc02dcf46daaea10e92dfc93a9aa",
       "publishedSourceSha256": "786998e48d6adb930c94172fa0f702ad5ac16814983157519dc1a2c7f24de175",
-      "sourceTextBlocks": 70
+      "sourceTextBlocks": 70,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     },
     {
       "path": "case-studies/ashara/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/ashara/",
-      "documentSha256": "edcc930607505e39f33f26c29b74dadd0284ea97cee7427c9abd046bb2b2ecc1",
+      "documentSha256": "16d4211f318e75e3453e87fcba25ee834ae96760065297d9bf0fe7a0d0069321",
       "publishedSourceSha256": "a8ed37604e9f7c82b97b7335aa6803f3e3ea234605407fe25b2528c3a8873910",
-      "sourceTextBlocks": 70
+      "sourceTextBlocks": 70,
+      "siteHostedImagePlacements": 6,
+      "repositoryDiagramExports": 2
     }
   ],
-  "mediaPolicy": "Previously published embedded images retained only when still current. Additional images and code-rendered diagrams are referenced through the published case-study gallery; no new font or application asset redistribution."
+  "visualProvenance": "../assets/case-studies/visual-provenance.json",
+  "mediaPolicy": "Current site-hosted images are embedded in documentation under the owner instruction to complete illustrated documentation. Explanatory diagrams/panels are exact browser rasterizations of already-published case-study visuals; captions and truthful classifications retained. No original application sources, private data or font binaries are redistributed."
 }

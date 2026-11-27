@@ -14,7 +14,7 @@ Bir el sıkışmadan iki tarafın da anladığı ortak bir kayda
 
 Tedarikçiler ve perakendeciler için ticari ilişkileri daha anlaşılır bir ortak bağlama taşıyan; talepleri, teyitleri ve mutabakatları tek kayıtta buluşturmak üzere geliştirilen bir B2B ağı.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/thiqah/)
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-cover-v4-1200x630.webp" alt="Kavramsal görsel" width="800">
 
 Kavramsal görsel
 
@@ -42,6 +42,13 @@ Teyit öncesinde anlaşılır inceleme, sonrasında açık bir iz.
 
 Rakamlar, karşı tarafın tutumu netleştiğinde anlam kazanır. Tasarlanan akış, belgelenen talebi incelemeye taşır; teyidi veya itirazı korur ve sonucu ilişkinin geçmişine bağlar.
 
+![Talepten mutabakata](../../assets/case-studies/thiqah/tr-figure-01.png)
+
+Tasarlanan iş akışının kavramsal gösterimi; çalışan bir işlem arayüzü değildir.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
+
 1. **Talebi kaydetme**
    Tutarı ve vadeyi ticari ilişkiyle ilişkilendirme.
 2. **Karşı tarafın incelemesi**
@@ -51,13 +58,15 @@ Rakamlar, karşı tarafın tutumu netleştiğinde anlam kazanır. Tasarlanan ak�
 4. **Ödeme veya mutabakatı belgeleme**
    Önceki olayların bağlamını kaybetmeden ilişki kaydını güncelleme.
 
-Tasarlanan iş akışının kavramsal gösterimi; çalışan bir işlem arayüzü değildir.
+</details>
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/thiqah/#thiqah-section-2)
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-shared-record-1200.webp" alt="Ortak ticari kayıtla bağlantılı iki bağımsız işletmeyi gösteren üretilmiş simgesel sahne" width="800">
 
 Kavramsal görselleştirme — gerçek uygulamanın ekran görüntüsü değildir
 
 ## Bağ kuran bir kimlik
+
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-icon-dark-square.svg" alt="Koyu sürüm" width="220">
 
 Birbirine geçen iki halka, tek bir ortak kayıtla bağlanan bağımsız tarafları simgeler. Üç nokta, ثِقة adındaki Arapça Tha harfini çağrıştırır. Derin petrol ve sıcak altın tonları kimliğe netlik ve bağlılık kazandırır.
 
@@ -66,6 +75,8 @@ Birbirine geçen iki halka, tek bir ortak kayıtla bağlanan bağımsız tarafla
 - Sakin fildişi
 
 ### Görsel kimliğin anlamı
+
+<img src="https://yahyaalali.com/images/work/thiqah-v4/thiqah-icon-light-square.svg" alt="Fildişi sürüm" width="220">
 
 ## Mevcut önizlemeye bir bakış
 
@@ -77,11 +88,22 @@ Mevcut önizleme, gerçek hesaplar veya ticari işlemler olmadan, bellekteki ör
 
 22 Kasım 2026 tarihinde herkese açık önizlemeden alınmış gerçek bir görüntüden ayrıntı. Çerçeve içerik alanını gösterir.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/thiqah/#thiqah-section-4)
+<img src="https://yahyaalali.com/images/work/thiqah-v3/captures/tr-light-390-onboarding.png" alt="Uygun dil ve temayla başlayın" width="300">
+
+<img src="https://yahyaalali.com/images/work/thiqah-v3/captures/tr-dark-390-onboarding.png" alt="Uygun dil ve temayla başlayın" width="300">
 
 ## Sonraki adıma hazırlanan mimari
 
 Fikir iki ayrı temele dayanır: Flutter arayüzü ile kimlik, kuruluşlar ve yetkilendirme için sunucu çekirdeği. Şema, kaynak kodun desteklediği temelleri gösterirken entegrasyonu ve ticari akışları tasarım kapsamıyla ayırır.
+
+![Sonraki adıma hazırlanan mimari](../../assets/case-studies/thiqah/tr-figure-04.png)
+
+### Gelecekteki ticari modüller — tasarım ve planlar
+
+Faturalar, alacaklar, teyitler, itirazlar, ödemeler ve mutabakatlar tasarlanan ticari uzantıyı oluşturur. Mevcut önizleme, sunucu temeliyle tam ticari entegrasyonu veya bu akışların canlı çalıştığını kanıtlamaz.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 Flutter / Dart
 
@@ -103,9 +125,7 @@ Tam ticari entegrasyon kanıtlanmış değil
 
 Prisma üzerinden veri erişimi
 
-### Gelecekteki ticari modüller — tasarım ve planlar
-
-Faturalar, alacaklar, teyitler, itirazlar, ödemeler ve mutabakatlar tasarlanan ticari uzantıyı oluşturur. Mevcut önizleme, sunucu temeliyle tam ticari entegrasyonu veya bu akışların canlı çalıştığını kanıtlamaz.
+</details>
 
 ### Araçlar ve Teknolojiler
 

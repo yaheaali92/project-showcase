@@ -14,7 +14,9 @@ From daily practice to a traceable educational record
 
 A published web platform connecting Quran learning circles with curricula, study plans, sessions, attendance, and assessment. It provides role-specific workflows aligned with the responsibilities of administrators, teachers, learners, and guardians.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/dashboard-desktop.webp" alt="Dashboard and work organization — Actual application components · Synthetic data" width="800">
+
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/learner-phone.webp" alt="The learner and parent workspace — Actual application components · Synthetic data" width="300">
 
 Actual application components · Synthetic data · The application interface is Arabic
 
@@ -24,17 +26,17 @@ Tracking a learner’s progress goes beyond scheduling a session or recording at
 
 When these elements are managed through separate workflows, maintaining a coherent learning record becomes more difficult. Athar Al-Wird brings these relationships into one structured experience while defining what each user is authorized to view or perform.
 
+<img src="https://yahyaalali.com/images/projects/athar-wird.svg" alt="A custom ivory mark inspired by the Arabic letter thāʾ in Athar, with three coral dots representing planning, recitation and review. Midnight-blue ink and ivory paper connect the symbol to the app’s name and the rhythm of daily learning." width="220">
+
 ### Visual Identity
 
 A custom ivory mark inspired by the Arabic letter thāʾ in Athar, with three coral dots representing planning, recitation and review. Midnight-blue ink and ivory paper connect the symbol to the app’s name and the rhythm of daily learning.
-
-### Visual identity meaning
 
 ## Inside the Application
 
 Actual application components rendered in an isolated local shell with synthetic data. These images explain the interface without exposing real records or presenting them as captures from production accounts. The app is Arabic; the case-study explanations are available in three languages.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/dashboard-desktop.webp" alt="Dashboard and work organization — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -42,7 +44,7 @@ Actual application components · Synthetic data
 
 An overview brings follow-up indicators and navigation into one workspace. All displayed values are synthetic demonstration data.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/curriculum-desktop.webp" alt="Curricula and learning references — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -50,7 +52,7 @@ Actual application components · Synthetic data
 
 The interface for organizing curricula and their versions within educational content management.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/teacher-desktop.webp" alt="The teacher workspace — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -58,7 +60,7 @@ Actual application components · Synthetic data
 
 The teacher’s workspace for navigating plans, sessions and learning follow-up.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/learner-desktop.webp" alt="The learner and parent workspace — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -66,7 +68,7 @@ Actual application components · Synthetic data
 
 The family interface for the permitted learning paths and educational record.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/sessions-desktop.webp" alt="Sessions, attendance and follow-up — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -78,7 +80,7 @@ A workspace connecting session scheduling with attendance and assessment procedu
 
 The app calculates prayer times using location and local time, and shows the next prayer and the remaining time. Users can permit location detection or choose a city manually, with calculation-method settings.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/prayer-desktop.webp" alt="The next prayer and today’s times — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -86,7 +88,7 @@ Actual application components · Synthetic data
 
 The original prayer panel shows the next prayer, a countdown and the daily schedule. The capture uses a public city and a fixed demonstration date; it is not guidance for prayer times now.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+<img src="https://yahyaalali.com/images/work/athar-wird-reader/location-desktop.webp" alt="City selection and location control — Actual application components · Synthetic data" width="800">
 
 Actual application components · Synthetic data
 
@@ -118,9 +120,14 @@ Follows authorized learners’ educational records and participates in permitted
 
 ## Engineering the Learning Journey
 
+![Engineering the Learning Journey](../../assets/case-studies/athar-wird/en-figure-08.png)
+
 ### From Curriculum to Meaningful Progress
 
 The circle and curriculum reference meet in a published plan. Family check-ins remain separate from teacher review and approval.
+
+<details>
+<summary>Diagram text and details</summary>
 
 Circle and group
 
@@ -136,9 +143,16 @@ Teacher review and approval
 
 Reports and progress context
 
+</details>
+
+![Engineering the Learning Journey](../../assets/case-studies/athar-wird/en-figure-09.png)
+
 ### A Clear Interface and Protected Responsibilities
 
 Core service responsibilities. Server-side processing checks identity and permissions; the interface alone does not grant access.
+
+<details>
+<summary>Diagram text and details</summary>
 
 Interface and application state
 
@@ -165,6 +179,8 @@ Cloud Storage
 Notifications
 
 Firebase Cloud Messaging
+
+</details>
 
 **Engineering Decisions and Boundaries**
 

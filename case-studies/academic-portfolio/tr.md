@@ -14,9 +14,9 @@ Araştırmayı, mühendisliği ve öğrenmeyi üç dilde birleştiren içerik m�
 
 Yazılım projelerini, araştırmaları ve yayınları keşfetmek; dersleri ve kitapları Arapça, İngilizce ve Türkçe okumak için tek bir alan.
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-tr.webp" alt="Ana Sayfa ve Okuma Kimliği" width="800">
 
-yahyaalali.com
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/hero-phone-network-lesson-1-tr.webp" alt="Yapılandırılmış Kitap ve Ders Okuyucusu" width="300">
 
 Yayındaki platformdan genel görünümler · 22 Kasım 2026
 
@@ -24,17 +24,17 @@ Yayındaki platformdan genel görünümler · 22 Kasım 2026
 
 Ziyaretçi dağınık depolar ve dosyalar arasında dolaşmak yerine her proje, araştırma veya eğitim içeriği için amacını, durumunu ve bağlantılarını açıklayan bir sayfa bulur. Her çalışma, tutarlı üç dilli okuma deneyimi içinde kendi kimliğini korur.
 
-### Görsel kimliğin anlamı
-
-İç içe geçen üç şerit bu üç dayanağın birbirini tamamlamasını, iki düğümü birleştiren camgöbeği hat ise aralarındaki bağı simgeler. Harf içermeyen aynı amblem, platformun Arapça, İngilizce ve Türkçe arayüzlerinde tutarlı bir kimlik sunar.
+<img src="https://yahyaalali.com/brand/site-c084cb8e/emblem-transparent-256x256.webp" alt="Platform amblemi" width="220">
 
 ### Görsel Kimlik — Araştırma · Mühendislik · Bilgi
+
+İç içe geçen üç şerit bu üç dayanağın birbirini tamamlamasını, iki düğümü birleştiren camgöbeği hat ise aralarındaki bağı simgeler. Harf içermeyen aynı amblem, platformun Arapça, İngilizce ve Türkçe arayüzlerinde tutarlı bir kimlik sunar.
 
 ## Yayındaki Platform Arayüzlerinden Görünümler
 
 Bu bölüm, gerçek gezinme ve okuma deneyimini yansıtmak üzere yayındaki ziyaretçi sayfalarından ilgili dilde alınan beş bağımsız genel ekranı sunar:
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-tr.webp" alt="Ana Sayfa ve Okuma Kimliği" width="800">
 
 Yayındaki genel arayüz görüntüsü · 2026-11-22
 
@@ -44,7 +44,7 @@ Kişisel tanıtımı, görsel kimliği, öne çıkan araştırma ve proje seçki
 
 [Kaynak sayfaya git](https://yahyaalali.com/tr/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/works-tr.webp" alt="Bütünleşik Çalışmalar Dizini" width="800">
 
 Yayındaki genel arayüz görüntüsü · 2026-11-22
 
@@ -54,7 +54,7 @@ Dijital ürünleri ve çözümleri mühendislik prototiplerinden ve ders çalı�
 
 [Kaynak sayfaya git](https://yahyaalali.com/tr/works/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/network-lesson-1-tr.webp" alt="Yapılandırılmış Kitap ve Ders Okuyucusu" width="800">
 
 Yayındaki genel arayüz görüntüsü · 2026-11-22
 
@@ -64,7 +64,7 @@ Yayındaki genel arayüz görüntüsü · 2026-11-22
 
 [Kaynak sayfaya git](https://yahyaalali.com/tr/books/network-foundations/network-foundations-lesson-1/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/research-tr.webp" alt="Akademik Araştırma Alanı" width="800">
 
 Yayındaki genel arayüz görüntüsü · 2026-11-22
 
@@ -74,7 +74,7 @@ Doktora araştırmasını ve üniversite tezlerini ilgili akademik çıktılarla
 
 [Kaynak sayfaya git](https://yahyaalali.com/tr/research/)
 
-[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/search-tr.webp" alt="Dile Özgü Yerel Arama" width="800">
 
 Yayındaki genel arayüz görüntüsü · 2026-11-22
 
@@ -110,6 +110,13 @@ Gezinme yolları, her okur grubunun aradığı içeriğe gürültüsüz ve doğr
 
 İlk şema içeriğin düzenlenmesini, incelenmesini ve yayımlanmasını gösterir. İkinci şema, yönetim alanı korunurken sayfanın ziyaretçiye nasıl ulaştığını açıklar.
 
+![İçeriğin hazırlanmasından sayfanın okunmasına](../../assets/case-studies/academic-portfolio/tr-figure-06.png)
+
+Yayın, incelemeden sonra verilen açık bir karardır. Onaylı kaynaklar belirli öncelikle birleştirilir; iç düzenleme verileri genel okumaya açılmaz.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
+
 ### Hazırlıktan yayına içerik akışı
 
 #### Her içerik için tutarlı bir yapı
@@ -143,7 +150,14 @@ Kaynakları belirli öncelikle birleştirme
 - Dil içinde arama
 - Arama motoru sayfa bilgileri
 
-Yayın, incelemeden sonra verilen açık bir karardır. Onaylı kaynaklar belirli öncelikle birleştirilir; iç düzenleme verileri genel okumaya açılmaz.
+</details>
+
+![İçeriğin hazırlanmasından sayfanın okunmasına](../../assets/case-studies/academic-portfolio/tr-figure-07.png)
+
+Arayüz varlıkları doğrudan sunulur; değişen içerik, güncellik sınırlarıyla istek sırasında okunur. Düzenleme alanı genel önbelleğin dışında kalır.
+
+<details>
+<summary>Şema metni ve ayrıntıları</summary>
 
 ### Sayfa ziyaretçiye nasıl ulaşır?
 
@@ -168,7 +182,7 @@ Seçilen dil, metin yönü, gezinme ve arama.
 - Çağıran uygulamanın denetimi
 - Sunucu izinleri ve erişim kuralları
 
-Arayüz varlıkları doğrudan sunulur; değişen içerik, güncellik sınırlarıyla istek sırasında okunur. Düzenleme alanı genel önbelleğin dışında kalır.
+</details>
 
 ## Teknoloji, Katkım ve Bağlantılar
 

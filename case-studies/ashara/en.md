@@ -10,7 +10,7 @@ From city information to services; a clearer connection to local life
 
 A digital portal brings together city news, places and everyday information, connecting them with spaces for services, issue reporting and follow-up. It starts in Ashara with a vision for Deir ez-Zor Governorate, through layouts that adapt to phones, tablets and computers.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/ashara/)
+<img src="https://yahyaalali.com/images/work/ashara-outer-v1/cover-1200.webp" alt="A conceptual view of a city connected to its civic spaces and digital services; not an actual photograph of Ashara or an application screenshot." width="800">
 
 A conceptual view of a city connected to its civic spaces and digital services; not an actual photograph of Ashara or an application screenshot.
 
@@ -23,6 +23,8 @@ A conceptual view of a city connected to its civic spaces and digital services; 
 Everyday city questions recur: where is a place, facility or emergency contact, what is the weather like, when is the next prayer, and where do I begin when I need a service or encounter a problem? The idea is to bring these starting points into one portal: visitors reach public information directly, while citizens find a clear route to actions connected to their account.
 
 Ashara is the starting point, rather than the limit of the vision. Organizing information, places and services around their local context provides a foundation for extending a connected experience to the towns, cities and areas of Deir ez-Zor Governorate, while retaining the identity of each place.
+
+<img src="https://yahyaalali.com/images/projects/ashara-official.webp" alt="Ashara Portal mark: a golden Dāl for Deir ez-Zor, a bridge recalling the suspension bridge, and a turquoise Euphrates course" width="220">
 
 ### Deir ez-Zor: a letter, a bridge and the Euphrates
 
@@ -43,7 +45,7 @@ A tour of public-interface details: service and reporting entry points, prayer t
 
 The interface is Arabic; these captures use Times New Roman for this case study.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/services-desktop.webp" alt="Separate entries for requesting a service and reporting a problem, alongside the city directory and status. Each area has a clear purpose rather than being folded into a crowded list." width="800">
 
 ### Services at the visitor’s starting point
 
@@ -51,7 +53,7 @@ Separate entries for requesting a service and reporting a problem, alongside the
 
 [Visit Website](https://ashara-city.com/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/daily.webp" alt="Prayer times and the countdown to the next prayer support everyday use. The displayed times belong to the capture date; this page is not a live timetable or alert." width="800">
 
 ### Daily information and prayer times
 
@@ -59,7 +61,7 @@ Prayer times and the countdown to the next prayer support everyday use. The disp
 
 [Visit Website](https://ashara-city.com/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/guide.webp" alt="Search and categories help locate a place within its local context. This detail shows the directory controls; the interactive map is explored in the portal itself." width="800">
 
 ### A directory of local places
 
@@ -67,7 +69,7 @@ Search and categories help locate a place within its local context. This detail 
 
 [Visit Website](https://ashara-city.com/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/ashara/#ashara-reader-section-2)
+<img src="https://yahyaalali.com/images/work/ashara-reader-type/pulse.webp" alt="A place to read recorded service conditions, alerts and maintenance. The captured state belongs to that moment and does not establish comprehensive field coverage or guaranteed real-time updates." width="800">
 
 ### City Pulse
 
@@ -87,6 +89,13 @@ City information and a local directory, followed by a citizen space for requests
 
 Receive cases, assign tasks and follow execution, while organizing regions, departments, assets, projects, inventory, contracts and reports through defined roles and permissions.
 
+![From information to follow-up](../../assets/case-studies/ashara/en-figure-05.png)
+
+An explanatory request flow; details depend on the service and the user’s permissions.
+
+<details>
+<summary>Diagram text and details</summary>
+
 1. **Identify the need**
    Public information, a service request or an issue to report.
 2. **Sign in when required**
@@ -96,11 +105,18 @@ Receive cases, assign tasks and follow execution, while organizing regions, depa
 4. **Process and follow up**
    Authorized parties update and review the transaction’s status and associated records.
 
-An explanatory request flow; details depend on the service and the user’s permissions.
+</details>
 
 ## Connecting experience and service
 
 An interface for information and services, a server for accounts, permissions and business rules, and data that preserves each case and its context. This separation connects residents’ experience with service teams and administration, allowing services to expand while responsibilities remain clear.
+
+![Connecting experience and service](../../assets/case-studies/ashara/en-figure-06.png)
+
+Three connected layers: user experience, service processing and data records.
+
+<details>
+<summary>Diagram text and details</summary>
 
 1. **An interface that adapts**
    City information, the directory and user spaces: an Arabic experience arranged for phone or desktop.
@@ -109,7 +125,7 @@ An interface for information and services, a server for accounts, permissions an
 3. **Data that retains context**
    Places, areas, transactions, attachments and follow-up states connected to their records.
 
-Three connected layers: user experience, service processing and data records.
+</details>
 
 Flutter provides a shared foundation for web, Android, iOS, Windows, macOS and Linux, with layouts that adapt to phones, tablets and computers. The web is the currently available visit destination; device-download links are added when those editions are published. The product’s scope extends beyond a website.
 

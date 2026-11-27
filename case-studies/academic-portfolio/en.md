@@ -14,9 +14,9 @@ Content engineering and a coherent reading experience uniting research, engineer
 
 One place to explore software projects, research and publications, and read lessons and books in Arabic, English and Turkish.
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-en.webp" alt="Home and Reading Identity" width="800">
 
-yahyaalali.com
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/hero-phone-network-lesson-1-en.webp" alt="Structured Book and Lesson Reader" width="300">
 
 Public views from the live platform · 22 November 2026
 
@@ -24,17 +24,17 @@ Public views from the live platform · 22 November 2026
 
 Instead of moving between scattered repositories and files, visitors find a page for each project, research item or learning resource, explaining its purpose, status and links. Each work keeps its identity within a consistent trilingual reading experience.
 
-### Visual identity meaning
-
-The three interwoven bands represent how these pillars reinforce one another, while the cyan path linking the two nodes conveys connection. The same lettering-free emblem unifies the platform's Arabic, English, and Turkish interfaces.
+<img src="https://yahyaalali.com/brand/site-c084cb8e/emblem-transparent-256x256.webp" alt="Platform emblem" width="220">
 
 ### Visual Identity — Research · Engineering · Knowledge
+
+The three interwoven bands represent how these pillars reinforce one another, while the cyan path linking the two nodes conveys connection. The same lettering-free emblem unifies the platform's Arabic, English, and Turkish interfaces.
 
 ## Inside the Live Platform Interfaces
 
 This gallery showcases five independent public views from the live platform, captured from visitor pages in the matching language to reflect the actual browsing and reading experience:
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/home-en.webp" alt="Home and Reading Identity" width="800">
 
 Capture of the live public interface · 2026-11-22
 
@@ -44,7 +44,7 @@ A public entry point combining personal profile context, visual identity, featur
 
 [Visit source page](https://yahyaalali.com/en/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/works-en.webp" alt="Unified Works Directory" width="800">
 
 Capture of the live public interface · 2026-11-22
 
@@ -54,7 +54,7 @@ An organized index separating digital products and solutions from engineering pr
 
 [Visit source page](https://yahyaalali.com/en/works/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/network-lesson-1-en.webp" alt="Structured Book and Lesson Reader" width="800">
 
 Capture of the live public interface · 2026-11-22
 
@@ -64,7 +64,7 @@ A progressive reading experience shown through Lesson 1 of _Network Foundations_
 
 [Visit source page](https://yahyaalali.com/en/books/network-foundations/network-foundations-lesson-1/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/research-en.webp" alt="Academic Research Track" width="800">
 
 Capture of the live public interface · 2026-11-22
 
@@ -74,7 +74,7 @@ A dedicated scholarly space highlighting doctoral research and university theses
 
 [Visit source page](https://yahyaalali.com/en/research/)
 
-[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+<img src="https://yahyaalali.com/images/work/academic-portfolio-v05/search-en.webp" alt="Language-Scoped Local Search" width="800">
 
 Capture of the live public interface · 2026-11-22
 
@@ -110,6 +110,13 @@ Reading paths are designed so every audience reaches relevant material directly 
 
 The first diagram follows content through organization, review and publication. The second shows how a page reaches the visitor while administration stays protected.
 
+![From preparing content to reading a page](../../assets/case-studies/academic-portfolio/en-figure-06.png)
+
+Publication is an explicit decision after review. Approved sources are combined by defined priority, while internal editorial data stays outside public reading.
+
+<details>
+<summary>Diagram text and details</summary>
+
 ### From preparation to publication
 
 #### A consistent structure for each item
@@ -143,7 +150,14 @@ Combine sources by defined priority
 - Language-scoped search
 - Search-engine page information
 
-Publication is an explicit decision after review. Approved sources are combined by defined priority, while internal editorial data stays outside public reading.
+</details>
+
+![From preparing content to reading a page](../../assets/case-studies/academic-portfolio/en-figure-07.png)
+
+Interface assets are served directly and changing content is read on request with bounded freshness. The editorial workspace stays outside the public cache.
+
+<details>
+<summary>Diagram text and details</summary>
 
 ### How does the page reach the visitor?
 
@@ -168,7 +182,7 @@ The chosen language, text direction, navigation and search.
 - Calling-app checks
 - Server permissions and access rules
 
-Interface assets are served directly and changing content is read on request with bounded freshness. The editorial workspace stays outside the public cache.
+</details>
 
 ## Technology, Contribution, and Links
 
