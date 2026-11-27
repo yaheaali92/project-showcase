@@ -169,7 +169,7 @@
     {
       "path": "case-studies/rawaj/ar.md",
       "canonical": "https://yahyaalali.com/works/rawaj/",
-      "documentSha256": "6cee915e5740d66da8b50c7e953b2f1c5a17e09abf84db6a91708b2589110cd8",
+      "documentSha256": "ed7975541fa05917f126a7550e31ca394d080e81027863d95ad0d6d4e93d447a",
       "publishedSourceSha256": "e3daa78be90c1514bf4d49eb99364e0981e913fc1c0a6b05e2848cd04a677ee7",
       "sourceTextBlocks": 77,
       "siteHostedImagePlacements": 4,
@@ -178,7 +178,7 @@
     {
       "path": "case-studies/rawaj/en.md",
       "canonical": "https://yahyaalali.com/en/works/rawaj/",
-      "documentSha256": "5756f60d36604641e473d6c253400858cf7e0093f2b0a52b306f16b3bb5597bd",
+      "documentSha256": "42660f6d78480543d456be88203316bba2bde6a6e50e3dac1c6f52891defb046",
       "publishedSourceSha256": "ab08a817b539ff123620efd0035bca76efc66f75b112958f4ab9068deda965af",
       "sourceTextBlocks": 77,
       "siteHostedImagePlacements": 4,
@@ -187,7 +187,7 @@
     {
       "path": "case-studies/rawaj/tr.md",
       "canonical": "https://yahyaalali.com/tr/works/rawaj/",
-      "documentSha256": "2dd459acf4b63dc9b2f11786a69a7cb381c9f1ecf0df529d69991b58dca6c200",
+      "documentSha256": "cb425c5f7f747963cb8e82c649adb3e883b4f3ff90049ed4b7cf44d9ed60fa9e",
       "publishedSourceSha256": "a60e8f5652b8523dcb2ef3c0e29a2b0e83a03db57e66450e5f73727e54106058",
       "sourceTextBlocks": 78,
       "siteHostedImagePlacements": 4,
@@ -222,5 +222,6 @@
     }
   ],
   "visualProvenance": "../assets/case-studies/visual-provenance.json",
-  "mediaPolicy": "Current site-hosted images are embedded in documentation under the owner instruction to complete illustrated documentation. Explanatory diagrams/panels are exact browser rasterizations of already-published case-study visuals; captions and truthful classifications retained. No original application sources, private data or font binaries are redistributed."
+  "mediaPolicy": "Current site-hosted images are embedded in documentation under the owner instruction to complete illustrated documentation. Explanatory diagrams/panels are exact browser rasterizations of already-published case-study visuals; captions and truthful classifications retained. No original application sources, private data or font binaries are redistributed.",
+  "fingerprintMethod": "SHA-256 of committed Git blob bytes. Working-tree CRLF conversion is not part of the public document bytes."
 }
