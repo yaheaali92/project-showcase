@@ -1,55 +1,158 @@
-# Rawaj — engineering a digital marketplace
+# Rawaj
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-A multi-role marketplace project connecting sellers, buyers and platform administration, with separate interface, business-service and data responsibilities.
+**E-commerce · In development**
 
-**Stage: In development**
+Find what you need. Give what you no longer need a new beginning.
 
-![Rawaj — engineering a digital marketplace](https://yahyaalali.com/images/editorial/rawaj-journey-r3.webp)
+Rawaj is a marketplace app bringing the flexibility of person-to-person selling together with the structure of shopping across stores. Discover new and used products, understand the listing, connect with the seller, and follow the journey from agreement and order to delivery and after-sales support.
 
-Generated conceptual illustration, not an actual interface or research result.
+![A conceptual interpretation of the marketplace; not an application screenshot.](https://yahyaalali.com/images/work/rawaj-outer-v1/cover-1200.webp)
 
-## Bringing the marketplace participants together
+A conceptual interpretation of the marketplace; not an application screenshot.
 
-I began developing Rawaj in 2026 as a digital marketplace for sellers, buyers and platform administration. The project extends beyond product listings to the journey of an order and the handling of returns, disputes and settlements after a sale.
+## Project at a glance
 
-My work covers application design, the interface, backend services and the data model. A practical question guides development: how can each action remain clear to its user and consistent with the order state and account permissions?
+- **Languages:** Arabic · English
 
-Product presentation connects the seller and buyer; an order then opens a sequence with different responsibilities for both parties and platform administration. The scope covers order state, return requests, disputes and settlements under the relevant permissions. These journeys are developed and connected to the application progressively; their description does not imply a completed commercial launch.
+- **Marketplace:** Individuals · Stores · Businesses
 
-## Separate engineering responsibilities
+- **Platforms:** Web · Mobile · Desktop
 
-| Layer | Technology and purpose |
-| --- | --- |
-| Application interface | Flutter and Dart |
-| Application services | TypeScript, Node.js and Express |
-| Durable data | PostgreSQL |
-| Caching | Redis |
-| Real-time communication | Socket.IO |
+## 01 · The idea and visual identity
 
-This architecture separates the user experience, business logic, data, and real-time communication. The codebase includes account and permission management, administrative action logging, listing publication and moderation, cart and order workflows, and components for returns, disputes, and accounting for amounts owed to sellers. The extent of integration and verification varies across these workflows; their presence in the code does not establish acceptance of an end-to-end commercial journey.
+Something you no longer use may be exactly what someone else is looking for. A new item in a store may reach a buyer who has never discovered that store. Rawaj brings these needs together in one multi-vendor marketplace, without making an individual seller operate like a full store or reducing a business to an isolated listing.
 
-The Flutter interface presents actions according to account permissions and order, payment, and return states, while backend services check authorization and validate state transitions. In this project, settlements refer to recording amounts owed to sellers and linking them to orders and ledger entries; actual payouts are a separate stage.
+Visitors can browse before creating an account: search, categories, condition and price filters, followed by product photographs, descriptions and specifications. When a private action is needed, the account provides the relevant workspace, from conversations, offers and carts to orders, listing preparation and sales management.
 
-## Current stage
+### Connected Flow
 
-Rawaj remains in development and has not entered commercial operation. Earlier, separate local test rounds documented listing publication, moderation, and cart workflows through interfaces connected to the backend and database, using synthetic data.
+<img src="https://yahyaalali.com/images/work/rawaj-flow-v1/card-light.svg" alt="Rawaj symbol — Connected Flow" width="128" />
 
-Recorded checks on 26 October 2026 covered logging in and viewing buyer orders and financial data through Flutter interfaces connected to the backend and database, on the web and an Android emulator, using synthetic data. The financial operations accepted in that round were read-only.
+Rawaj’s visual identity draws inspiration from the vitality of the marketplace and the continuous movement of trade. The horizontal bridge represents the meeting of buyers and sellers, the central stem symbolizes stability and organization, while the open curves evoke flow, reach, and prosperity.
 
-The complete order and after-sales journey, including returns and disputes between the parties, still requires end-to-end acceptance. Payment collection, refunds, and seller payouts through an approved provider remain to be verified, and commercial operation has not begun.
+1. **Connection:** The horizontal bridge brings marketplace participants into one shared trading space.
 
-## At a glance
+2. **Stability:** The central stem reflects organization and visual balance.
 
-- **Problem:** Connecting marketplace participants with order state and after-sales workflows.
-- **Audience:** Sellers, buyers and marketplace administrators.
-- **My role:** Application design, interface, backend services and data model.
-- **Technologies and method:** Flutter, Dart, TypeScript, Node.js, Express, PostgreSQL, Redis, Socket.IO
-- **Available to review:** A summary of the architecture, implementation scope, and documented local verification rounds and their limits. The project's private source code and internal acceptance records are not included in this case study.
+3. **Prosperity:** The open curves suggest commercial movement, reach, and growth.
 
-## Order boundaries and verification
+## 02 · Product discovery and buying
 
-I designed and developed the buyer, seller and moderation workflows. Flutter/Dart handles the interface, Express/TypeScript the guarded services, and PostgreSQL the transactional records. Order state separates transaction, logistics, payment and return. A return can open a linked dispute; seller settlement in the ledger records an entitlement and can be put on hold. Selected flows were verified separately on local web, Android emulator and Windows with synthetic data. Live collection, refunds, provider reconciliation and payouts remain outside the verified scope.
+The condition label distinguishes new, used, and open-box products. Condition, photographs, description and price shape the buying decision. Discovery connects search, categories and filters with a detailed product page, so visitors can compare the offer before contacting the seller or buying through the applicable fixed-price or negotiated flow.
 
-[Continue reading on the website](https://yahyaalali.com/en/works/rawaj/) · [Back to selected work](../../README.md)
+Original application screens captured locally with synthetic products, prices and orders, and licensed product photographs. These are not real listings or transactions.
+
+### A marketplace that starts with what you need
+
+<img src="https://yahyaalali.com/images/work/rawaj-story-02/catalog-en-1440.webp" alt="A marketplace excerpt brings each product’s photograph, price, and condition together: new, used, or open-box, within one discovery experience." width="900" />
+
+A marketplace excerpt brings each product’s photograph, price, and condition together: new, used, or open-box, within one discovery experience.
+
+### Details before the decision
+
+<img src="https://yahyaalali.com/images/work/rawaj-story-02/product-en-390.webp" alt="Photographs, condition, specifications, description and price share one context, helping the buyer understand the offer before contacting the seller or purchasing." width="320" />
+
+Photographs, condition, specifications, description and price share one context, helping the buyer understand the offer before contacting the seller or purchasing.
+
+## 03 · Seller and marketplace workspaces
+
+An individual account serves people selling their belongings; a business account supports stores and companies. Listing and quantity rules fit each account type. Buyer, seller and marketplace staff work around the same transaction, with distinct actions and permissions.
+
+### For buyers
+
+Discover products, save interest and contact the seller, then use a cart or negotiated offer where applicable. Orders, tracking, support and eligible returns remain part of a connected journey.
+
+### For sellers
+
+Prepare photographs and listing details, save drafts and submit them for review, then manage orders. Individuals list products marked as new, used, or open-box; business accounts manage new stock in quantities.
+
+### For marketplace teams
+
+Workspaces cover catalog, accounts, content, orders, shipping, support and finance. Permissions follow responsibility, with records linking decisions to the transaction and authorized actor.
+
+### From a private draft to a discoverable listing
+
+![Preparation and review remain separate from public visibility. Sellers can see each draft or listing status and the actions available next.](https://yahyaalali.com/images/work/rawaj-story-02/seller-en-768.webp)
+
+Preparation and review remain separate from public visibility. Sellers can see each draft or listing status and the actions available next.
+
+### Several orders, one clear status for each
+
+![A dedicated order workspace shows what awaits confirmation, what is in transit and what has been completed, without reconstructing the purchase from separate conversations.](https://yahyaalali.com/images/work/rawaj-story-02/orders-en-768.webp)
+
+A dedicated order workspace shows what awaits confirmation, what is in transit and what has been completed, without reconstructing the purchase from separate conversations.
+
+## 04 · The sales and after-sales journey
+
+A purchase may begin with a fixed price or a negotiated offer. Both lead to an explicit order, followed by seller confirmation, shipping and delivery tracking, and eligible support or returns. The interface explains the current state and next action while keeping delivery separate from money collection.
+
+### Beyond “order placed”: understand what happens next
+
+<img src="https://yahyaalali.com/images/work/rawaj-story-02/tracking-en-390.webp" alt="A fulfillment excerpt follows the order from creation through preparation, shipping and delivery, with payment status kept separate. The buyer can see what has happened and what comes next." width="360" />
+
+A fulfillment excerpt follows the order from creation through preparation, shipping and delivery, with payment status kept separate. The buyer can see what has happened and what comes next.
+
+1. **Discover and agree:** Photographs, description and condition, followed by the applicable fixed price or negotiated offer.
+
+2. **Order and confirm:** Review the order and address, then the actions allowed for buyer and seller.
+
+3. **Ship and deliver:** Follow order and shipment states and their related event history.
+
+4. **Support after the sale:** Returns, disputes and reviews depend on order state and eligibility.
+
+## 05 · System architecture
+
+One coherent experience does not mean the same workspace for everyone. Rawaj uses Flutter for Arabic and English across web, mobile and desktop, while marketplace services enforce account, permission, listing and order rules. The data layer preserves links between products, agreements, orders and their events.
+
+### Adapt to the device. Keep the context.
+
+A multi-platform architecture targets web, Android, iOS, Windows, macOS and Linux. Layout and navigation adapt to the window while language, marketplace concepts and roles remain consistent. Published releases are announced through project links as they become available.
+
+1. **One experience, two languages:** Buyer, seller and staff interfaces in Arabic and English, adapting to phones, tablets and desktop windows.
+
+2. **Services that organize marketplace activity:** Accounts, permissions, catalog, messaging, offers, orders, shipping and support, with server-side decisions.
+
+3. **Data that retains transaction context:** Products, stock, orders, tracking and accounting records preserve the relationship between events and decisions.
+
+### Delivery and payment are connected, but distinct
+
+Rawaj’s product vision includes shipping, cash on delivery, seller receivables and after-sales operations. A shipment status or accounting entry does not establish an external collection or payout; these services require independently approved providers and operating procedures.
+
+## 06 · Tools, technologies, and project links
+
+### Interfaces and experience
+
+Flutter · Dart · BLoC / Cubit
+
+### Services and business rules
+
+TypeScript · Node.js · Express
+
+### Data and operations
+
+PostgreSQL · Redis · Docker
+
+### Contribution
+
+I work on Rawaj’s experience, interfaces, services and data model, from product discovery and publication to orders and operating roles. This includes Arabic and English, responsive layouts, permissions and the connection between screens, business rules and transaction records.
+
+### Project links
+
+Explore the public interface or read the documentation for the project’s idea, architecture, and implementation boundaries.
+
+- [Visit Website](https://rawaj-preview.yahya-alali-portfolio.workers.dev/)
+- [Published case study](https://yahyaalali.com/en/works/rawaj/)
+
+The public interface preview does not include real accounts or transactions.
+
+### Product photograph sources and display rights
+
+Licensed product photographs: C D-X for the headphones, Alex Quezada for the camera, and Ruslan Bardash for the chair, under the Unsplash License. Screens use synthetic data, approved branding, Western digits0–9 and refined thumbnail framing in an isolated capture copy. The original Rawaj application is unchanged.
+
+[C D-X](https://unsplash.com/photos/flatlay-photography-of-wireless-headphones-PDX_a_82obo) · [Alex Quezada](https://unsplash.com/photos/a-camera-on-a-table-xKWwUz5g0-U) · [Ruslan Bardash](https://unsplash.com/photos/beige-wooden-bar-stool-4kTbAMRAHtQ) · [Unsplash License](https://unsplash.com/license)
+
+[Back to selected work](../../README.md)
+
+<!-- Synchronized with approved portfolio source 1891b31d467d1bf1625015889cc3eaadba285b45; six narrative sections and honest media classifications retained. -->
