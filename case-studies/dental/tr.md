@@ -1,161 +1,204 @@
-# Sinad — Diş Hekimi Çalışma Alanı ve Randevu Yönetimi
+# SINAD
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-**Tek çalışma alanı. Birden fazla çalışma yeri. Hasta kayıtlarına yetkiye dayalı erişim.**
+[Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/dental/)
 
-Sinad; diş hekiminin çalışma yerlerini, hizmetlerini ve takvimini, hastanın uygun saatleri inceleyip randevu talebi oluşturduğu ve durumunu izlediği akışla birleştirir. Hasta dosyaları, ziyaretler ve etkileşimli diş şeması yetkili kullanıcılar için ayrı iş akışlarıyla sunulur.
+Dijital Sağlık · Web sürümü erişilebilir
 
-![İki çalışma yerini hekimin çalışma alanına bağlayan ve uygun saatten randevu talebine ve onay öncesi incelemeye uzanan kavramsal çizim.](https://yahyaalali.com/images/work/sinad-case/evergreen-share-ltr.png)
+Hastanın randevusundan muayene kayıtlarına ve hekimin çalışma gününe uzanan bütünleşik diş kliniği yönetimi.
 
-Çalışma alanı ve randevu modelinin kavramsal çizimi.
+- **Alan:** Diş kliniği yönetimi
+- **Diller:** Arapça · İngilizce · Türkçe
+- **Erişim:** Web sürümü erişilebilir
 
-## Neden Sinad?
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/)
 
-Bir diş hekimi haftanın farklı günlerinde kendi muayenehanesinde, bir tıp merkezinde veya başka kliniklerde görev yapabilir. Her yerin çalışma saatleri ve randevu talepleri ayrı ayrı yönetildiğinde, hekimin gerçekten ne zaman müsait olduğunu görmek zorlaşır; takvim çakışmaları da daha olası hâle gelir.
+Kavramsal mimari görsel · gerçek arayüz görüntüleri aşağıda
 
-Bir de takvimden bağımsız bir soru vardır: **Aynı merkezde çalışan iki diş hekimi, birbirlerinin hasta dosyalarına kendiliğinden erişebilmeli midir?**
+SINAD, diş hekiminin mesleki çalışmalarının tek bir klinik adresiyle sınırlı olmadığı düşüncesiyle tasarlandı. Hekimin çalışma yerlerini, hizmetlerini, çalışma saatlerini, randevularını ve muayenelerini aynı çalışma alanında bir araya getirir; bunları hastanın hekim arama, randevu talebi ve takip süreçleriyle ilişkilendirir. Hasta kayıtlarına erişim, çalışma alanı ve kullanıcı rolüne göre düzenlenir.
 
-Sinad, **hekim merkezli çalışma alanı modeli (Doctor-First Practice)** üzerine kuruludur. Çalışma alanı ve kayıtlar ilgili hekime aittir; muayenehane veya tıp merkezi ise bu alana eklenen bir **çalışma yeri** olarak ele alınır. Böylece hekim birden fazla yerdeki iş akışını tek yerden düzenleyebilir. Ortak adres, başka bir hekimin klinik kayıtlarına erişim izni anlamına gelmez.
+## Vizyon ve görsel kimlik
 
-### Üç dilli arayüz
+Bir diş hekimi haftasını kendi kliniği ve başka bir tıp merkezi arasında planlayabilir. Hizmetler, çalışma saatleri ve randevular konuma göre değişirken hasta takibi ve muayeneler hekimin kendi mesleki çalışma alanının parçası olarak kalır. SINAD, işleyişi tek bir adrese değil hekime göre düzenlemek ve hastaya uygun hekim, hizmet, çalışma yeri ve saat seçimi için anlaşılır bir yol sunmak üzere tasarlandı.
 
-Kullanıcı arayüz dilini seçebilir. Arapça sağdan sola, İngilizce ve Türkçe soldan sağa okunur. Aşağıdaki başlıklar yerelleştirme kaynaklarından alınmıştır.
+Bu model randevuları, kayıtları ve muayeneleri bağımsız bir çalışma alanında ilişkilendirir. Destek ekibine belirli görevler tanımlar; aynı yerde çalışmak, başka bir hekimin hasta kayıtlarına erişim izni anlamına gelmez.
 
-- **العربية** — المواعيد · اللغة (RTL)
-- **English** — Appointments · Language (LTR)
-- **Türkçe** — Randevular · Dil (LTR)
+### Görsel Kimlik
 
-## İki bağlantılı süreç
+SINAD adı destek fikrini çağrıştırır: hekimin çalışma gününe ve hastanın randevu yolculuğuna eşlik eden dijital bir yardımcı. Diş biçimi ve S harfi, simgeyi ürünün alanı ve adıyla ilişkilendirir; lacivert, turkuaz ve altın tonları sade, profesyonel bir görünüm oluşturur.
 
-### Hekimin süreci
+### Görsel kimliğin anlamı
 
-1. Hesap ve uygunluk veya davet
-2. Çalışma alanı, yerler ve hizmetler
-3. Çalışma saatleri ve uygunluk
-4. Randevu taleplerini inceleme
+## SINAD deneyimine yakından bakış
 
-### Hastanın süreci
+Seçilen ekranlar, hekim aramadan çalışma alanını düzenlemeye ve muayene takibine kadar uzanan deneyimi gösterir. Görseller, yapay örnek verilerle görüntülenen özgün uygulama bileşenlerine dayanır.
 
-1. Hesap oluşturma
-2. Hekim ve hizmet arama
-3. Yer ve saat seçip talep gönderme
-4. Randevuyu izleme veya değişiklik isteme
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
 
-Hizmet süresi, çalışma saatleri ve istisnalar her çalışma yeri için tanımlanır. Sunucu, farklı çalışma yerleri ve saat dilimlerindeki mutlak zaman aralıklarının çakışmasını denetler ve mevcut randevuları korur. Talep gönderildiğinde, belirli aile randevuları da dâhil olmak üzere uygunluk, saat ve yinelenen talepler randevu politikasına göre yeniden doğrulanır.
+### 01 — Hekim ve hizmet arama
 
-**Randevu talebi** — İnceleme bekliyor. **Onaylanmış randevu** — Onay sonrası ayrı bir örnek.
+Hasta il ve bölgeye göre hekimleri ve çalışma yerlerini inceleyebilir. Arama, Arapça ve Türkçe yazım farklılıklarını normalleştirir; hasta hizmete ve gösterilen saatlere geçebilir.
 
-Saat değişikliği onaylanırken atomik işlem özgün randevunun durumunu denetler ve kararı geçmiş kaydıyla birlikte yazar. Değişiklik reddedilirse ilk randevu korunur. İptal edilen randevular durum geçmişinde kalır.
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
 
-### Çalışma alanına bağlı abonelik
+### 02 — Uygun saatten randevu talebine
 
-Diş hekimi hesabını ve çalışma alanını oluşturur, ardından çalışma yerlerini, hizmetlerini ve saatlerini düzenler. Abonelik, hekimin tüm çalışma yerlerindeki çalışma alanını kapsar. Modelde deneme süresi, ücretli paket ve aboneliği yönetme, yenileme veya iptal etme seçenekleri bulunur. Hasta hesabı ve ziyaret faturalandırması hekim aboneliğinden ayrıdır.
+Hasta hizmeti, çalışma yerini ve saati seçerek talebini veya değişiklik isteğini takip eder. Bekleyen talepler onaylanan randevulardan ayrılır; aile randevuları ilgili kurallara tabidir.
 
-Güncel fiyat, deneme süresi, dosya kotası ve abonelik koşulları resmî paket sayfasında yer alır. Bu incelemedeki Paddle kanıtı Sandbox ortamına aittir. [Paket ve abonelik](https://sinaddental.com/pricing.html?lang=tr)
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
 
-## Randevunun ötesi
+### 03 — Farklı çalışma yerlerinde hekimin günü
 
-Çalışma alanı hasta dosyalarını aramayı ve arşivlemeyi, dosyayı çalışma alanına bağlama talebini ve klinik takip yetkisi vermeyi veya geri almayı destekler. İdari veriler ve klinik notlar role ve yetkiye göre ayrılır.
+Hekim hizmetlerini, hizmet sürelerini, çalışma saatlerini ve istisnaları birden fazla çalışma yeri için düzenler. Takvim mantığı zaman çakışmalarını denetler.
 
-Yetkili kullanıcı süt veya kalıcı dişlerde dişi, yüzeyi ve tanı katmanını seçip değişiklik nedenini kaydeder. Sunucu beklenen revizyonu kontrol eder ve değişikliği, olayı ve denetim izini tek işlemde yazar. Geçmişi okuma, yetkili geri alma ve özet dışa aktarma akışları da bulunur.
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
 
-Kaynak kod, ziyaret kaydı, ziyaret faturası, ödeme ilişkilendirmesi ve dönem, çalışma yeri ve para birimine göre filtreleme akışlarını içerir. Tedavi planları ve dijital onam geliştirme kapsamındadır.
+### 04 — Hasta kayıtları ve etkileşimli diş şeması
 
-## Mekân, erişim yetkisi değildir
+Muayene, hasta kaydı ve diş şeması aynı bakım bağlamında ilişkilendirilir. Şema süt ve daimi dişleri, yüzeyleri ve klinik durum katmanlarını (önceki, tanı, planlanan ve tamamlanan) gösterir; değişiklikler ve denetim izi kayıt altına alınır.
 
-Sinad, **kullanıcının rolü** ile **hekimin çalıştığı fiziksel yeri** birbirinden ayırır. Uygulamanın dört temel kullanıcı rolü vardır:
+**Süt dişleri — tamamlayıcı görsel**
 
-1. **Diş hekimi (Doctor):** Kendi çalışma alanını, çalışma yerlerini, hizmetlerini, takvimini, randevularını ve yetkili olduğu klinik süreçleri yönetir.
-2. **Hasta (Patient):** Uygun saatleri bulur, randevu veya değişiklik talebi gönderir, durumu ve dosya bağlantılarını takip eder.
-3. **Resepsiyon ve destek ekibi (Staff):** Yetki verilen idari görevleri ve randevu koordinasyonunu yürütür; bu rol tek başına sınırsız klinik erişim sağlamaz.
-4. **Platform yöneticisi (Platform Admin):** Test ortamındaki hekim davetleri, çalışma yeri adreslerinin incelenmesi ve hesap durumları gibi belirli yönetim süreçlerini yürütür; klinik dosyalara otomatik erişim kazanmaz.
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/dental/#sinad-section-2)
 
-Merkez, hekimin çalışma alanına bir çalışma yeri olarak eklenir. Dosya erişimi çalışma alanı üyeliği, klinik takip yetkisi ve ilgili politikaya bağlıdır.
+### 05 — Faturalama ve mali takip
 
-```mermaid
-flowchart TD
-    centre["Ortak çalışma yeri"]
-    first["Diş hekimi A"]
-    second["Diş hekimi B"]
-    practiceA["Çalışma alanı A"]
-    practiceB["Çalışma alanı B"]
-    recordsA["Hasta kayıtları A"]
-    recordsB["Hasta kayıtları B"]
-    boundary["Otomatik dosya paylaşımı yok"]
-    centre -.-> first
-    centre -.-> second
-    first --> practiceA --> recordsA
-    second --> practiceB --> recordsB
-```
+Kurum içi faturalama kayıtları muayeneyi, faturaları, kaydedilen ödemeleri ve para birimlerini yetkiler çerçevesinde ilişkilendirerek mali takibi çalışma sürecinin parçası hâline getirir.
 
-İki hekim aynı adreste çalışabilir. Her hekimin bağımsız bir çalışma alanı vardır ve dosyalara erişim bu alan kapsamında yetkilendirilir.
+## Hekim, hasta ve ekip için bağlantılı deneyim
 
-## Mimari kararlar ve katkım
+Roller randevu ve muayenede buluşur; her kullanıcı kendi sorumluluk alanında çalışır.
 
-Sinad'ın hekim merkezli sahiplik modelinin şekillendirilmesine, ürün kapsamının ve veri ortamlarının ayrı tutulmasına öncülük ettim. Flutter arayüzlerinin geliştirilmesine, kimlik, veri ve randevu akışlarının bütünleştirilmesine katkı sundum; test kapsamının belirlenmesi ve sonuçların incelenmesinde de görev aldım.
+### Diş hekimi
 
-**Arayüz ve çalışma alanı bağlamı.** Arapça için sağdan sola, İngilizce ve Türkçe için soldan sağa arayüzler; ekranlar arasında etkin hekim alanı ve kullanıcı rolünün taşınması.
+Kendi çalışma alanını, çalışma yerlerini, hizmetleri, takvimi, randevuları, hasta kayıtlarını, muayeneleri, diş şemasını ve faturalamayı yetkileri kapsamında yönetir.
 
-Flutter · Dart · Material 3 · Bloc/Cubit · TenantContextScope
+### Hasta
 
-**Kimlik, uygulama doğrulaması ve cihazlar.** Kullanıcı kimlik doğrulamasını istemci uygulamanın doğrulanmasından ayırmak; kaynak kodda onaylı hesap cihazları ve doğrulanmış telefonla yeniden kimlik doğrulama akışlarını ele almak.
+Hekim ve çalışma yeri arar; hizmet ve saat seçerek randevu talebi veya değişiklik isteği oluşturur, durumunu takip eder. Kişisel hesabı hekimin aboneliğinden ayrıdır.
 
-Firebase Auth · Firebase App Check · account_device_service
+### Resepsiyon ve destek ekibi
 
-**Takvim ve atomik işlemler.** Farklı çalışma yerleri ve saat dilimleri arasındaki çakışmaları denetlemek, randevu uygunluğunu yeniden doğrulamak ve değişiklik kararlarını sunucu tarafında tek işlemde tamamlamak.
+Devredilen talepleri, görevleri ve idari bilgileri düzenler; rolü tek başına klinik kayıtlara sınırsız erişim sağlamaz.
 
-Cloud Functions · TypeScript · Node.js 22 · Firestore Transactions
+### Platform yönetimi
 
-**Klinik kayıtlar ve yetkilendirme.** Odontogram değişikliklerini revizyon ve denetim iziyle kaydetmek; Security Rules ile denetlenen doğrudan istemci erişimini, Admin SDK kullanan ve ayrıca sunucu tarafı yetki kontrolü gerektiren fonksiyonlardan ayırmak.
+Hesap yönetimi, hekim davetleri ve çalışma yeri incelemeleri gibi süreçleri düzenler; idari yetkiler klinik erişimden ayrı tutulur.
 
-Cloud Firestore/Storage Rules · odontogram_service · denetim kayıtları
+### Klinikten telefona
 
-**Hizmet entegrasyonları ve abonelik.** Abonelik durumu çalışma alanına bağlıdır. Bildirimler ve davetler ayrı kanalları kullanır. Her entegrasyonun doğrulama kapsamı farklıdır.
+Arapça, İngilizce ve Türkçe ekranlar; bilgisayarda takvim ve kayıt okumayı, telefonda randevu takibini destekler. Kod temeli birden çok platforma uygundur; web erişimi, ticari veya uygulama mağazası yayını anlamına gelmez.
 
-FCM · Postmark · Paddle Sandbox
+### Hekimin çalışma alanına bağlı abonelik
 
-```mermaid
-flowchart TD
-    client["Flutter istemcisi"]
-    auth["Kullanıcı kimliği — Firebase Auth"]
-    check["İstemci doğrulaması — App Check"]
-    direct["Doğrudan erişim"]
-    rules["Security Rules"]
-    cloud["Firestore / Storage"]
-    call["Sunucu işlevi"]
-    authorise["Üyelik, atama ve politika kontrolü"]
-    admin["Admin SDK · gerektiğinde işlem"]
-    records["Çalışma alanı kapsamındaki veriler"]
-    client --> auth
-    client --> check
-    auth -.-> direct
-    auth -.-> call
-    check -.-> direct
-    check -.-> call
-    direct --> rules --> cloud --> records
-    call --> authorise --> admin --> records
-```
+Abonelik, hekimin farklı çalışma yerlerindeki çalışma alanına bağlıdır; hasta hesapları ve muayene faturaları bundan ayrıdır. Yayımlanan paket deneme süresi ve dosya kotası içerir; hasta hesabı hekimin aboneliğini gerektirmez. Güncel fiyat, deneme, dosya kotası, yenileme ve iptal koşulları için [paket ve abonelik sayfası](https://sinaddental.com/pricing.html?lang=tr) incelenebilir.
 
-Kurallar doğrudan erişim yetkisini belirler. Sunucu işlevi Admin SDK ile okuma veya yazma öncesinde yetkileri denetler. App Check istemcinin doğrulanmasına yardımcı olur.
+## Randevu ve kayıt süreçlerinin mühendisliği
 
-## Teknolojiler, kanıtlar ve inceleme
+### Şekil 01 — Hekim aramadan muayeneye
 
-- **Arayüz ve deneyim:** Flutter · Dart · Material 3 · Bloc/Cubit · AR / EN / TR
-- **Kimlik ve erişim sınırları:** Firebase Auth · App Check · Firestore / Storage Security Rules
-- **Hizmetler ve iş mantığı:** Cloud Functions · TypeScript · Firestore Transactions
-- **Veri ve dosyalar:** Cloud Firestore · Cloud Storage · değişiklik ve denetim kayıtları
-- **İletişim ve entegrasyonlar:** FCM · Postmark · Paddle Sandbox
+1. İl ve bölge
+2. hekim, çalışma yeri ve hizmet
+3. uygun saat
+4. talep ve inceleme
+5. onaylanırsa kesinleşen randevu
+6. muayene, kayıt ve kurum içi faturalama
 
-### Mevcut kanıtlar
+Bu kavramsal süreç şeması, üretimde uçtan uca kabul kanıtı değildir.
 
-- **Sinad’ın resmî web sitesi.** Ürünü inceleyin, hekim ve hasta giriş noktalarına ulaşın ve paket ayrıntılarını görün. Korumalı işlevlere erişim hesap izinlerine bağlıdır. [Sinad’ın resmî web sitesini ziyaret edin](https://sinaddental.com/?lang=tr)
-- **Uygulama kanıtları.** Ayrı sentetik veri turları çalışma alanı ve takvim kurulumunu, talepleri, saat değişikliklerini ve iptal geçmişini belgeledi. 26 Ekim 2026’daki Chrome çalışması diş şeması güncellemesini, denetim izini ve atama geri alındığında erişimin kapanmasını belgeledi. Üye olmayan hesap için üretimdeki sunucu işlevi ayrı bir doğrulama konusudur.
+### Şekil 02 — Ortak konum, bağımsız kayıtlar
 
-**Erişim ve doğrulama kapsamı.** Resmî site herkese açıktır. Korumalı işlevlere erişim hesaba ve izinlere bağlıdır. Ticari ve klinik kabul ayrı süreçlerdir. Bu vaka incelemesi üretimde gerçek hasta verisi kullanımını veya ödeme tahsilatını doğrulamaz.
+İki hekim aynı merkezde çalışabilir; çalışma alanları bağımsız kalır. Kayıtlara erişimi üyelik ve bakım görevlendirmesi belirler; ortak adres otomatik erişim sağlamaz.
 
-## Kanıtın kapsamı
+Hekim A
 
-Tarihli Chrome doğrulaması sentetik verilerle yapıldı; odontogram değişikliği, denetim kaydı ve atama kaldırılınca erişimin reddi birlikte kontrol edildi. Üye olmayanlar için üretim ortamındaki sunucu çağrısı ayrı bir doğrulama konusudur. Ürün sitesinin ve abonelik planının yayımlanması, üretimde ödeme tahsilatını veya klinik kabulü göstermez.
+Hekime ait alan A
 
-[Web sitesinde okumaya devam edin](https://yahyaalali.com/tr/works/dental/) · [Seçili çalışmalara dön](../../README.tr.md)
+Hasta dosyaları A
+
+Hekim B
+
+Hekime ait alan B
+
+Hasta dosyaları B
+
+Ortak çalışma yeri
+
+### Şekil 03 — Mimari ve erişim sınırları
+
+Koruma, kullanıcı kimliği ve uygulamanın doğrulanmasıyla başlar. İstekler doğrudan erişim kurallarından veya yürütmeden önce yetkiyi denetleyen sunucu işlemlerinden geçer. Her iki yol kendi sınırları içinde pratik verilerine ulaşır; arayüz tek başına erişim yetkisi vermez.
+
+Kullanıcı kimliği
+
+Hesaba giriş
+
+Uygulama doğrulaması
+
+Uygulamanın gerçekliğini doğrulama
+
+Uygulama arayüzü
+
+Farklı cihazlara uyumlu deneyim
+
+Erişim kuralları
+
+Her doğrudan veri isteğini denetleme
+
+Sunucu işlemleri
+
+İşlem öncesinde yetki denetimi
+
+Pratik verileri
+
+Hasta kayıtları ve pratik ekleri
+
+**Seçilmiş mühendislik kararları**
+
+### Randevu tutarlılığı
+
+Talep gönderilirken uygun saat yeniden doğrulanır. Mevcut randevular korunur ve değişiklik kararı geçmiş kaydıyla birlikte sunucu tarafında işlem bütünlüğüyle ele alınır. Reddedilen değişiklik mevcut randevuyu korur.
+
+### Klinik kayıt tutarlılığı
+
+Diş şemasında beklenen revizyon, işlem kimliği ve değişiklik geçmişi, başka bir revizyonun sessizce üzerine yazılmasını önlemeye ve düzenleme bağlamını korumaya yardımcı olur. Tasarım FDI, Universal ve Palmer numaralandırmasını; kaynak kod düzeyinde geçmiş, yetkili geri alma ve dışa aktarma süreçlerini içerir.
+
+### Hesap ve cihaz kimliği
+
+Kullanıcı kimliği uygulamanın doğrulanmasından ayrılır; cihaz onayı, erişimin geri alınması ve denetim izi hesap bağlamında değerlendirilir.
+
+### Mali süreçlerin ayrımı
+
+Kurum içi muayene faturaları ve kaydedilen ödemeler, hekim aboneliğinden ve ödeme sağlayıcısının tahsilatından ayrıdır. Paddle entegrasyon kanıtı test ortamıyla sınırlıdır; ticari kabul ayrıca değerlendirilir.
+
+## Teknolojiler, katkım ve bağlantılar
+
+### Araçlar ve Teknolojiler
+
+#### Arayüz ve uygulama
+
+`Flutter` · `Dart`
+
+#### Veri ve hizmetler
+
+`Cloud Firestore` · `Cloud Storage` · `Cloud Functions`
+
+#### Kimlik ve güvenlik
+
+`Firebase Authentication` · `App Check`
+
+### Projeye Katkım
+
+SINAD’ın tasarımına ve hekim merkezli çalışma alanı modelinin geliştirilmesine öncülük ettim. Uygulama arayüzleri, kimlik, randevu ve veri süreçlerinin geliştirilmesi, yetki sınırlarının belirlenmesi ve test kanıtlarının incelenmesi üzerinde çalıştım. SINAD, diş hekimliği uygulamalarına ölçeklenebilir bir dijital çözüm sunmak üzere tasarlanan bağımsız bir projedir.
+
+Resmî site ziyaret edilebilir; korumalı işlevler hesap erişimine ve yetkilere bağlıdır. Sunulan kanıtlar belirli test ortamlarıyla sınırlıdır; kapsamlı klinik veya ticari kabulü ya da yayımlanmamış yerel uygulama sürümlerini ifade etmez.
+
+### Proje Bağlantıları
+
+### Proje bağlantıları
+
+- [Siteyi Ziyaret Et](https://sinaddental.com/?lang=tr)
+- [Paket ve Abonelik](https://sinaddental.com/pricing.html?lang=tr)
+- [Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/dental/)
+
+[Projelere dön](../../README.tr.md)

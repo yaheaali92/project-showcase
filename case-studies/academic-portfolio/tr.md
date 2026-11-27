@@ -1,48 +1,208 @@
-# Akademik portfolyo — içerikten okuma deneyimine
+# Kişisel Akademik Platform
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-Araştırmalarımı, yazılım projelerimi ve teknik yazılarımı üç dilde bir araya getiren; yalnızca site sahibine açık içerik düzenleme ve taslak inceleme alanıyla yapılandırılmış kitap okuma akışlarını destekleyen kişisel platform.
+[Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/academic-portfolio/)
 
-**Aşama: Yayımlandı**
+Web Mühendisliği ve Bilgi Mimarisi · Yayında
 
-![Akademik portfolyo — içerikten okuma deneyimine](https://yahyaalali.com/images/editorial/portfolio-editorial-r3.webp)
+Araştırmayı, mühendisliği ve öğrenmeyi üç dilde birleştiren içerik mühendisliği ve okuma deneyimi
 
-Üretilmiş kavramsal görsel; gerçek arayüz veya araştırma sonucu değildir.
+- **İçerik:** Projeler · Araştırmalar · Eğitim içerikleri
+- **Diller:** Arapça · İngilizce · Türkçe
+- **Durum:** Yayında olan ve gelişen platform
 
-## Araştırma, mühendislik ve bilgiyi bir araya getiren platform
+Yazılım projelerini, araştırmaları ve yayınları keşfetmek; dersleri ve kitapları Arapça, İngilizce ve Türkçe okumak için tek bir alan.
 
-![Platform kimliği: araştırma, mühendislik ve bilgi](../../assets/editorial/platform-identity-r4.webp)
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/)
 
-Üretilmiş kavramsal açılış görseli bütün platformu temsil eder; tek bir ürünün ekran görüntüsü veya araştırma sonucu değildir. Başlıklar ve işlemler seçilen dilde canlı metin olarak kalır.
+yahyaalali.com
 
-Bu platformu akademik çalışmalarımı, yazılım projelerimi ve teknik yazılarımı açık bir bağlamda sunmak için geliştirdim: çalışma hangi sorunu ele alıyor, çözümü nasıl geliştiriyorum ve okur hangi bölümleri gerçekten inceleyebiliyor? Arayüz Arapça, İngilizce ve Türkçeyi destekler; dillerin farklı okuma yönlerini gözetir.
+Yayındaki platformdan genel görünümler · 22 Kasım 2026
 
-## Düzenleme ve yayımlama
+## Vizyon ve Bütünleşik Bilgi Mimarisi
 
-Yönetim alanı yalnızca site sahibine açıktır; ziyaretçiler bu alana giremez. Kişisel bilgileri, vaka çalışmalarını ve yazıları düzenlemeye, ayrıca kaynak metne bağlı bir çeviri oluşturmaya olanak tanır. Değişiklikler sürüm geçmişiyle birlikte taslak olarak kaydedilir ve yayımlanmadan önce önizlenebilir. Kaydetmek tek başına içeriği herkese açmaz; önceki bir sürüm, yayımlanmış içeriği otomatik olarak değiştirmeden taslağa geri alınabilir.
+Ziyaretçi dağınık depolar ve dosyalar arasında dolaşmak yerine her proje, araştırma veya eğitim içeriği için amacını, durumunu ve bağlantılarını açıklayan bir sayfa bulur. Her çalışma, tutarlı üç dilli okuma deneyimi içinde kendi kimliğini korur.
 
-## Okunabilir öğretici içerik
+### Görsel kimliğin anlamı
 
-Kitap okuyucusu ünite ve konu dizinini; kod örneklerini, tabloları, denklemleri ve çözümlerine bağlı soruları sunar. Öğretici içerik ayrı sayfa dosyaları yerine yapılandırılmış bloklarla yönetilir; yayımlanmamış üniteler ziyaretçilere açılmaz.
+İç içe geçen üç şerit bu üç dayanağın birbirini tamamlamasını, iki düğümü birleştiren camgöbeği hat ise aralarındaki bağı simgeler. Harf içermeyen aynı amblem, platformun Arapça, İngilizce ve Türkçe arayüzlerinde tutarlı bir kimlik sunar.
 
-## Mühendislik kararları
+### Görsel Kimlik — Araştırma · Mühendislik · Bilgi
 
-Arayüz için Astro ve TypeScript; barındırma, içerik saklama ve arka uç işlemleri için Firebase hizmetlerini kullandım. İçerik modeli bir metni dili, sürümü ve yayımlanma durumuyla ilişkilendirir. Rota ve erişim testleri, herkese açık içerikle sahibin çalışma alanının ayrımını denetlemeye yardımcı olur.
+## Yayındaki Platform Arayüzlerinden Görünümler
 
-Platform, tüm öğretici materyalin tamamlanmasını veya özel proje kodlarının paylaşılmasını beklemeden, tutarlı güncelleme grupları yayımlanıp alan adında incelenerek geliştirilmeye devam ediyor.
+Bu bölüm, gerçek gezinme ve okuma deneyimini yansıtmak üzere yayındaki ziyaretçi sayfalarından ilgili dilde alınan beş bağımsız genel ekranı sunar:
 
-## Kısa bakış
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
 
-- **Problem:** Araştırma, yazılım ve öğretici içeriği güncellenebilir, çok dilli ve okunabilir tek bir platformda sunmak.
-- **Hedef kitle:** Araştırmacılar, öğrenciler, geliştiriciler ve çalışmaları inceleyen iş birliği adayları.
-- **Katkım:** Platformun tasarımı, geliştirilmesi ve içerik yönetimi.
-- **Teknolojiler ve yöntem:** Astro, TypeScript, Firebase Hosting, Cloud Functions, Firestore
-- **Mühendislik kararı:** Özel taslakları yayımlanmış içerikten ayırmak ve düzenleme, önizleme ile yayımlama adımlarını bağımsız tutmak.
-- **Ziyaretçilere açık olanlar:** Yayımlanmış web sitesi ve kitabın yayımlanmış materyalini sunan yapılandırılmış okuyucu. İçerik düzenleyicisi ve taslak önizlemeleri yalnızca site sahibine açıktır.
+Yayındaki genel arayüz görüntüsü · 2026-11-22
 
-## Yayımlanan dizin ve sunum mimarisi
+### Ana Sayfa ve Okuma Kimliği
 
-Birleşik proje dizinini, Astro/TypeScript tabanlı üç dilli içerik ve okuma deneyimini ve dile göre çalışan tarayıcı aramasını geliştirdim. Taslaklar inceleme ve önizleme boyunca, açık yayımlama adımına kadar özel kalır. Firebase Hosting parmak izli varlıkları sunar; Astro dinamik HTML'yi Cloud Run üzerindeki Cloud Functions Gen2 aracılığıyla üretir. Genel içerik Firestore ile desteklenir. Yayımlanan sayfalar okuma deneyimini, mimari şemalar ve kavramsal kapaklar ise tasarımı gösterir.
+Kişisel tanıtımı, görsel kimliği, öne çıkan araştırma ve proje seçkilerini ve ana gezinme yollarını dengeli bir yapıda buluşturan giriş ekranı.
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/works/academic-portfolio/) · [Siteyi ziyaret et](https://yahyaalali.com/tr/) · [Çalışma listesine dön](../../README.tr.md)
+[Kaynak sayfaya git](https://yahyaalali.com/tr/)
+
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+
+Yayındaki genel arayüz görüntüsü · 2026-11-22
+
+### Bütünleşik Çalışmalar Dizini
+
+Dijital ürünleri ve çözümleri mühendislik prototiplerinden ve ders çalışmalarından ayıran; her çalışmanın durumunu gösterip detayına, canlı sitesine ve dokümantasyonuna doğrudan yönlendiren ortak kart yapısı.
+
+[Kaynak sayfaya git](https://yahyaalali.com/tr/works/)
+
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+
+Yayındaki genel arayüz görüntüsü · 2026-11-22
+
+### Yapılandırılmış Kitap ve Ders Okuyucusu
+
+Üç dilde yayımlanan _Ağ Temelleri_ kitabının ilk dersi üzerinden kitap fihristini, ünite ve ders başlığını, okuma ilerleme göstergesini ve öğrenme hedeflerini bir araya getiren okuma deneyimi; _Dart_ okuyucusu ayrıca Arapça olarak erişilebilirdir.
+
+[Kaynak sayfaya git](https://yahyaalali.com/tr/books/network-foundations/network-foundations-lesson-1/)
+
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+
+Yayındaki genel arayüz görüntüsü · 2026-11-22
+
+### Akademik Araştırma Alanı
+
+Doktora araştırmasını ve üniversite tezlerini ilgili akademik çıktılarla bağlamsal olarak ilişkilendirirken her kaydın bibliyografik bağımsızlığını koruyan araştırma dizini.
+
+[Kaynak sayfaya git](https://yahyaalali.com/tr/research/)
+
+[Arayüzü ve şemaları proje incelemesinde görüntüle](https://yahyaalali.com/tr/works/academic-portfolio/#academic-section-2)
+
+Yayındaki genel arayüz görüntüsü · 2026-11-22
+
+### Dile Özgü Yerel Arama
+
+Seçili dilde arama alanıyla platformun farklı bölümlerindeki yayımlanmış içerikleri bir arada listeleyerek başlık ve konulara hızlı erişim sağlayan bağımsız arama arayüzü.
+
+[Kaynak sayfaya git](https://yahyaalali.com/tr/search/)
+
+## Platform Okurlarına Nasıl Hizmet Eder?
+
+Gezinme yolları, her okur grubunun aradığı içeriğe gürültüsüz ve doğrudan ulaşması için kurgulandı:
+
+### Araştırmacılar ve Mühendislik İş Birliği Adayları İçin
+
+1. Aynı dilde araştırma kayıtları ile ilişkili yayınlar arasında karşılıklı geçiş; açık kaynakça ve bibliyografik kimlik koruması
+   .
+2. Her ürün ve proje için sorunu, tasarımı, arayüzleri, mimariyi ve kişisel katkıyı ortaya koyan kapsamlı mühendislik vaka incelemeleri
+   .
+3. Yayımlanmış ürünleri geliştirme aşamasındaki sistemlerden, araştırma prototiplerinden ve ders çalışmalarından ayıran şeffaf sınıflandırma
+   .
+
+### Öğrenciler ve Teknik Okurlar İçin
+
+1. Üniteleri, konuları, soruları ve sürüme bağlı çözümleri sayfa içi fihristler ve kod kopyalama desteğiyle düzenleyen yapılandırılmış kitap okuyucusu
+   .
+2. Uygulamalı mühendislik çalışmalarıyla bağlantılı teknik rehberler ve makaleler; okuma ile gerçek projeler arasında akıcı geçiş
+   .
+3. Seçili arayüz dilinde genel içeriği tarayıcı içinde filtreleyen, Arapça harf ve hareke normalleştirmesini destekleyen yerel metin araması
+   .
+
+## İçeriğin hazırlanmasından sayfanın okunmasına
+
+İlk şema içeriğin düzenlenmesini, incelenmesini ve yayımlanmasını gösterir. İkinci şema, yönetim alanı korunurken sayfanın ziyaretçiye nasıl ulaştığını açıklar.
+
+### Hazırlıktan yayına içerik akışı
+
+#### Her içerik için tutarlı bir yapı
+
+Her içeriğin başlığı, türü, dili ve yolu bellidir; böylece gösterimi ve aranması tutarlı olur.
+
+- Projeler
+- Makaleler
+- Site sayfaları
+- Araştırmalar
+- Yayınlar
+- Kitaplar ve dersler
+
+#### İnceleme, ardından açık yayın
+
+Taslak ve korumalı önizleme; sürüm ve ilişki denetimleri; ardından geri çekme ve geri yükleme olanağıyla yayın.
+
+#### Yayımlanmış içerik
+
+Ziyaretçinin okumasına izin verilen sürüm.
+
+#### İncelenmiş depo kaynakları
+
+Yayımlanmış içerikle birlikte okunan onaylı materyaller.
+
+Kaynakları belirli öncelikle birleştirme
+
+#### Seçilen dilde okuma ve keşif
+
+- Site bölümleri
+- Dil içinde arama
+- Arama motoru sayfa bilgileri
+
+Yayın, incelemeden sonra verilen açık bir karardır. Onaylı kaynaklar belirli öncelikle birleştirilir; iç düzenleme verileri genel okumaya açılmaz.
+
+### Sayfa ziyaretçiye nasıl ulaşır?
+
+#### Okuma arayüzü
+
+Seçilen dil, metin yönü, gezinme ve arama.
+
+#### Sayfanın sunulması
+
+- Arayüz varlıkları ve görseller
+- İstek sırasında okunan güncel içerik
+
+#### İçerik ve medya
+
+- Yayımlanmış içerik
+- İncelenmiş kaynaklar
+- Görseller ve dosyalar
+
+#### Korumalı düzenleme alanı
+
+- Oturum açma
+- Çağıran uygulamanın denetimi
+- Sunucu izinleri ve erişim kuralları
+
+Arayüz varlıkları doğrudan sunulur; değişen içerik, güncellik sınırlarıyla istek sırasında okunur. Düzenleme alanı genel önbelleğin dışında kalır.
+
+## Teknoloji, Katkım ve Bağlantılar
+
+### Araçlar ve Teknolojiler
+
+#### Arayüz
+
+`Astro` · `TypeScript`
+
+#### Sunum ve veri
+
+`Firebase Hosting` · `Cloud Functions Gen2` · `Cloud Run` · `Cloud Firestore`
+
+#### Koruma ve medya
+
+`Firebase Authentication` · `App Check` · `Cloud Storage`
+
+### Projeye Katkım
+
+Platformu ve kimliğini tasarladım; arayüzlerini, hizmetlerini ve yayın araçlarını geliştirdim, içeriğini ve üç dilli okuma yollarını düzenledim.
+
+### Erişim ve Kapsam
+
+Görüntüler genel okuma sayfalarını gösterir; düzenleme ve yönetim araçları korumalı alanda kalır.
+
+### Proje Bağlantıları
+
+### Proje bağlantıları
+
+- [Siteyi Ziyaret Et](https://yahyaalali.com/tr/)
+- [Kaynak sayfaya git](https://yahyaalali.com/tr/works/)
+- [Kaynak sayfaya git](https://yahyaalali.com/tr/books/network-foundations/network-foundations-lesson-1/)
+- [Kaynak sayfaya git](https://yahyaalali.com/tr/research/)
+- [Kaynak sayfaya git](https://yahyaalali.com/tr/search/)
+- [Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/academic-portfolio/)
+
+[Projelere dön](../../README.tr.md)

@@ -1,41 +1,224 @@
-# Athar Al-Wird — organising Quran learning
+# Athar Al-Wird
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-An online platform connecting Quran learning circles, groups, plans, sessions and assessment across teacher, student, guardian and administrator roles.
+[Published case study](https://yahyaalali.com/en/works/athar-wird/)
 
-**Stage: Published**
+Education Technology · Published on the web
 
-![Athar Al-Wird — organising Quran learning](https://yahyaalali.com/images/editorial/athar-learning-r3.webp)
+From daily practice to a traceable educational record
 
-Generated conceptual illustration, not an actual interface or research result.
+- **Platform:** Web application
+- **Language:** Arabic
+- **Availability:** Published on the web
 
-## Connecting the plan with learning practice
+A published web platform connecting Quran learning circles with curricula, study plans, sessions, attendance, and assessment. It provides role-specific workflows aligned with the responsibilities of administrators, teachers, learners, and guardians.
 
-I am developing Athar Al-Wird to bring the organisation and follow-up of Quran learning into one workspace. Learning circles and groups connect with study plans, sessions and assessment, while the interface adapts to teacher, student, guardian and administrator roles.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/)
 
-The structure goes beyond recording an isolated achievement. Linking a plan to sessions and assessment supports the learning journey, with invitations and notifications helping people reach the appropriate group and stay connected.
+Actual application components · Synthetic data · The application interface is Arabic
 
-Students can follow their assigned plan and schedule; teachers relate sessions, progress and assessment to the learning group. Guardian and administrator roles show the information relevant to each role rather than forcing everyone through one identical workspace. Connecting the assigned work with practice and follow-up makes progress easier to read over time.
+## The Idea and Visual Identity
 
-## Interface and services
+Tracking a learner’s progress goes beyond scheduling a session or recording attendance. Each learning circle has groups and members; each study plan draws on curriculum content; and each recorded achievement needs context to distinguish a submitted update from an approved result.
 
-The application uses Flutter and Dart with Firebase identity, data and backend services. My work covers the user experience and the connection between roles, learning workflows and services, with particular attention to Arabic readability and information organisation.
+When these elements are managed through separate workflows, maintaining a coherent learning record becomes more difficult. Athar Al-Wird brings these relationships into one structured experience while defining what each user is authorized to view or perform.
 
-## The online edition
+### Visual Identity
 
-The website has been online since 6 October 2026 at [Athar Al-Wird](https://atharwird.com/). Workspaces require sign-in; development and refinement continue after publication.
+A custom ivory mark inspired by the Arabic letter thāʾ in Athar, with three coral dots representing planning, recitation and review. Midnight-blue ink and ivory paper connect the symbol to the app’s name and the rhythm of daily learning.
 
-## At a glance
+### Visual identity meaning
 
-- **Problem:** Connecting Quran-learning organisation with plans, sessions and assessment.
-- **Audience:** Teachers, students, guardians and learning-circle administrators.
-- **My role:** Application experience, role-based workflows and backend services.
-- **Technologies and method:** Flutter, Dart, Firebase
-- **Available to review:** An online website providing sign-in access to role-specific workspaces.
+## Inside the Application
 
-## Learning workflows and availability
+Actual application components rendered in an isolated local shell with synthetic data. These images explain the interface without exposing real records or presenting them as captures from production accounts. The app is Arabic; the case-study explanations are available in three languages.
 
-I shaped the Arabic experience and linked role-specific learning workflows to Flutter/Dart screens and Firebase services. The published web platform supports circles and groups, versioned curricula, study plans, sessions, attendance and assessment for administrators, teachers, learners and guardians. Selected operations use Firestore transactions and operation receipts. The public web entry is available; the documented checks cover selected workflows and do not establish an app-store release or comprehensive production acceptance.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
 
-[Continue reading on the website](https://yahyaalali.com/en/works/athar-wird/) · [Open the Athar Al-Wird sign-in](https://atharwird.com/) · [Back to selected work](../../README.md)
+Actual application components · Synthetic data
+
+### Dashboard and work organization
+
+An overview brings follow-up indicators and navigation into one workspace. All displayed values are synthetic demonstration data.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+### Curricula and learning references
+
+The interface for organizing curricula and their versions within educational content management.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+### The teacher workspace
+
+The teacher’s workspace for navigating plans, sessions and learning follow-up.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+### The learner and parent workspace
+
+The family interface for the permitted learning paths and educational record.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+### Sessions, attendance and follow-up
+
+A workspace connecting session scheduling with attendance and assessment procedures.
+
+### Prayer times within the daily rhythm
+
+The app calculates prayer times using location and local time, and shows the next prayer and the remaining time. Users can permit location detection or choose a city manually, with calculation-method settings.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+#### The next prayer and today’s times
+
+The original prayer panel shows the next prayer, a countdown and the daily schedule. The capture uses a public city and a fixed demonstration date; it is not guidance for prayer times now.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/athar-wird/#athar-section-2)
+
+Actual application components · Synthetic data
+
+#### City selection and location control
+
+A clear alternative to location detection: choose a city without sharing the device location. The isolated shell uses public demonstration coordinates, without GPS requests or personal location storage.
+
+Calculated times depend on location and method; compare them with approved local timetables. Images show original components in a local shell, not a user’s location record.
+
+## A Connected Experience for Four Roles
+
+Athar Al-Wird connects circle and group management with planning, sessions, assessment, and progress tracking. Each role receives workflows aligned with its responsibilities:
+
+### Administration
+
+Manages accounts, invitations, circles, groups, curricula, oversight, and reporting within defined permissions.
+
+### Teacher
+
+Prepares plans, manages sessions, records attendance and assessments, and reviews learners’ progress within an assigned scope.
+
+### Learner
+
+Accesses authorized study plans and learning records and submits progress updates through permitted workflows.
+
+### Guardian
+
+Follows authorized learners’ educational records and participates in permitted follow-up activities.
+
+## Engineering the Learning Journey
+
+### From Curriculum to Meaningful Progress
+
+The circle and curriculum reference meet in a published plan. Family check-ins remain separate from teacher review and approval.
+
+Circle and group
+
+Curriculum versions
+
+Published learning plan
+
+Sessions, attendance and assessment
+
+Recording follow-up
+
+Teacher review and approval
+
+Reports and progress context
+
+### A Clear Interface and Protected Responsibilities
+
+Core service responsibilities. Server-side processing checks identity and permissions; the interface alone does not grant access.
+
+Interface and application state
+
+Flutter · Dart · Bloc/Cubit
+
+User identity
+
+Firebase Authentication
+
+Operations and permission checks
+
+Cloud Functions
+
+Request identity evidence
+
+Operational data
+
+Cloud Firestore
+
+Storage
+
+Cloud Storage
+
+Notifications
+
+Firebase Cloud Messaging
+
+**Engineering Decisions and Boundaries**
+
+### 1. Authorization Beyond the Interface
+
+Identity, roles, and relationships are evaluated on the server side. Access control relies on authorization scopes, not merely on hiding interface elements.
+
+### 2. Version-Aware Curricula
+
+The data model supports curriculum versions and links study plans to their content, helping preserve the context of plans when a curriculum changes.
+
+### 3. Recording and Approval Are Distinct
+
+The workflow distinguishes progress submitted by a learner or guardian from actions reviewed or approved by an authorized teacher.
+
+### 4. A Session Is More Than a Meeting Link
+
+Scheduling, session states, attendance, and assessment are related but distinct operations. Opening a meeting link does not, by itself, establish approved attendance.
+
+### 5. Activity Records and Operation Receipts
+
+Activity records support the review of actions, while operation receipts help selected workflows handle repeated requests in a controlled manner.
+
+### 6. Separation of Technical Responsibilities
+
+Flutter and Dart handle the interface and application state. Firebase services support authentication, data, server-side operations, storage, and notifications according to their responsibilities. Firestore transactions are used where required by the implemented operations.
+
+## Technologies, Contribution and Links
+
+#### Interface and State
+
+Flutter · Dart · Bloc/Cubit
+
+#### Identity and Operations
+
+Firebase Authentication · Cloud Functions
+
+#### Data and Supporting Services
+
+Cloud Firestore · Cloud Storage · Firebase Cloud Messaging
+
+### Engineering Contribution
+
+My contribution included shaping the Arabic user experience, organizing role-specific workflows, and connecting educational requirements with application screens and supporting services. Documented engineering decisions include scoped authorization, versioned curricula, separate recording and approval flows, and contextual progress tracking.
+
+### Availability
+
+**Athar Al-Wird is published on the web** through its official domain. Access to internal workspaces requires an authorized account.
+
+This case study reflects source implementation, documentation, and bounded verification records. Development and improvements continue; no app-store release or comprehensive production acceptance is claimed.
+
+### Project links
+
+- [Visit Website](https://atharwird.com/)
+- [Published case study](https://yahyaalali.com/en/works/athar-wird/)
+
+[Back to projects](../../README.md)

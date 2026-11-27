@@ -1,41 +1,135 @@
-# THIQAH — documenting business-to-business relationships
+# THIQAH
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-A B2B trade-network project with identity, organisation and authorisation foundations, working towards documented invoices, receivables, payments and disputes.
+[Published case study](https://yahyaalali.com/en/works/thiqah/)
 
-**Stage: In development**
+B2B trade network · In Development
 
-![THIQAH — documenting business-to-business relationships](https://yahyaalali.com/images/editorial/thiqah-network-r3.webp)
+From a handshake to a shared record both parties understand
 
-Generated conceptual illustration, not an actual interface or research result.
+- **Product model:** B2B
+- **Languages:** Arabic · English · Turkish
+- **Status:** In Development
 
-## A shared record of the business relationship
+A B2B network being developed to give suppliers and retailers a clearer shared context for their commercial relationships, bringing claims, confirmations, and settlements into one record.
 
-THIQAH is a project for documenting relationships between businesses, providing a context in which invoices, receivables, payments and disputes can be traced. It is not designed as a public marketplace or financial wallet; its purpose is to organise the information behind a business relationship.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/)
 
-## The current foundation
+Conceptual illustration
 
-I have developed the multilingual Flutter presentation foundation and responsive interface, alongside backend foundations for identity, organisations, authorisation and an audit trail. These provide defined account and organisation boundaries for subsequent business features.
+## One shared record. Value for both sides.
 
-Invoices, receivables, payments and disputes remain on the development roadmap rather than complete commercial functions. The project does not hold customer funds; any future payment integration requires an appropriate separate arrangement.
+When invoices and payments are scattered across messages and notebooks, agreeing on what happened becomes harder than recording it. THIQAH starts with a simple idea: both parties should be able to read the same history and distinguish what was recorded, confirmed, or still needs review.
 
-The current core covers identity, sessions, organizations, memberships, branches and scoped authorization. The invitation workflow is unconfirmed. Invoices, receivables, settlements, disputes and commercial synchronization remain designed or incomplete, with no end-to-end verification. Administrative audit records concern selected administrative operations; commercial accounting is a separate domain.
+### For suppliers and field teams
 
-## Engineering priorities
+One context instead of tracing figures across separate channels.
 
-The work separates a coherent user experience from the implementation of financial operations. PostgreSQL and Prisma support durable data, while Flutter and Dart provide the interface. Current development prioritises identity, relationships and permissions before extending the business domains.
+- Associate a claim with its business and due date.
+- Read payments and adjustments alongside the original event.
+- Return to the relationship history when following up accounts.
 
-## At a glance
+### For retailers and finance teams
 
-- **Problem:** Organising the information and history behind relationships between businesses.
-- **Audience:** Businesses that need records of their relationships, invoices and receivables.
-- **My role:** Presentation, identity, organisations, authorisation and data foundations.
-- **Technologies and method:** Flutter, Dart, PostgreSQL, Prisma
-- **Available to review:** A multilingual interface foundation and identity/organisation/audit services, with commercial-domain features on the subsequent roadmap.
+An understandable review before confirmation, and a clear trail afterward.
 
-## Implemented foundation and commercial design
+- Review each claim and understand its source.
+- Give an explicit confirmation or a reasoned objection.
+- Keep corrections and settlements within a shared history.
 
-I designed the shared trade-record model and developed the current foundation: a multilingual Flutter shell and a NestJS modular monolith using PostgreSQL and Prisma. The documented core handles identity, sessions, organizations, memberships, branches and scoped authorization. Selected administrative operations have audit records and limited idempotency. Invoices, receivables, reconciliation, objections and commercial offline synchronization are designed or incomplete; their end-to-end operation is unconfirmed. A queued device action is distinct from a server-confirmed transaction or counterparty acceptance.
+## From a claim to settlement
 
-[Continue reading on the website](https://yahyaalali.com/en/works/thiqah/) · [Back to selected work](../../README.md)
+Figures become meaningful when the other party’s position is clear. The proposed journey takes a documented claim through review, preserves confirmation or objection, and connects the outcome to the relationship history.
+
+1. **Record a claim**
+   Link the amount and due date to the trading relationship.
+2. **Review by the other party**
+   Read the details alongside the shared record.
+3. **Confirm or give a reasoned objection**
+   Preserve an explicit response and the reason for any objection.
+4. **Document payment or settlement**
+   Update the relationship history without losing earlier context.
+
+A conceptual view of the designed workflow, not a working transaction interface.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/#thiqah-section-2)
+
+Conceptual illustration — not a screenshot of the actual application
+
+## An identity built around connection
+
+Two interlocking links represent independent parties connected by one shared record. The three dots recall the Arabic letter Tha in ثِقة. Deep petroleum and warm gold bring clarity and connection to the identity.
+
+- Deep petroleum
+- Warm gold
+- Quiet ivory
+
+### Visual identity meaning
+
+## A window into the current preview
+
+An early exploratory preview of the interface and components, not the final commercial product.
+
+The current preview lets visitors explore language, appearance, navigation, and interface elements using in-memory sample data, without real accounts or commercial transactions.
+
+[Visit Website ↗](https://thiqah-preview.pages.dev/?lang=en)
+
+A detail from a real public-preview capture taken on 22 November 2026. The frame shows the content area.
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/thiqah/#thiqah-section-4)
+
+## An architecture for the next step
+
+The idea rests on two separate foundations: the Flutter interface and a backend core for identity, organizations, and authorization. This diagram reflects source-backed foundations while keeping integration and commercial journeys in their designed scope.
+
+Flutter / Dart
+
+### Interface foundation
+
+The current UI preview: language, appearance, navigation, and interface components.
+
+NestJS / Fastify
+
+### Identity and organization core
+
+A source-documented server foundation for identity, businesses, sessions, authorization, and audit.
+
+PostgreSQL / Prisma
+
+Foundation data and an audit trail
+
+Full commercial integration is not established
+
+Data access through Prisma
+
+### Future commercial modules — design and plans
+
+Invoices, receivables, confirmations, objections, payments, and settlements form the designed commercial extension. The current preview does not establish full commercial integration with the server foundation or live execution of these journeys.
+
+### Tools and Technologies
+
+#### Interface foundation
+
+Flutter · Dart · GoRouter
+
+#### Identity and organization core
+
+NestJS · Fastify · OpenAPI
+
+#### Foundation data and an audit trail
+
+PostgreSQL · Prisma
+
+### My Contribution
+
+I lead the product vision, multilingual experience design, and foundation architecture, guided by both parties’ need for a clearer shared trading record.
+
+### Project Links
+
+### Project links
+
+- [Visit Website](https://thiqah-preview.pages.dev/?lang=en)
+- [Published case study](https://yahyaalali.com/en/works/thiqah/)
+
+[Back to projects](../../README.md)

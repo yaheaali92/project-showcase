@@ -1,161 +1,204 @@
-# Sinad — Dental Practice and Patient Appointment Management
+# SINAD
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-**One practice workspace. Multiple workplaces. Explicit access to patient records.**
+[Published case study](https://yahyaalali.com/en/works/dental/)
 
-Sinad connects a dentist’s workplaces, services and schedule with a patient journey for discovering availability, requesting an appointment and following its status. Authorized care teams can use separate workflows for patient records, visits and the interactive odontogram.
+Digital Health · Web version available
 
-![Concept illustration linking two workplaces to a dentist’s practice, then showing availability, an appointment request and review before confirmation.](https://yahyaalali.com/images/work/sinad-case/evergreen-share-ltr.png)
+Connected dental practice management, from the patient’s appointment to visit records and the dentist’s working day.
 
-Concept illustration of the practice and appointment model.
+- **Field:** Dental practice management
+- **Languages:** Arabic · English · Turkish
+- **Availability:** Web version available
 
-## Why Sinad?
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/)
 
-A dentist may divide their week between a private practice and one or more medical centres. Managing schedules and appointment requests separately at each location makes it harder to see the dentist’s actual availability and increases the risk of conflicting bookings.
+Conceptual architectural visual · actual interface captures below
 
-There is a second question beyond scheduling: **if two dentists work at the same centre, should they automatically have access to each other’s patient records?**
+SINAD is built around the idea that a dentist’s practice extends beyond a single clinic address. It brings workplaces, services, working hours, appointments and visits into a shared practice context, connecting them with the patient’s search, appointment request and follow-up. Access to patient records remains governed by each practice and user role.
 
-Sinad follows a **doctor-first practice model**. The dentist’s practice owns its workspace and records, while clinics and centres are represented as workplaces within that practice. A dentist can therefore organize work across several locations without treating a shared address as permission to access another practice’s clinical files.
+## Vision and visual identity
 
-### One interface, three languages
+A dentist may divide the week between a private clinic and another medical centre. Services, hours and appointments vary by workplace, while patient care and follow-up remain part of the dentist’s own practice. SINAD is designed to organise work around the dentist rather than a single address, and to give patients a clear path to a dentist, service, workplace and suitable time.
 
-Users can choose their interface language. Arabic reads right to left, while English and Turkish read left to right. The labels below come from the localization resources.
+This model connects appointments, records and visits within an independent practice workspace and gives support staff defined responsibilities, without treating shared premises as permission to access another dentist’s records.
 
-- **العربية** — المواعيد · اللغة (RTL)
-- **English** — Appointments · Language (LTR)
-- **Türkçe** — Randevular · Dil (LTR)
+### Visual Identity
 
-## Two connected journeys
+The name SINAD evokes support: a digital companion for the dentist’s working day and the patient’s journey. A tooth and the letter S connect the mark to its field and name, while navy, teal and gold create a composed professional appearance.
 
-### Dentist journey
+### Visual identity meaning
 
-1. Account and eligibility or invitation
-2. Set up practice, workplaces and services
-3. Set hours and availability
-4. Review appointment requests
+## Inside the SINAD experience
 
-### Patient journey
+Selected scenes illustrate the journey from discovering a dentist to managing a practice and following a visit. The demonstration images are based on original application components populated with synthetic data.
 
-1. Create an account
-2. Search for a dentist and service
-3. Choose location and time, then request
-4. Follow or request a change
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
 
-Service duration, working hours and exceptions are configured per workplace. The server checks overlaps in absolute time across workplaces and time zones and protects existing bookings. When a request is submitted, it rechecks eligibility, availability and duplicates under the booking policy, including supported family-booking cases.
+### 01 — Discovering dentists and services
 
-**Appointment request** — Pending review. **Confirmed appointment** — Separate example after approval.
+Search by city and district, with text normalisation that accommodates variations in Arabic and Turkish spelling. Explore dentists and their workplaces, then proceed to the service and displayed times.
 
-Accepting a reschedule uses an atomic transaction that checks the original booking and updates the decision and its history together. Declining the change keeps the original booking. Cancelled appointments remain visible in the status history.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
 
-### A practice-level subscription
+### 02 — From availability to appointment request
 
-A dentist creates an account and sets up a practice workspace, then configures workplaces, services and hours. A subscription covers the dentist’s practice across workplaces. The model includes a trial, a paid plan and options to manage, renew or cancel the subscription. Patient accounts and visit billing are separate from the dentist’s subscription.
+Patients select a service, workplace and time, then follow the request or a proposed change. Pending requests remain distinct from confirmed appointments, with family-booking workflows subject to policy.
 
-The official plan page lists current pricing, trial duration, file allowance and subscription terms. The Paddle evidence in this case study comes from Sandbox. [Plan and subscription](https://sinaddental.com/pricing.html?lang=en)
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
 
-## Beyond booking
+### 03 — A dentist’s day across workplaces
 
-The workspace supports patient-record search and archiving, requests to link a record to the practice, and granting or revoking care assignments. Administrative data and clinical notes are separated according to role and permission.
+Manage services and durations, working hours and exceptions at multiple workplaces within the practice, with scheduling logic that checks for conflicts.
 
-In the odontogram, authorized users select a tooth, surface and diagnostic layer and record the reason for a change for primary or permanent teeth. The server checks the expected revision and writes the change, event and audit entry in one transaction. It also supports history, authorized reversal and summary export.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
 
-The code covers recording visits, issuing invoices, linking payments and filtering by period, workplace and currency. Treatment plans and digital consent remain in development.
+### 04 — Patient records and the interactive odontogram
 
-## Place is not permission
+Connect visits, records and dental charts in a single care context. The odontogram represents primary and permanent teeth, surfaces and clinical state layers (historical, diagnosis, planned and completed), with recorded changes and audit history.
 
-Sinad distinguishes between **who a user is** and **where a dentist provides care**. Four principal user roles shape the application:
+**Primary teeth — supporting capture**
 
-1. **Dentist (Doctor):** manages the practice workspace, workplaces, services, schedule, appointments, and clinical follow-up within assigned permissions.
-2. **Patient:** discovers eligible times, requests appointments or rescheduling, tracks their status, and manages links to their patient file.
-3. **Reception and support staff (Staff):** coordinate appointments and delegated administrative tasks, without unrestricted clinical access simply by being staff.
-4. **Platform administrator (Platform Admin):** handles selected test-environment governance tasks, such as doctor invitations, workplace-address review, and account states, without automatic access to clinical files.
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/dental/#sinad-section-2)
 
-A centre is registered as a workplace in the practice. Record access depends on membership in the dentist’s workspace, the care assignment and the applicable policy.
+### 05 — Billing and financial follow-up
 
-```mermaid
-flowchart TD
-    centre["Shared workplace"]
-    first["Dentist A"]
-    second["Dentist B"]
-    practiceA["Practice workspace A"]
-    practiceB["Practice workspace B"]
-    recordsA["Patient records A"]
-    recordsB["Patient records B"]
-    boundary["No automatic record sharing"]
-    centre -.-> first
-    centre -.-> second
-    first --> practiceA --> recordsA
-    second --> practiceB --> recordsB
-```
+Internal billing records connect a visit to invoices, recorded payments and currencies within the assigned permissions, keeping financial follow-up in the context of practice work.
 
-Both dentists can work at the same address. Each has an independent practice workspace and access to records requires authorization within that workspace.
+## A connected experience for dentist, patient and team
 
-## Engineering decisions and my contribution
+The roles meet at the appointment and visit, while each user works within a defined scope.
 
-I led the definition of the doctor-first ownership model and the separation of Sinad’s product scope and data environments. I also contributed to Flutter interfaces and the integration of identity, data, and booking flows, while helping define test scope and review observed results.
+### Dentists
 
-**Interface and practice context.** Support Arabic right-to-left and English/Turkish left-to-right layouts while carrying the active practice and role across views.
+Manage their practice, workplaces, services, schedules, appointments, records, visits, odontogram and billing within their assigned scope.
 
-Flutter · Dart · Material 3 · Bloc/Cubit · TenantContextScope
+### Patients
 
-**Identity, app integrity, and devices.** Keep user authentication separate from client application attestation, alongside source-level flows for approved account devices and verified-phone reauthentication on sensitive actions.
+Search for dentists and workplaces, choose a service and time, submit or change an appointment request and follow its status, using a personal account separate from the dentist’s subscription.
 
-Firebase Auth · Firebase App Check · account_device_service
+### Reception and support staff
 
-**Scheduling and atomic operations.** Detect schedule collisions across workplaces/time zones, revalidate booking eligibility, and decide rescheduling changes in server-side transactions.
+Coordinate delegated requests, tasks and administrative information; the role itself does not grant unrestricted access to clinical records.
 
-Cloud Functions · TypeScript · Node.js 22 · Firestore Transactions
+### Platform administration
 
-**Clinical data and authorization.** Version and audit odontogram edits; distinguish direct client access controlled by Security Rules from Admin SDK calls that need explicit server-side authorization.
+Coordinate account governance, dentist invitations and workplace reviews, keeping administrative permissions distinct from clinical access.
 
-Cloud Firestore/Storage Rules · odontogram_service · audit records
+### From the practice to the phone
 
-**Service integrations and subscriptions.** Subscription state belongs to the practice. Separate channels support notifications and invitations. Each integration has its own verification scope.
+A responsive experience in Arabic, English and Turkish supports schedules and records on a computer and appointment follow-up on a phone. Its code foundation supports multiple platforms; public web access does not establish a commercial or app-store release.
 
-FCM · Postmark · Paddle Sandbox
+### A subscription centred on the practice
 
-```mermaid
-flowchart TD
-    client["Flutter client"]
-    auth["User identity — Firebase Auth"]
-    check["Client attestation — App Check"]
-    direct["Direct access"]
-    rules["Security Rules"]
-    cloud["Firestore / Storage"]
-    call["Server callable"]
-    authorise["Membership, assignment and policy checks"]
-    admin["Admin SDK · transaction when needed"]
-    records["Practice-scoped data"]
-    client --> auth
-    client --> check
-    auth -.-> direct
-    auth -.-> call
-    check -.-> direct
-    check -.-> call
-    direct --> rules --> cloud --> records
-    call --> authorise --> admin --> records
-```
+The subscription model follows the dentist’s practice across workplaces, while patient accounts and visit billing remain separate. The published plan includes a trial and file allowance; a patient account does not require the dentist’s subscription. Consult the official product website for current pricing, trial, storage, renewal and cancellation terms. [Plan and subscription](https://sinaddental.com/pricing.html?lang=en).
 
-Rules authorize direct access. The callable checks permissions before reading or writing through the Admin SDK. App Check helps attest the client.
+## The engineering behind appointments and records
 
-## Technology, evidence, and exploration
+### Figure 01 — From discovery to visit
 
-- **Interface and experience:** Flutter · Dart · Material 3 · Bloc/Cubit · AR / EN / TR
-- **Identity and access boundaries:** Firebase Auth · App Check · Firestore / Storage Security Rules
-- **Services and business logic:** Cloud Functions · TypeScript · Firestore Transactions
-- **Data and files:** Cloud Firestore · Cloud Storage · change and audit logs
-- **Communication and integrations:** FCM · Postmark · Paddle Sandbox
+1. City and district
+2. dentist, workplace and service
+3. available time
+4. request and review
+5. confirmed appointment upon approval
+6. visit, record and internal billing
 
-### Available evidence
+A conceptual workflow, not an end-to-end production acceptance record.
 
-- **Official Sinad website.** Explore the product, find separate entry points for dentists and patients, and review the plan. Access to protected features depends on account permissions. [Visit the official Sinad website](https://sinaddental.com/?lang=en)
-- **Implementation evidence.** Separate synthetic-data rounds covered practice and schedule setup, requests, rescheduling and cancellation history. On 26 October 2026, a Chrome run documented an odontogram update, its audit entry and the denial after assignment was revoked. The production callable path for non-members remains a separate check.
+### Figure 02 — Shared premises, independent records
 
-**Availability and verification.** The official site is publicly accessible. Access to protected features depends on the account and its permissions. Commercial and clinical acceptance are separate. This case study does not verify the use of real patient data or payment collection in production.
+Two dentists may work in the same centre while maintaining independent practice workspaces. Membership and care assignment govern record access; a shared address does not automatically confer access.
 
-## Evidence boundary
+Dentist A
 
-The dated Chrome evidence concerns synthetic data: the odontogram edit, its audit entry and denial after assignment removal were checked together. The production callable for non-members remains a separate verification item; the public product website and published subscription plan do not establish production payment collection or clinical acceptance.
+Practice workspace A
 
-[Continue reading on the website](https://yahyaalali.com/en/works/dental/) · [Back to selected work](../../README.md)
+Patient records A
+
+Dentist B
+
+Practice workspace B
+
+Patient records B
+
+A shared workplace
+
+### Figure 03 — Architecture and access boundaries
+
+Protection starts with user identity and application attestation. Requests follow either direct access rules or server operations that check authorization before execution. Both routes reach practice data within their respective boundaries; the interface alone grants no access.
+
+User identity
+
+Account sign-in
+
+Application attestation
+
+Verify the genuine application
+
+Application interface
+
+A responsive experience across devices
+
+Access rules
+
+Guard each direct data request
+
+Server operations
+
+Check authorization before execution
+
+Practice data
+
+Patient records and practice attachments
+
+**Selected engineering decisions**
+
+### Appointment consistency
+
+Revalidate availability upon submission, preserve existing appointments and resolve a rescheduling decision and related history in a server-side transaction. A rejected change leaves the original appointment intact.
+
+### Clinical record consistency
+
+Expected revisions, operation identifiers and recorded change history in the odontogram help prevent silent overwrites and preserve the context of an edit. The design includes FDI, Universal and Palmer numbering and source-level workflows for history, authorised undo and export.
+
+### Account and device identity
+
+Distinguish user identity from application attestation, with device approval, revocation and audit history in the account context.
+
+### Financial separation
+
+Internal visit invoices and recorded payments are distinct from the practice subscription and payment-provider settlement. Paddle integration evidence is scoped to its test environment; commercial acceptance is separate.
+
+## Technologies, contribution and links
+
+### Tools and Technologies
+
+#### Interface and application
+
+`Flutter` · `Dart`
+
+#### Data and services
+
+`Cloud Firestore` · `Cloud Storage` · `Cloud Functions`
+
+#### Identity and security
+
+`Firebase Authentication` · `App Check`
+
+### My Contribution
+
+I led the design of SINAD and the development of its doctor-first practice model. My work included the application interfaces, identity, appointment and data workflows, defining authorisation boundaries and reviewing test evidence. SINAD is an independent project designed to provide a scalable digital solution for dental practices.
+
+The official website is available to visit; protected features depend on account access and permissions. The evidence shown comes from bounded test environments and does not constitute comprehensive clinical or commercial acceptance, or announce unpublished native releases.
+
+### Project Links
+
+### Project links
+
+- [Visit Website](https://sinaddental.com/?lang=en)
+- [Plan and Subscription](https://sinaddental.com/pricing.html?lang=en)
+- [Published case study](https://yahyaalali.com/en/works/dental/)
+
+[Back to projects](../../README.md)

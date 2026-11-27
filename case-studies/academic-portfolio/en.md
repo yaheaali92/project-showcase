@@ -1,48 +1,208 @@
-# Academic Portfolio — from content to a reading experience
+# Personal Academic Platform
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-A trilingual platform I developed to present my academic and engineering work and manage articles, case studies and a Dart book in a private, owner-only editorial workspace that separates drafts from publication.
+[Published case study](https://yahyaalali.com/en/works/academic-portfolio/)
 
-**Stage: Published**
+Web Engineering & Information Architecture · Live
 
-![Academic Portfolio — from content to a reading experience](https://yahyaalali.com/images/editorial/portfolio-editorial-r3.webp)
+Content engineering and a coherent reading experience uniting research, engineering, and learning in three languages
 
-Generated conceptual illustration, not an actual interface or research result.
+- **Content:** Projects · Research · Learning resources
+- **Languages:** Arabic · English · Turkish
+- **Status:** Live published platform, actively expanding
 
-## Research, engineering and knowledge in one platform
+One place to explore software projects, research and publications, and read lessons and books in Arabic, English and Turkish.
 
-![Platform identity: research, engineering and knowledge](../../assets/editorial/platform-identity-r4.webp)
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/)
 
-The generated conceptual opening represents the whole platform, not a single product screenshot or evidence of research results. Titles and actions remain live text in the selected language.
+yahyaalali.com
 
-I built this platform to present academic work, software projects and technical writing with a clear account of the problem, my contribution and the material readers can actually explore. The interface supports Arabic, English and Turkish and handles their different reading directions.
+Public views from the live platform · 22 November 2026
 
-## Editing and publication
+## Vision and Unified Knowledge Architecture
 
-The administration workspace is private to the site owner; visitors cannot enter it. It supports personal information, case studies and articles, with translations linked to their source. Each edit is saved as an independent draft with revision history and a preview before publication. Saving does not make content public; an earlier revision can be restored as a draft without silently replacing the published version.
+Instead of moving between scattered repositories and files, visitors find a page for each project, research item or learning resource, explaining its purpose, status and links. Each work keeps its identity within a consistent trilingual reading experience.
 
-## A book designed for reading
+### Visual identity meaning
 
-The book reader provides a unit and topic index, code examples, tables, equations and questions connected to their solutions. Educational material is managed as structured blocks rather than separate page files, while unpublished units remain outside visitor access.
+The three interwoven bands represent how these pillars reinforce one another, while the cyan path linking the two nodes conveys connection. The same lettering-free emblem unifies the platform's Arabic, English, and Turkish interfaces.
 
-## Engineering decisions
+### Visual Identity — Research · Engineering · Knowledge
 
-I used Astro and TypeScript for the interface and Firebase services for hosting, content storage and backend execution. The content model connects a record to its language, revision and publication state. Route and access tests help verify the separation between public reading and the owner workspace.
+## Inside the Live Platform Interfaces
 
-The platform continues to evolve through coherent releases reviewed on its domain, without waiting for every educational unit to be complete or disclosing private project source code.
+This gallery showcases five independent public views from the live platform, captured from visitor pages in the matching language to reflect the actual browsing and reading experience:
 
-## At a glance
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
 
-- **Problem:** Present research, software projects and educational writing together while keeping material under review separate from public content.
-- **Audience:** Readers, students, colleagues and prospective academic and engineering collaborators
-- **My role:** Platform design, interface and backend development, and content management
-- **Technologies and method:** Astro, TypeScript, Firebase Hosting, Cloud Functions, Firestore
-- **Engineering decision:** Separate draft saving from publication through structured content and retained revisions, with shared language routing and text-direction rules.
-- **Available to visitors:** The live site, Arabic/English/Turkish navigation and the reader for published book material, with its topics, questions and available solutions. The content editor and draft previews are owner-only.
+Capture of the live public interface · 2026-11-22
 
-## Published discovery and delivery
+### Home and Reading Identity
 
-I built the unified works index and the trilingual Astro/TypeScript content and reading experience, including language-scoped browser search. Drafts stay private through review and preview until an explicit publication step. Firebase Hosting serves fingerprinted assets; Astro renders dynamic HTML through Cloud Functions Gen2 on Cloud Run, with Firestore-backed public content. Published pages demonstrate the reading experience; architecture diagrams and conceptual covers explain the design.
+A public entry point combining personal profile context, visual identity, featured research and project highlights, and clear top-level navigation.
 
-[Continue reading on the website](https://yahyaalali.com/en/works/academic-portfolio/) · [Visit the website](https://yahyaalali.com/en/) · [Back to selected work](../../README.md)
+[Visit source page](https://yahyaalali.com/en/)
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+
+Capture of the live public interface · 2026-11-22
+
+### Unified Works Directory
+
+An organized index separating digital products and solutions from engineering prototypes and coursework experiments, using unified cards that show maturity and link directly to details, live sites, and documentation.
+
+[Visit source page](https://yahyaalali.com/en/works/)
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+
+Capture of the live public interface · 2026-11-22
+
+### Structured Book and Lesson Reader
+
+A progressive reading experience shown through Lesson 1 of _Network Foundations_ across all three languages, combining book navigation, unit and lesson headings, reading progress, and learning objectives; the _Dart_ reader is also available in Arabic.
+
+[Visit source page](https://yahyaalali.com/en/books/network-foundations/network-foundations-lesson-1/)
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+
+Capture of the live public interface · 2026-11-22
+
+### Academic Research Track
+
+A dedicated scholarly space highlighting doctoral research and university theses with contextual links to related outputs while keeping every bibliographic record independent.
+
+[Visit source page](https://yahyaalali.com/en/research/)
+
+[View the interface and diagrams in the case study](https://yahyaalali.com/en/works/academic-portfolio/#academic-section-2)
+
+Capture of the live public interface · 2026-11-22
+
+### Language-Scoped Local Search
+
+A standalone discovery interface with a localized search input and mixed public results across platform sections for quick access to titles and topics.
+
+[Visit source page](https://yahyaalali.com/en/search/)
+
+## How the Platform Serves Its Readers
+
+Reading paths are designed so every audience reaches relevant material directly without noise:
+
+### For Researchers and Engineering Collaborators
+
+1. Connected navigation between research records and related publications in the same language, preserving clear references and bibliographic identity
+   .
+2. Detailed engineering case studies covering problem context, design, interfaces, architecture, and personal contribution for each product and project
+   .
+3. Transparent classification distinguishing released products from in-development systems, research prototypes, and coursework experiments
+   .
+
+### For Learners and Technical Readers
+
+1. A structured book and lesson reader organizing units, topics, exercises, and version-linked solutions with in-page outlines and code copying
+   .
+2. Technical guides and articles connected to practical engineering work, supporting smooth movement between reading and real projects
+   .
+3. Client-side text search within the active interface language, including Arabic character and diacritic normalization
+   .
+
+## From preparing content to reading a page
+
+The first diagram follows content through organization, review and publication. The second shows how a page reaches the visitor while administration stays protected.
+
+### From preparation to publication
+
+#### A consistent structure for each item
+
+Each item has a title, type, language and route, so it can be presented and found consistently.
+
+- Projects
+- Articles
+- Site pages
+- Research
+- Publications
+- Books and lessons
+
+#### Review, then explicit publication
+
+A draft and protected preview, revision and relationship checks, then publication with withdrawal and restoration.
+
+#### Published content
+
+The version visitors are allowed to read.
+
+#### Reviewed repository sources
+
+Approved material read alongside published content.
+
+Combine sources by defined priority
+
+#### Reading and discovery in the chosen language
+
+- Site sections
+- Language-scoped search
+- Search-engine page information
+
+Publication is an explicit decision after review. Approved sources are combined by defined priority, while internal editorial data stays outside public reading.
+
+### How does the page reach the visitor?
+
+#### Reading interface
+
+The chosen language, text direction, navigation and search.
+
+#### Page delivery
+
+- Interface assets and images
+- Changing content read on request
+
+#### Content and media
+
+- Published content
+- Reviewed sources
+- Images and files
+
+#### Protected editorial workspace
+
+- Sign-in
+- Calling-app checks
+- Server permissions and access rules
+
+Interface assets are served directly and changing content is read on request with bounded freshness. The editorial workspace stays outside the public cache.
+
+## Technology, Contribution, and Links
+
+### Tools and Technologies
+
+#### Interface
+
+`Astro` · `TypeScript`
+
+#### Delivery and data
+
+`Firebase Hosting` · `Cloud Functions Gen2` · `Cloud Run` · `Cloud Firestore`
+
+#### Protection and media
+
+`Firebase Authentication` · `App Check` · `Cloud Storage`
+
+### My Contribution
+
+I designed the platform and its identity, developed its interfaces, services and publishing tools, and organized its content and trilingual reading paths.
+
+### Public Access and Scope
+
+The captures show public reading pages; editorial and administrative tools remain in a protected workspace.
+
+### Project Links
+
+### Project links
+
+- [Visit Website](https://yahyaalali.com/en/)
+- [Visit source page](https://yahyaalali.com/en/works/)
+- [Visit source page](https://yahyaalali.com/en/books/network-foundations/network-foundations-lesson-1/)
+- [Visit source page](https://yahyaalali.com/en/research/)
+- [Visit source page](https://yahyaalali.com/en/search/)
+- [Published case study](https://yahyaalali.com/en/works/academic-portfolio/)
+
+[Back to projects](../../README.md)
