@@ -146,8 +146,8 @@ Elektrik bağlantıları, sensör kalibrasyonu, ölçüm doğruluğu, sesli uyar
 
 ### Kaynak ve kullanım hakları
 
-Eski genel kaynak paketi, güncel incelemeden ayrıdır ve burada açıklanan tüm yeni iyileştirmeleri içermez. Bu inceleme, kaynak kod veya kimlik materyali için genel yeniden kullanım lisansı vermez.
+Güncel kaynak özel bir depoda tutulur; erişim sahibinden talep edilebilir. Bu incelemenin yayımlanması, kaynak kod veya kimlik materyali için genel kullanım lisansı vermez.
 
-[Eski eğitsel kaynak paketi](../../hardware/smart-bin/README.tr.md)
+[Kaynak erişimi talep et](https://yahyaalali.com/tr/contact/)
 
 [Proje listesine dön](../../README.tr.md)

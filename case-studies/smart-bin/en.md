@@ -146,8 +146,8 @@ The software evidence dated 27 November 2026 records 65 logic cases, 10 actual-a
 
 ### Source and reuse
 
-The older public source package is separate from this current case study and does not contain every newer refinement described here. This study grants no general reuse licence for source code or identity material.
+The maintained source is held in a private repository; access may be requested from the owner. Publishing this case study grants no general reuse licence for source code or identity material.
 
-[Older educational source package](../../hardware/smart-bin/README.md)
+[Request source access](https://yahyaalali.com/en/contact/)
 
 [Back to the project list](../../README.md)

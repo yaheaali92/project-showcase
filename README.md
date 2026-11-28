@@ -44,13 +44,12 @@ Generated conceptual illustration, not an actual interface or research result.
 
 ## Bounded public hardware source
 
-- [Smart-bin firmware, host tests, diagrams and wiring guide](hardware/smart-bin/README.md) — original course prototype and later revision are distinguished.
 - [Baby-environment monitor candidate, host tests and diagrams](hardware/baby-monitor/README.md) — no cloud credentials or clinical claim.
 
-The conceptual covers are distinct from historical circuit and interface evidence. Neither package carries private repository history or a general reuse licence.
+The conceptual covers are distinct from historical circuit and interface evidence. The package carries no private repository history or general reuse licence.
 
 ## Contact and reuse enquiries
 
-This repository contains public case studies and presentation material, together with limited educational firmware and host-based tests for the Smart Bin and Baby Monitor prototypes. Private application source code and its development history, owner data and original book files are not published here. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.
+This repository contains public case studies and presentation material, together with limited educational firmware and host-based tests for the Baby Monitor prototype. Private application source code and its development history, owner data and original book files are not published here. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.
 
 [Portfolio](https://yahyaalali.com/en/) · [GitHub](https://github.com/yaheaali92) · [Contact and reuse enquiries](https://yahyaalali.com/en/contact/)
