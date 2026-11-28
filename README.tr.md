@@ -7,7 +7,7 @@ Portfolyomda sunulan projelerin vaka çalışmaları: ele alınan problem, katk�
 | Çalışma                                                                                               | Odak                                                                                                                                                                                                                                | Aşama                                                    |
 | ----------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | -------------------------------------------------------- |
 | [Kişisel Akademik Platform](case-studies/academic-portfolio/tr.md) | Araştırmaları, yayınları, yazılım projelerini, yapılandırılmış kitapları ve rehberleri üç dilde bir araya getiren yahyaalali.com kişisel akademik platformunun Astro, TypeScript ve Firebase mimarisiyle vaka incelemesi. | Yayımlandı |
-| [Akıllı çöp kutusu — ölçümden güvenilir uyarıya](case-studies/smart-bin/tr.md)                        | Ölçümü karardan ayırmak, sensör hatalarını ele almak ve uyarı ile üç dilli gösterimi düzenlemek için iyileştirilen ESP32 ve BLE tabanlı akademik prototip.                                                                          | Yazılım iyileştirmesi test edildi; donanım test edilmedi |
+| [Akıllı Kutu](case-studies/smart-bin/tr.md) | ESP32 ile atık haznesi doluluk takibi: ekran, gösterge ışıkları, sesli uyarı ve yakındaki telefondan Bluetooth durum okuma. | Yazılım doğrulandı; saha doğrulaması bekliyor |
 | [Bebek izleme prototipi — yorumdan önce veri kalitesi](case-studies/baby-monitor/tr.md)               | ESP8266 akademik prototipinin ortam, optik, ses ve hareket girdilerinde güncel, eksik ve geçersiz veriyi ayıran; tıbbi teşhis iddiası taşımayan incelemesi.                                                                         | Yazılım incelemesi test edildi; donanım bekliyor         |
 | [Bellek içi işleme simülatörlerinin doğrulanması — uPIMulator ve Downmem](case-studies/pim-simulator-validation/tr.md) | Çalışma, uPIMulator ve Downmem üzerinde ortak bir UPMEM vektör toplama iş yükü için doğrulama protokolü geliştirir. Her simülatörün beklenen çıktıyı üretip üretmediğini ve günlüklerinde hangi işlemlerin kaydedildiğini inceler. | Devam eden bağımsız araştırma |
 | [gem5 ders çalışması — kaynak zinciri denetimi](case-studies/gem5-pim/tr.md)                          | Baseline/PIM etiketli yedi tarihsel simülasyon çifti; mevcut dosyalar karşılaştırılabilir performansı veya ölçülmüş sistem enerjisini doğrulamıyor.                                                                                 | Tarihsel çalışma; karşılaştırma doğrulanmadı             |
@@ -44,13 +44,12 @@ Yazımı süren Arapça öğretim kitabı: ilk iki ünite okunabilir, üçüncü
 
 ## Sınırlı genel donanım kaynak paketleri
 
-- [Akıllı kutu yazılımı, testleri ve bağlantı şemaları](hardware/smart-bin/README.tr.md) — ders modeli ile sonraki yazılım incelemesi ayrıdır.
 - [Bebek ortamı izleme adayı, testleri ve şemaları](hardware/baby-monitor/README.tr.md) — bulut kimlik bilgisi veya klinik iddia yoktur.
 
 Kavramsal kapaklar tarihsel devre ve arayüz kanıtlarından ayrılır. Paketler özel depo geçmişi veya genel yeniden kullanım lisansı içermez.
 
 ## İletişim ve yeniden kullanım soruları
 
-Bu depo, herkese açık vaka çalışmaları ve sunum materyallerinin yanı sıra Smart Bin ve Baby Monitor prototipleri için sınırlı eğitim amaçlı firmware kaynak kodu ve bilgisayarda çalışan testler içerir. Özel uygulamaların kaynak kodları ve geliştirme geçmişleri, sahibine ait veriler ve kitabın özgün dosyaları burada yayımlanmaz. Kavramsal görseller işletime hazır olmayı veya araştırma sonuçlarını kanıtlamaz; burada genel bir yeniden kullanım lisansı verilmez.
+Bu depo, herkese açık vaka çalışmaları ve sunum materyallerinin yanı sıra Baby Monitor prototipi için sınırlı eğitim amaçlı firmware kaynak kodu ve bilgisayarda çalışan testler içerir. Özel uygulamaların kaynak kodları ve geliştirme geçmişleri, sahibine ait veriler ve kitabın özgün dosyaları burada yayımlanmaz. Kavramsal görseller işletime hazır olmayı veya araştırma sonuçlarını kanıtlamaz; burada genel bir yeniden kullanım lisansı verilmez.
 
 [Portfolyo](https://yahyaalali.com/tr/) · [GitHub](https://github.com/yaheaali92) · [İletişim ve yeniden kullanım soruları](https://yahyaalali.com/tr/contact/)
