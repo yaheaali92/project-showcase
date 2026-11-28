@@ -1,64 +1,153 @@
-# Smart Bin — from sensing to a dependable alert
+# Smart Bin
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-An ESP32 and BLE academic prototype, refined to separate measurement from decisions, handle sensor faults and organise alerts and display in three languages.
+[Published case study](https://yahyaalali.com/en/works/smart-bin/)
 
-Software refinement tested; hardware not tested
+Embedded systems · Sensing and connectivity
 
-![Generated conceptual smart-bin cover, not the built prototype](../../hardware/smart-bin/assets/smart-bin-concept-r5.webp)
+Know when the bin needs emptying
 
-Code-authored functional concept, not an assembled-device photograph or experimental result.
+A smart bin prototype that monitors waste-container fill, shows its state on a screen and indicator lights, sounds an alert when full, and lets a nearby phone read the state over Bluetooth.
 
-## Idea and context
+![Generated illustration explaining the device concept, not a photograph of the real prototype.](assets/cover.webp)
 
-How can a bin distinguish a full container from an invalid sensor reading? This prototype explores distance sensing, a compact display, four LEDs and a buzzer, with the state available over Bluetooth Low Energy. It is not a deployed waste-collection service or cloud platform.
+Generated illustration explaining the device concept, not a photograph of the real prototype.
 
-## Original work and current refinement
+Display languages: Arabic · English · Turkish
 
-The original academic sketch measured distance, displayed it on an OLED, drove four indicators and an alarm, and sent a BLE full notification. Its attribution comment carries my name; ESP32 and Adafruit libraries belong to their authors. That comment alone does not establish every report or hardware contribution.
+The device display language is selected when building its firmware.
 
-I directed this bounded October 2026 refinement to separate sensing, validation and classification from display and connection handling, while preserving the purpose and BLE identifiers. These changes are a later phase, not part of the old academic submission date.
+## Explore the fill level
 
-## From reading to decision
+Is there still room in the bin, or is it time to empty it? That is the question this project answers. A sensor above the contents monitors the remaining space. The device shows the fill level and sounds an alert when the bin is full. A compatible nearby phone can also read the state over Bluetooth, without an internet connection.
 
-The sensor pulse has an explicit 30 ms deadline. An invalid reading becomes a fault, never an inferred empty or full state. A fault resets the filter and hides the old distance. Valid readings pass through a three-sample median and configurable hysteresis to reduce switching near a boundary.
+![Illustrated container and fill indicators](assets/indicators-en.png)
 
-The original 10/20/35/50 cm distance bands remain provisional defaults, with a 0.5 cm margin. They are not a measured calibration of an available bin or sensor; bench measurements must establish appropriate settings.
+This is a static explanatory view, not a reading from a connected device. The interactive simulation and sound are available in the website case study.
 
-| Illustrative input        | Decision                            | Display and alert                                         |
-| ------------------------- | ----------------------------------- | --------------------------------------------------------- |
-| First valid reading: 5 cm | Full under the provisional settings | Four LEDs and buzzer; one event for a connected client    |
-| Sensor timeout            | Sensor fault, not full              | No old distance or full alarm; BLE READ reports the fault |
+[Try the simulation and sound example](https://yahyaalali.com/en/works/smart-bin/#smart-bin-section-0)
 
-These are synthetic software-test inputs, not device measurements.
+![Sensing, display and alert sequence — explanatory diagram](assets/journey-en.png)
 
-## Connection and display
+### Monitor the fill level
 
-Connection, disconnection and re-advertising are independent of fill state. A full event is sent on entry or connection, subject to a minimum interval, not every loop. The legacy full payload remains a fixed compatibility value; other states can be read without generating new full alerts.
+The sensor checks how much space remains above the contents.
 
-WRITE adds no control commands: empty or oversized input is rejected, and unknown input, including the original no-op command, performs no action or READ replacement. Display text and documentation are available in Arabic, English and Turkish. Language is a build setting, not a new phone application. Complete Arabic labels are rasterized to preserve shaping.
+### Show the state
 
-## Verification and remaining limits
+The screen and lights show whether the bin is empty or approaching full.
 
-44 native C++ cases passed for boundaries, invalid readings, filtering, scheduling, alerts, BLE connection changes, display failure and inputs. Three language variants passed adapter syntax checks using local declaration stubs. Separately, the refined sketch compiled for a generic ESP32 target on 2026-10-16 with Arduino CLI 1.5.1, core 3.3.12 and pinned libraries.
+### Alert when needed
 
-A portable isolated toolchain was used without system-wide installation. Compilation does not establish exact-board compatibility or safe sensor wiring; physical tests remain pending. No measured accuracy, energy, latency or field-readiness claim is made. The functional illustration is distinct from the historical reconstruction and conditional reference wiring below; the reference has not been bench-tested.
+The buzzer signals a full bin; Bluetooth makes the state available nearby.
 
-A bounded refined source and host tests are now public; private development history and course originals remain outside the package.
+## Clear alerts, less guesswork
 
-## Data and state flow — functional illustration
+### See the remaining space
 
-![Data and state flow — functional illustration](../../assets/editorial/smart-bin-flow-en.svg)
+The screen shows distance and fill state. More indicator lights turn on as the contents rise.
 
-## Historical pins and conditional rebuild
+### A short alert when full
 
-![Historical smart-bin pin reconstruction](../../hardware/smart-bin/assets/smart-bin-historical-wiring.svg)
+At the full state, a short buzzer pulse repeats every 5 seconds. The alert stops when that state clears.
 
-The original material assigns TRIG to GPIO5, Echo to GPIO18, OLED to 21/22, buzzer to 27, fill LEDs to 32/33/26/25 and the fifth power indicator to GPIO14. A 5 V sensor Echo directly reaching GPIO18 is a documented hazard, not a wiring recommendation.
+### Read the state nearby
 
-![Conditional reference circuit with Echo protection](../../hardware/smart-bin/assets/smart-bin-reference-wiring.svg)
+A compatible Bluetooth client can read the state and subscribe to change notifications. No cloud service is required.
 
-The reference adds an Echo voltage divider, individual LED resistors and common ground; buzzer driver and OLED requirements depend on the exact modules. It has not been built or bench validated. The [public sanitized source package](../../hardware/smart-bin/README.md) includes code, host tests and a [trilingual wiring guide](../../hardware/smart-bin/WIRING.md), but no private history. [The course video](https://youtu.be/GwyfZ4DQr9k) remains evidence of the historical demonstration only.
+### Tell a fault from an empty bin
 
-[Continue reading on the website](https://yahyaalali.com/en/content-library/project/smart-bin/) · [Back to selected work](../../README.md)
+If a measurement fails, the device reports a fault instead of retaining an old reading. All four lights blink together, without the full-bin buzzer.
+
+Colors are illustrative. The software uses the number of lit indicators, not fixed lamp colors.
+
+## A closer look at the concept
+
+Generated illustrations explain the concept and the roles of its components. They are not photographs of the built hardware. The video shows the original prototype and its demonstration.
+
+![Generated illustration of the sensor, state display, lights and buzzer](assets/sensing.webp)
+
+Generated concept illustrations; see the actual prototype in the video.
+
+## Visual identity
+
+<img src="assets/smart-bin-portfolio-mark.svg" alt="Visual identity" width="160" />
+
+The mark takes its form from the container itself. Graduated bands express the rising contents, while the upper waves suggest sensing. A dimensional navy, brass and teal composition gives the project a calm engineering identity. It represents the concept, not a commercial certification or a photograph of the real device.
+
+## Components and technologies
+
+The sensor takes the measurement. The controller turns it into a fill state. The screen, lights and buzzer present that state, while a nearby Bluetooth client can read it. Each component has a clear job.
+
+### Inside the circuit: sensing to alert
+
+The ESP32 reads distance and sends the result to the display, indicator lights and buzzer. This map explains each part and the signals assigned in the firmware, without presenting symbolic locations as the physical pin layout of a specific board.
+
+![Components and signal routes — symbolic pin positions, not a tested assembly schematic](assets/circuit-en.png)
+
+Illustrated components and signal routes. Pin positions are symbolic, not a photograph or an electrically validated assembly diagram.
+
+#### Distance sensor
+
+GPIO5 → TRIG · Echo → GPIO18
+
+Sends the measuring pulse and receives its echo. Protect the Echo logic level; whether 3.3 V TRIG is accepted depends on the selected module.
+
+#### Display
+
+GPIO21 → SDA · GPIO22 → SCL
+
+Two-wire communication for distance and state. SSD1306 at address 0x3C; check supply compatibility and pull-ups before wiring.
+
+#### Fill and power indicators
+
+GPIO32 / 33 / 26 / 25 · GPIO14
+
+Four fill outputs and a separate power indicator. Each LED needs a suitable series resistor and current; illustrated colors are conceptual.
+
+#### Buzzer
+
+GPIO27 → load driver if needed
+
+The alert output activates at full state. Driver and load protection depend on buzzer type and current; a direct connection is not assumed.
+
+#### Before physical assembly
+
+The development board, sensor, display breakout and sounder still need identification and checks. Never connect a 5 V Echo output directly to the ESP32; suitable level conversion is required. Each LED needs its own series resistor, and the buzzer may need a load driver. Disconnect power while wiring and verify voltages, current and GPIO5 boot behavior.
+
+[Manufacturer guidance on voltages and pins](https://docs.espressif.com/projects/esp-faq/en/latest/hardware-related/hardware-design.html)
+
+### Device software
+
+**ESP32 · C++ · Arduino** — Read the sensor, determine fill level and schedule alerts.
+
+### Screen and indicators
+
+**OLED SSD1306 · I²C · Adafruit GFX** — Display distance and state with Arabic, English and Turkish text support.
+
+### Bluetooth connectivity
+
+**BLE · GATT** — Read bin state and display diagnostics, and receive notifications nearby.
+
+## Development and next steps
+
+The device software has been developed and checked for readings, faults, alerts and connection behavior. The next step is to test this version on the actual components and calibrate it for the selected container.
+
+Electrical wiring, sensor calibration, measurement accuracy, buzzer behavior and phone Bluetooth compatibility need physical verification. The project monitors fill; it does not weigh waste or automatically manage collection.
+
+### Software verification and physical limits
+
+The software evidence dated 27 November 2026 records 65 logic cases, 10 actual-adapter cases with host fakes, and firmware builds in Arabic, English and Turkish for the generic ESP32 target. These are software results, not proof of device operation or calibration.
+
+[Watch the prototype video](https://www.youtube.com/watch?v=GwyfZ4DQr9k)
+
+[Published case study](https://yahyaalali.com/en/works/smart-bin/)
+
+### Source and reuse
+
+The older public source package is separate from this current case study and does not contain every newer refinement described here. This study grants no general reuse licence for source code or identity material.
+
+[Older educational source package](../../hardware/smart-bin/README.md)
+
+[Back to the project list](../../README.md)
