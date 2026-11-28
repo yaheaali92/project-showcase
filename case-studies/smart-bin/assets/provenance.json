@@ -1,0 +1,88 @@
+{
+  "sourcePortfolioCommit": "1a69b289e5d2622ac9d2fdf10c196143cbc6d44a",
+  "capturedAtUtc": "2026-11-28T09:30:09.525Z",
+  "rights": "Owner-directed public portfolio display only; no general reuse licence granted. Generated concepts are labeled; native diagram captures are explanatory, not physical hardware evidence.",
+  "assets": [
+    {
+      "path": "case-studies/smart-bin/assets/cover.webp",
+      "origin": "https://yahyaalali.com/images/work/smart-bin-v3/cover.webp",
+      "sha256": "26b25f798bdad7d4a412dbfbcdbfae309e366a9f09c33958612f4e1baf775863",
+      "kind": "Generated concept; not a real device photograph"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/sensing.webp",
+      "origin": "https://yahyaalali.com/images/work/smart-bin-v3/sensing.webp",
+      "sha256": "19d7b50a4636f17b19ef56e9b5db81eed929f65a4093f2d3e1443db40c1da5ef",
+      "kind": "Generated concept; not a real device photograph"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/smart-bin-portfolio-mark.svg",
+      "origin": "https://yahyaalali.com/images/work/smart-bin-v3/smart-bin-portfolio-mark.svg",
+      "sha256": "9b3bd30f82f2ed28ac7c94a8bfe78cf6cc3b3f96964ae4d1063d1df09e3980e1",
+      "kind": "Repository-authored identity"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/journey-ar.png",
+      "origin": "https://yahyaalali.com/works/smart-bin/",
+      "sha256": "74fddc0c6736177b68eeb47921f5871294d165cba3d1cc2699b2e5904cb5dddb",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "ar"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/circuit-ar.png",
+      "origin": "https://yahyaalali.com/works/smart-bin/",
+      "sha256": "59c6d0bc73f29bb6cae339cb6c08c026538c5f79e580e33390708592c4c10f05",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "ar"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/indicators-ar.png",
+      "origin": "https://yahyaalali.com/works/smart-bin/",
+      "sha256": "985763d6266c7447fb26febb07fb9c2e5ae22e5750ac1949fd869007e9263aad",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "ar"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/journey-en.png",
+      "origin": "https://yahyaalali.com/en/works/smart-bin/",
+      "sha256": "f77ef30c430becc3a04200c11e5a49cdfbf74e2c921c8d0c32d361e88da58077",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "en"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/circuit-en.png",
+      "origin": "https://yahyaalali.com/en/works/smart-bin/",
+      "sha256": "310199376b609e8882333478631774b01aca2c3be84684104a6fbf2fc8d66e54",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "en"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/indicators-en.png",
+      "origin": "https://yahyaalali.com/en/works/smart-bin/",
+      "sha256": "94432e404d4baa1d6f0a093e55128505a18864d0419d066c1501356ce7f0578b",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "en"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/journey-tr.png",
+      "origin": "https://yahyaalali.com/tr/works/smart-bin/",
+      "sha256": "3b1d56e192e8e27564a8a3480c33e6f2bfe3112afcf645b8ea98d7266fd7e323",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "tr"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/circuit-tr.png",
+      "origin": "https://yahyaalali.com/tr/works/smart-bin/",
+      "sha256": "2f3d26f4bf387b3cf24f4503615b8f9ab4c6cd4785fa65cedd364c1dedc8075c",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "tr"
+    },
+    {
+      "path": "case-studies/smart-bin/assets/indicators-tr.png",
+      "origin": "https://yahyaalali.com/tr/works/smart-bin/",
+      "sha256": "2d4743af6f2837b532924f0c9977fe2f1bc9cff229125ae03c737cae55f86a4c",
+      "kind": "Capture of repository-authored explanatory diagram, not hardware photograph",
+      "locale": "tr"
+    }
+  ]
+}

@@ -7,7 +7,7 @@ Case studies for the projects presented on my portfolio: their problem, my role,
 | Work                                                                                                | Focus                                                                                                                                                                                                                | Stage                                           |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | [Academic Portfolio — from content to a reading experience](case-studies/academic-portfolio/en.md)  | A trilingual platform I developed to present my academic and engineering work and manage articles, case studies and a Dart book in a private, owner-only editorial workspace that separates drafts from publication. | Published                                       |
-| [Smart Bin — from sensing to a dependable alert](case-studies/smart-bin/en.md)                      | An ESP32 and BLE academic prototype, refined to separate measurement from decisions, handle sensor faults and organise alerts and display in three languages.                                                        | Software refinement tested; hardware not tested |
+| [Smart Bin](case-studies/smart-bin/en.md) | ESP32-based waste-bin fill monitoring with a display, indicator lights, an audible alert and nearby Bluetooth state readings. | Software verified; field validation pending |
 | [Baby monitoring prototype — data quality before interpretation](case-studies/baby-monitor/en.md)   | An ESP8266 academic prototype review distinguishing fresh, missing and invalid environmental, optical, acoustic and motion readings, without claiming medical diagnosis.                                             | Software review tested; hardware pending        |
 | [PIM simulator validation — uPIMulator and Downmem](case-studies/pim-simulator-validation/en.md) | This study develops a validation protocol for a common UPMEM vector-addition workload in uPIMulator and Downmem. It asks whether each simulator produces the expected output and what operations its logs describe. | Independent research in progress |
 | [gem5 course study — provenance audit](case-studies/gem5-pim/en.md)                                 | Seven historical baseline/PIM-labelled simulation pairs; the available artifacts do not establish a comparable performance result or measured system energy.                                                         | Historical study; comparison unverified         |
@@ -44,10 +44,9 @@ Generated conceptual illustration, not an actual interface or research result.
 
 ## Bounded public hardware source
 
-- [Smart-bin firmware, host tests, diagrams and wiring guide](hardware/smart-bin/README.md) — original course prototype and later revision are distinguished.
 - [Baby-environment monitor candidate, host tests and diagrams](hardware/baby-monitor/README.md) — no cloud credentials or clinical claim.
 
-The conceptual covers are distinct from historical circuit and interface evidence. Neither package carries private repository history or a general reuse licence.
+The conceptual covers are distinct from historical circuit and interface evidence. The package carries no private repository history or general reuse licence.
 
 ## Contact and reuse enquiries
 

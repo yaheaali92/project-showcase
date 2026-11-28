@@ -1,64 +1,153 @@
-# Akıllı çöp kutusu — ölçümden güvenilir uyarıya
+# Akıllı Çöp Kutusu
 
 [العربية](ar.md) · [English](en.md) · [Türkçe](tr.md)
 
-Ölçümü karardan ayırmak, sensör hatalarını ele almak ve uyarı ile üç dilli gösterimi düzenlemek için iyileştirilen ESP32 ve BLE tabanlı akademik prototip.
+[Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/smart-bin/)
 
-Yazılım iyileştirmesi test edildi; donanım test edilmedi
+Gömülü sistemler · Algılama ve bağlantı
 
-![Üretilmiş kavramsal akıllı kutu kapağı, gerçek prototip değil](../../hardware/smart-bin/assets/smart-bin-concept-r5.webp)
+Kutunun ne zaman boşaltılması gerektiğini bilin
 
-Kodla hazırlanmış işlevsel tasvir; monte edilmiş cihaz fotoğrafı veya deney sonucu değildir.
+Atık kutusunun doluluk düzeyini izleyen; durumu ekran ve ışıklarla gösteren, dolduğunda sesli uyarı veren ve yakındaki telefondan Bluetooth ile okunmasını sağlayan akıllı kutu prototipi.
 
-## Fikir ve bağlam
+![Cihaz fikrini açıklayan üretilmiş görsel; gerçek prototipin fotoğrafı değildir.](assets/cover.webp)
 
-Bir kutu, gerçek doluluğu geçersiz sensör okumasından nasıl ayırır? Bu prototip mesafe ölçümü, küçük ekran, dört LED ve sesli uyarıyı; Bluetooth Low Energy üzerinden okunabilen durumla birleştirir. Sahada kullanılan atık toplama hizmeti veya bulut platformu değildir.
+Cihaz fikrini açıklayan üretilmiş görsel; gerçek prototipin fotoğrafı değildir.
 
-## Özgün çalışma ve güncel iyileştirme
+Ekran dilleri: Arapça · İngilizce · Türkçe
 
-Özgün akademik sketch mesafeyi ölçüyor, OLED üzerinde gösteriyor, dört gösterge ile alarmı çalıştırıyor ve dolulukta BLE bildirimi gönderiyordu. Kaynak açıklamasında adım yer alır; ESP32 ve Adafruit kütüphaneleri kendi yazarlarına aittir. Bu açıklama tek başına rapor ve donanımdaki tüm katkıları kanıtlamaz.
+Cihazın ekran dili firmware derlenirken seçilir.
 
-Ekim 2026 tarihli sınırlı iyileştirmeyi; ölçüm, doğrulama ve sınıflandırmayı ekran ve bağlantı yönetiminden ayırmak için yönlendirdim. Amaç ve BLE kimlikleri korundu. Değişiklikler sonraki bir aşamadır; eski akademik teslim tarihine ait değildir.
+## Doluluk düzeyini deneyin
 
-## Okumadan karara
+Kutuda hâlâ yer var mı, yoksa boşaltma zamanı geldi mi? Proje bu soruyu yanıtlar. İçeriğin üzerindeki sensör kalan boşluğu izler. Cihaz doluluk düzeyini gösterir ve kutu dolduğunda sesli uyarı verir. Uyumlu yakındaki bir telefon da internet bağlantısı olmadan Bluetooth üzerinden durumu okuyabilir.
 
-Sensör darbesi için açık 30 ms süre sınırı vardır. Geçersiz okuma hata olur; boş veya dolu sayılmaz. Hata süzgeci sıfırlar ve eski mesafeyi gizler. Geçerli okuma üç örnekli medyan ve ayarlanabilir histerezisle değerlendirilerek sınır yakınındaki geçişler azaltılır.
+![Temsili hazne ve doluluk göstergeleri](assets/indicators-tr.png)
 
-Özgün 10/20/35/50 cm sınırları, 0,5 cm payla geçici varsayılan olarak korunur. Bunlar mevcut kutu veya sensör için ölçülmüş kalibrasyon değildir; uygun ayarlar fiziksel ölçümle belirlenmelidir.
+Bu görsel, bağlı bir cihazın ölçümü değil, simülasyonun sabit açıklamasıdır. Etkileşim ve ses örneği web sitesindeki incelemede kullanılabilir.
 
-| Açıklayıcı girdi        | Karar                     | Gösterim ve uyarı                                        |
-| ----------------------- | ------------------------- | -------------------------------------------------------- |
-| İlk geçerli okuma: 5 cm | Geçici ayarlara göre dolu | Dört LED ve sesli uyarı; bağlı istemciye tek olay        |
-| Sensör zaman aşımı      | Sensör hatası, dolu değil | Eski mesafe veya dolu alarmı yok; BLE READ hata bildirir |
+[Simülasyonu ve ses örneğini dene](https://yahyaalali.com/tr/works/smart-bin/#smart-bin-section-0)
 
-Bunlar yapay yazılım testi girdileridir, cihaz ölçümleri değildir.
+![Ölçüm, gösterim ve uyarı akışı — açıklayıcı çizim](assets/journey-tr.png)
 
-## Bağlantı ve gösterim
+### Doluluğu izler
 
-Bağlanma, kopma ve yeniden ilan doluluktan bağımsızdır. Dolu olayı duruma girişte veya bağlantıda, asgari zaman aralığıyla gönderilir; her döngüde tekrarlanmaz. Eski dolu iletisi sabit uyumluluk değeri olarak kalır. Diğer durumlar yeni dolu alarmı üretmeden okunabilir.
+Sensör içeriğin üzerinde ne kadar boşluk kaldığını takip eder.
 
-WRITE yeni kontrol komutu eklemez. Boş veya fazla uzun girdi reddedilir; özgün işlemsiz komut dâhil bilinmeyen girdi işlem yapmaz veya READ değerini değiştirmez. Ekran metinleri ve belgeler Arapça, İngilizce ve Türkçedir. Dil bir derleme ayarıdır, yeni telefon uygulaması değildir. Arapça etiketler harflerin birleşimini koruyacak şekilde tam olarak rasterleştirilir.
+### Durumu gösterir
 
-## Doğrulama ve kalan sınırlar
+Ekran ve ışıklar kutunun boş mu, dolmaya yakın mı olduğunu gösterir.
 
-Sınırlar, geçersiz okumalar, süzgeç, zamanlama, bildirimler, BLE bağlantı değişiklikleri, ekran hatası ve girdiler için 44 yerel C++ senaryosu geçti. Yerel bildirim tanımlarıyla üç dilde bağdaştırıcı sözdizimi kontrolü geçti. Ayrı bir denetimde iyileştirilmiş sketch, 16 Ekim 2026'da Arduino CLI 1.5.1, çekirdek 3.3.12 ve sabitlenmiş kütüphanelerle genel ESP32 hedefi için derlendi.
+### Gerektiğinde uyarır
 
-Genel sisteme kurulum yapmadan taşınabilir ve yalıtılmış araç zinciri kullanıldı. Derleme kesin kart uyumluluğunu veya güvenli sensör bağlantısını kanıtlamaz; fiziksel testler bekliyor. Ölçülmüş doğruluk, enerji, gecikme veya saha kabulü iddiası yoktur. İşlevsel görsel, aşağıdaki tarihsel yeniden kurulum ve koşullu bağlantı şemasından ayrıdır; başvuru şeması tezgahta denenmedi.
+Sesli uyarı dolu kutuyu bildirir; durum Bluetooth ile yakından okunabilir.
 
-Sınırlı, temizlenmiş kaynak ve bilgisayar testleri artık açıktır; özel geliştirme geçmişi ve ders özgünleri paket dışındadır.
+## Tahmin yerine açık uyarı
 
-## Veri ve durum akışı — işlevsel şema
+### Kalan boşluğu görün
 
-![Veri ve durum akışı — işlevsel şema](../../assets/editorial/smart-bin-flow-tr.svg)
+Ekranda mesafe ve doluluk durumu gösterilir. İçerik yükseldikçe daha fazla gösterge ışığı yanar.
 
-## Tarihsel uçlar ve koşullu yeniden kurulum
+### Dolunca kısa sesli uyarı
 
-![Tarihsel akıllı kutu uçlarının yeniden kurulumu](../../hardware/smart-bin/assets/smart-bin-historical-wiring.svg)
+Dolu durumda kısa bir ses darbesi her 5 saniyede tekrarlanır. Doluluk durumu ortadan kalktığında uyarı durur.
 
-Özgün kaynak TRIG için GPIO5, Echo için GPIO18, OLED için 21/22, sesli uyarı için 27, doluluk LED'leri için 32/33/26/25 ve beşinci güç göstergesi için GPIO14 kullanır. 5 V sensör Echo çıkışının GPIO18'e doğrudan ulaşması belgelenmiş tehlikedir, bağlantı önerisi değildir.
+### Durumu yakından takip edin
 
-![Echo korumalı koşullu başvuru devresi](../../hardware/smart-bin/assets/smart-bin-reference-wiring.svg)
+Uyumlu Bluetooth istemcisi durumu okuyabilir ve değişim bildirimlerine abone olabilir. Bulut hizmeti gerekmez.
 
-Başvuru şeması Echo gerilim bölücüsü, ayrı LED dirençleri ve ortak toprak ekler; sesli uyarı sürücüsü ve OLED gereksinimleri kesin modüle bağlıdır. Kurulup tezgahta doğrulanmadı. [Temizlenmiş genel kaynak paketi](../../hardware/smart-bin/README.tr.md) kod, bilgisayar testleri ve [üç dilli bağlantı kılavuzu](../../hardware/smart-bin/WIRING.md) içerir; özel geçmişi içermez. [Ders videosu](https://youtu.be/GwyfZ4DQr9k) yalnız tarihsel gösterimin kanıtıdır.
+### Boş kutuyu arızayla karıştırmayın
 
-[Sitede okumayı sürdür](https://yahyaalali.com/tr/content-library/project/smart-bin/) · [Çalışmalara dön](../../README.tr.md)
+Ölçüm alınamazsa eski değer yerine arıza gösterilir. Dört ışık birlikte yanıp söner; dolu kutu uyarısı çalmaz.
+
+Renkler açıklama amaçlıdır. Yazılım sabit renkler yerine yanan ışık sayısını kullanır.
+
+## Cihaz fikrine yakından bakış
+
+Üretilmiş görseller cihaz fikrini ve bileşenlerin görevlerini açıklar; yapılmış donanımın fotoğrafları değildir. Özgün prototipin gösterimini videoda izleyebilirsiniz.
+
+![Sensör, durum ekranı, ışıklar ve sesli uyarıyı açıklayan üretilmiş görsel](assets/sensing.webp)
+
+Üretilmiş kavramsal görseller; gerçek prototip videodadır.
+
+## Görsel kimlik
+
+<img src="assets/smart-bin-portfolio-mark.svg" alt="Görsel kimlik" width="160" />
+
+Simge biçimini kutunun kendisinden alır. Kademeli çizgiler içeriğin yükselişini, üstteki dalgalar algılamayı anlatır. Lacivert, altın ve turkuaz tonlardaki hacimli yapı sakin bir mühendislik kimliği oluşturur. İşaret fikri temsil eder; ticari onay veya gerçek cihaz fotoğrafı değildir.
+
+## Bileşenler ve teknolojiler
+
+Sensör ölçümü alır, denetleyici bunu doluluk durumuna çevirir. Ekran, ışıklar ve sesli uyarı sonucu gösterir; yakındaki Bluetooth istemcisi de okuyabilir. Her bileşenin görevi açıktır.
+
+### Devrenin içinde: ölçümden uyarıya
+
+ESP32 uzaklığı okur; sonucu ekrana, gösterge ışıklarına ve sesli uyarıya aktarır. Bu harita, parçaların görevini ve yazılımda tanımlı sinyalleri gösterir; sembolik konumlar belirli bir kartın fiziksel pin dizilimi değildir.
+
+![Bileşenler ve sinyal yolları — pin konumları semboliktir; test edilmiş montaj şeması değildir](assets/circuit-tr.png)
+
+Bileşenler ve sinyal yolları açıklayıcı olarak çizilmiştir. Pin konumları semboliktir; gerçek kart fotoğrafı veya elektriksel olarak doğrulanmış montaj şeması değildir.
+
+#### Uzaklık sensörü
+
+GPIO5 → TRIG · Echo → GPIO18
+
+Ölçüm darbesini gönderir ve yankıyı alır. Echo seviyesi korunmalıdır; 3,3 V TRIG kabulü seçilen modüle bağlıdır.
+
+#### Ekran
+
+GPIO21 → SDA · GPIO22 → SCL
+
+Uzaklık ve durum için iki telli haberleşme. SSD1306 adresi 0x3C; besleme uyumu ve çekme dirençleri bağlantıdan önce kontrol edilir.
+
+#### Doluluk ve güç ışıkları
+
+GPIO32 / 33 / 26 / 25 · GPIO14
+
+Dört doluluk çıkışı ve ayrı güç göstergesi. Her LED uygun seri direnç ve akım gerektirir; çizimdeki renkler temsilidir.
+
+#### Sesli uyarıcı
+
+GPIO27 → gerekirse yük sürücüsü
+
+Dolulukta uyarı çıkışı etkinleşir. Sürücü ve yük koruması, uyarıcının türüne ve akımına bağlıdır; doğrudan bağlantı varsayılmaz.
+
+#### Fiziksel bağlantıdan önce
+
+Geliştirme kartı, sensör, ekran modülü ve sesli uyarıcının türü belirlenip kontrol edilmelidir. 5 V Echo çıkışını ESP32’ye doğrudan bağlamayın; uygun seviye dönüştürme gerekir. Her LED ayrı seri direnç, sesli uyarıcı ise yüke göre sürücü gerektirebilir. Bağlantı sırasında gücü kesin; gerilimleri, akımı ve GPIO5 açılış davranışını doğrulayın.
+
+[Üreticinin gerilim ve pin rehberi](https://docs.espressif.com/projects/esp-faq/en/latest/hardware-related/hardware-design.html)
+
+### Cihaz yazılımı
+
+**ESP32 · C++ · Arduino** — Sensörü okur, doluluk düzeyini belirler ve uyarıları zamanlar.
+
+### Ekran ve ışıklar
+
+**OLED SSD1306 · I²C · Adafruit GFX** — Mesafe ve durumu Arapça, İngilizce ve Türkçe metin desteğiyle gösterir.
+
+### Bluetooth bağlantısı
+
+**BLE · GATT** — Kutu durumu ve ekran tanısını okumayı, yakından bildirim almayı sağlar.
+
+## Geliştirme ve sonraki adım
+
+Cihaz yazılımı geliştirildi; ölçüm, arıza, uyarı ve bağlantı davranışı test edildi. Sonraki adım bu sürümü gerçek bileşenlerle denemek ve seçilen kutu için kalibre etmektir.
+
+Elektrik bağlantıları, sensör kalibrasyonu, ölçüm doğruluğu, sesli uyarı ve telefonla Bluetooth uyumu fiziksel test gerektirir. Proje doluluğu izler; atığı tartmaz veya toplama işlemini otomatik yönetmez.
+
+### Yazılım doğrulaması ve fiziksel sınırlar
+
+27 Kasım 2026 tarihli yazılım kanıtı 65 mantık durumunu, konak sahteleriyle 10 gerçek bağdaştırıcı durumunu ve genel ESP32 hedefi için Arapça, İngilizce ve Türkçe firmware derlemelerini kaydeder. Bunlar yazılım sonuçlarıdır; gerçek cihaz çalışması veya kalibrasyonu kanıtı değildir.
+
+[Prototip videosunu izle](https://www.youtube.com/watch?v=GwyfZ4DQr9k)
+
+[Yayımlanan proje incelemesi](https://yahyaalali.com/tr/works/smart-bin/)
+
+### Kaynak ve kullanım hakları
+
+Güncel kaynak özel bir depoda tutulur; erişim sahibinden talep edilebilir. Bu incelemenin yayımlanması, kaynak kod veya kimlik materyali için genel kullanım lisansı vermez.
+
+[Kaynak erişimi talep et](https://yahyaalali.com/tr/contact/)
+
+[Proje listesine dön](../../README.tr.md)
