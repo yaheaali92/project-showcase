@@ -7,7 +7,7 @@ Case studies for the projects presented on my portfolio: their problem, my role,
 | Work                                                                                                | Focus                                                                                                                                                                                                                | Stage                                           |
 | --------------------------------------------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------- |
 | [Personal Academic Platform](case-studies/academic-portfolio/en.md) | Case study of yahyaalali.com, a trilingual personal academic platform uniting research, publications, software projects, structured books, and guides with Astro, TypeScript, and Firebase. | Published |
-| [Smart Bin — from sensing to a dependable alert](case-studies/smart-bin/en.md)                      | An ESP32 and BLE academic prototype, refined to separate measurement from decisions, handle sensor faults and organise alerts and display in three languages.                                                        | Software refinement tested; hardware not tested |
+| [Smart Bin](case-studies/smart-bin/en.md) | ESP32-based waste-bin fill monitoring with a display, indicator lights, an audible alert and nearby Bluetooth state readings. | Software verified; field validation pending |
 | [Baby monitoring prototype — data quality before interpretation](case-studies/baby-monitor/en.md)   | An ESP8266 academic prototype review distinguishing fresh, missing and invalid environmental, optical, acoustic and motion readings, without claiming medical diagnosis.                                             | Software review tested; hardware pending        |
 | [PIM simulator validation — uPIMulator and Downmem](case-studies/pim-simulator-validation/en.md) | This study develops a validation protocol for a common UPMEM vector-addition workload in uPIMulator and Downmem. It asks whether each simulator produces the expected output and what operations its logs describe. | Independent research in progress |
 | [gem5 course study — provenance audit](case-studies/gem5-pim/en.md)                                 | Seven historical baseline/PIM-labelled simulation pairs; the available artifacts do not establish a comparable performance result or measured system energy.                                                         | Historical study; comparison unverified         |
@@ -44,13 +44,12 @@ Generated conceptual illustration, not an actual interface or research result.
 
 ## Bounded public hardware source
 
-- [Smart-bin firmware, host tests, diagrams and wiring guide](hardware/smart-bin/README.md) — original course prototype and later revision are distinguished.
 - [Baby-environment monitor candidate, host tests and diagrams](hardware/baby-monitor/README.md) — no cloud credentials or clinical claim.
 
-The conceptual covers are distinct from historical circuit and interface evidence. Neither package carries private repository history or a general reuse licence.
+The conceptual covers are distinct from historical circuit and interface evidence. The package carries no private repository history or general reuse licence.
 
 ## Contact and reuse enquiries
 
-This repository contains public case studies and presentation material, together with limited educational firmware and host-based tests for the Smart Bin and Baby Monitor prototypes. Private application source code and its development history, owner data and original book files are not published here. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.
+This repository contains public case studies and presentation material, together with limited educational firmware and host-based tests for the Baby Monitor prototype. Private application source code and its development history, owner data and original book files are not published here. Conceptual images do not establish operational readiness or research results, and no general reuse licence is granted here.
 
 [Portfolio](https://yahyaalali.com/en/) · [GitHub](https://github.com/yaheaali92) · [Contact and reuse enquiries](https://yahyaalali.com/en/contact/)
